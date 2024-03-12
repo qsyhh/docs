@@ -41,9 +41,8 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 3.1 你的登录密码会在你的服务商控制台显示（不知道在哪里就去百度搜，太多了我没办法去列举每个服务商不一样）
 
 4. 创建完成点击连接
-<br>
-    <img src="图片/XTerminal连接ssh.png" width="70%">
-![Alt](img/>XTerminal连接ssh.png)
+
+![Alt](img/XTerminal连接ssh.png)
 
 </details>
 
