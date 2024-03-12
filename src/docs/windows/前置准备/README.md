@@ -8,7 +8,7 @@ tag:
   - Markdown
 ---
 
-# 一、安装python与poetry
+# 一 安装python与poetry
 
 ## ①安装python
 
@@ -52,7 +52,7 @@ pip install poetry
 
 还不行？[点击此处解决](https://www.baidu.com)
 
-# 二、安装postgresql
+# 二 安装postgresql
 
 ## ①下载postgresql数据库
 [点击此处将下载Postgresql-15.1-1版本安装包](https://get.enterprisedb.com/postgresql/postgresql-15.1-1-windows-x64.exe)

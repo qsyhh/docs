@@ -8,9 +8,9 @@ tag:
   - Markdown
 ---
 
-# 一 首先你应该准备一个Ubuntu20+并且是2H4G+的服务器
+## 一 首先你应该准备一个Ubuntu20+并且是2H4G+的服务器
 
-# 二 安装宝塔面板或者XTerminal(软件)
+## 二 安装宝塔面板或者XTerminal(软件)
 
 <details>
   <summary>安装宝塔面板（不建议）</summary>
@@ -32,21 +32,21 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 
 2. 下载完成后打开点击新建服务器（+号）
 
-![Alt](img/XTerminal新建ssh.png)
+![Alt](../img/XTerminal新建ssh.png)
 
 3. 写上一个名字/ip地址/登录密码后创建即可
 
-![Alt](img/XTerminal绑定ssh.png)
+![Alt](../img/XTerminal绑定ssh.png)
 
 3.1 你的登录密码会在你的服务商控制台显示（不知道在哪里就去百度搜，太多了我没办法去列举每个服务商不一样）
 
 4. 创建完成点击连接
 
-![Alt](img/XTerminal连接ssh.png)
+![Alt](../img/XTerminal连接ssh.png)
 
 </details>
 
-# 三 前置安装
+## 三 前置安装
 
 ### ①安装poetry与ffmpeg和中文字体
 
@@ -64,31 +64,31 @@ sudo apt-get install -y ttf-wqy-zenhei ttf-wqy-microhei fonts-arphic-ukai fonts-
 sudo fc-cache -f -v
 ```
 
-# 四 安装PostgreSQL数据库
+## 四 安装PostgreSQL数据库
 
 <details>
   <summary>使用宝塔面板安装PostgreSQL数据库（非终端）</summary>
 
 1. 打开软件商店搜索PostgreSQL管理器并安装（默认安装即可）
 
-![Alt](img/安装PostgreSQL管理器.png)
+![Alt](../img/安装PostgreSQL管理器.png)
 
 2. 安装完成后点击`设置`
 
-![Alt](img/安装PostgreSQL.png)
+![Alt](../img/安装PostgreSQL.png)
 
 3. 然后点击`版本管理`，安装12.10版本（时间较长）
 
 
-![Alt](img/安装PostgreSQL2.png)
+![Alt](../img/安装PostgreSQL2.png)
 
 4. 安装完成后点击`数据库列表`创建/添加数据库
 
-![Alt](img/创建PostgreSQL.png)
+![Alt](../img/创建PostgreSQL.png)
 
 5. `数据库名/用户名/密码`全部填写`zhenxun`后点击`确定`
 
-![Alt](img/创建PostgreSQL2.png)
+![Alt](../img/创建PostgreSQL2.png)
 
 </details>
 
@@ -117,7 +117,7 @@ exit
 
 ok火速下一步
 
-# 四 安装python3.10
+## 五 安装python3.10
 
 这里可以选择不安装（Ubuntu 20+系统自带python3.8，但是为了减少后续问题建议安装）
 
