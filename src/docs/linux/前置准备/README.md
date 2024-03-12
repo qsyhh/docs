@@ -12,8 +12,7 @@ tag:
 
 ## 二 安装宝塔面板或者XTerminal(软件)
 
-<details>
-  <summary>安装宝塔面板（不建议）</summary>
+::: details 安装宝塔面板（不建议）
 
 ### 打开服务器控制台找到SSH连接工具输入下方内容回车即可
 
@@ -23,34 +22,33 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 
 ### 等待安装完成后打开面板（密码请牢记，如无法打开请开放端口）
 
-</details>
+:::
 
-<details>
-  <summary>安装XTerminal（用于连接ssh）</summary>
+::: details 安装XTerminal（用于连接ssh）
 
 1. [点击此处下载XTerminal](https://www.xterminal.cn)
 
 2. 下载完成后打开点击新建服务器（+号）
 
-![Alt](../img/XTerminal新建ssh.png)
+![XTerminal新建ssh](../img/XTerminal新建ssh.png)
 
 3. 写上一个名字/ip地址/登录密码后创建即可
 
-![Alt](../img/XTerminal绑定ssh.png)
+![XTerminal绑定ssh](../img/XTerminal绑定ssh.png)
 
 3.1 你的登录密码会在你的服务商控制台显示（不知道在哪里就去百度搜，太多了我没办法去列举每个服务商不一样）
 
 4. 创建完成点击连接
 
-![Alt](../img/XTerminal连接ssh.png)
+![XTerminal连接ssh](../img/XTerminal连接ssh.png)
 
-</details>
+:::
 
 ## 三 前置安装
 
-### ①安装poetry与ffmpeg和中文字体
+安装poetry与ffmpeg和中文字体
 
-1. 打开终端输入下方内容
+打开终端输入下方内容
 
 ```
 sudo apt update
@@ -66,34 +64,32 @@ sudo fc-cache -f -v
 
 ## 四 安装PostgreSQL数据库
 
-<details>
-  <summary>使用宝塔面板安装PostgreSQL数据库（非终端）</summary>
+::: details 使用宝塔面板安装PostgreSQL数据库（非终端）
 
 1. 打开软件商店搜索PostgreSQL管理器并安装（默认安装即可）
 
-![Alt](../img/安装PostgreSQL管理器.png)
+![安装PostgreSQL管理器](../img/安装PostgreSQL管理器.png)
 
 2. 安装完成后点击`设置`
 
-![Alt](../img/安装PostgreSQL.png)
+![安装PostgreSQL](../img/安装PostgreSQL.png)
 
 3. 然后点击`版本管理`，安装12.10版本（时间较长）
 
 
-![Alt](../img/安装PostgreSQL2.png)
+![安装PostgreSQL2](../img/安装PostgreSQL2.png)
 
 4. 安装完成后点击`数据库列表`创建/添加数据库
 
-![Alt](../img/创建PostgreSQL.png)
+![创建PostgreSQL](../img/创建PostgreSQL.png)
 
 5. `数据库名/用户名/密码`全部填写`zhenxun`后点击`确定`
 
-![Alt](../img/创建PostgreSQL2.png)
+![创建PostgreSQL2](../img/创建PostgreSQL2.png)
 
-</details>
+:::
 
-<details>
-  <summary>使用XTerminal安装PostgreSQL数据库（终端安装）</summary>
+::: details 使用XTerminal安装PostgreSQL数据库（终端安装）
 
 1. 安装PostgreSQL数据库
 
@@ -113,16 +109,15 @@ exit
 exit
 ```
 
-</details>
+:::
 
 ok火速下一步
 
-## 五 安装python3.10
+# 五 安装python3.10
 
 这里可以选择不安装（Ubuntu 20+系统自带python3.8，但是为了减少后续问题建议安装）
 
-<details>
-  <summary>使用XTerminal或者宝塔面板安装python（终端安装）</summary>
+::: details 使用XTerminal或者宝塔面板安装python（终端安装）
 
 打开终端依次输入下方内容
 
@@ -137,6 +132,6 @@ make -j $(nproc)
 sudo make altinstall
 ```
 
-</details>
+:::
 
 ok 飞速下一步

@@ -8,7 +8,11 @@ tag:
   - Markdown
 ---
 
-### 再提醒你一句，gocq作者已经不再更新，签名服务以无法解决gocq45问题
+::: danger
+
+再提醒你一句，gocq作者已经不再更新，签名服务以无法解决gocq45问题
+
+:::
   
 1. 下载go-cqhttp（此时我们的目录在root/Bot）
 

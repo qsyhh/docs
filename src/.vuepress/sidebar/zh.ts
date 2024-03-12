@@ -7,14 +7,14 @@ export const zhSidebar = sidebar({
       text: "教程",
       icon: "laptop-code",
       prefix: "docs/",
-      link: "docs/",
+      // link: "docs/",
       collapsible: true,
       children:[
           {
             text: "Windows",
             icon: "lightbulb",
             prefix: "windows/",
-            link: "windows/",
+            // link: "windows/",
             collapsible: true,
             children: [
               {
@@ -57,7 +57,7 @@ export const zhSidebar = sidebar({
             text: "Linux",
             icon: "lightbulb",
             prefix: "linux/",
-            link: "linux/",
+            // link: "linux/",
             collapsible: true,
             children: [
               {
@@ -98,7 +98,7 @@ export const zhSidebar = sidebar({
                 text: "zhenxun_bot插件下载",
                 icon: "fab fa-markdown",
                 prefix: "plugins/",
-                link: "plugins/",
+                // link: "plugins/",
                 collapsible: true,
                 children: [
                   {

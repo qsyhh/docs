@@ -24,7 +24,11 @@ git clone --depth 1 https://github.com/HibiKier/zhenxun_bot
 
 ```
 poetry install
+```
+```
 poetry shell
+```
+```
 playwright install chromium
 ```
 
