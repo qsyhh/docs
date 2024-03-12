@@ -34,7 +34,7 @@ git clone --depth 1 https://gitee.com/SHIKEAIXYY/1.1.9unidbg_and_gocq.git
 
 1.打开config.yml文件，修改`QQ账号和密码`保存即可（先不要重新启动！！！）
 
- ![Alt](img/账号.png)
+ ![Alt](../img/账号.png)
 
 # 部署签名api
 
@@ -66,7 +66,7 @@ git clone --depth 1 https://gitee.com/SHIKEAIXYY/1.1.9unidbg_and_gocq.git
 
 3.如需修改可打开`unidbg-fetch-qsign-1.1.9\txlib`找到你要修改的版本打开这个文件如修改`8.9.71`则打开`8.9.71\config.json`进行修改并修改gocq的配置文件
 
-![Alt](img/签名配置端口key.png)
+![Alt](../img/签名配置端口key.png)
 
 ### ④启动 go-cqhttp
 
@@ -74,7 +74,7 @@ git clone --depth 1 https://gitee.com/SHIKEAIXYY/1.1.9unidbg_and_gocq.git
 
 2.双击 `go-cqhttp.bat` 进行验证即可
 
-![Alt](img/gocq_bat.png)
+![Alt](../img/gocq_bat.png)
 
 3.如果出现以下内容则不用管它，不影响登录和使用 **（如果你看着变扭请看下一条）** 
 
@@ -124,9 +124,9 @@ go-cqhttp
 
 win11需先点击显示更多选项后才显示`Open Git Bash here`
 
-![Alt](img/win11打开git.png)
+![Alt](../img/win11打开git.png)
 
-![Alt](img/win打开git2.png)
+![Alt](../img/win打开git2.png)
  
 然后运行下方命令
 ```
@@ -282,7 +282,7 @@ http://47.108.180.154:8993/sign?key=114514
 
 </details>
 
-![Alt](img/机器人配置.png)
+![Alt](../img/机器人配置.png)
 
 5. 触发滑动验证，需要获取ticket通过验证，请选择获取方式:`这里选择 0.自动获取ticket 进行扫码即可`
 
@@ -339,25 +339,25 @@ ws://127.0.0.1:8080/onebot/v11/ws/
 
 1. 随随便便注册一个企业qq开放平台账号：https://q.qq.com
 
-![Alt](img/企业注册.png)
+![Alt](../img/企业注册.png)
 
 2. 登录企业qq开放平台账号并创建机器人
 
-![Alt](img/创建机器人.png)
+![Alt](../img/创建机器人.png)
 
 3. 填好信息后点击下一步
 
 4. 打开后点击`基础信息-信息`
 
-![Alt](img/资质认证.png)
+![Alt](../img/资质认证.png)
 
 5. 点击`详情`
 
-![Alt](img/资质认证2.png)
+![Alt](../img/资质认证2.png)
 
 6. 点击`进入认证`后填写相关信息并点击提交审核进行认证（目前不认证无法上线机器人，可沙箱使用）
 
-![Alt](img/资质认证3.png)
+![Alt](../img/资质认证3.png)
 
 ### ④下载配置Gensokyo
 
@@ -370,35 +370,35 @@ git clone --depth 1 -b gensokyo-windows-amd64 https://gitee.com/SHIKEAIXY/zhenxu
 
 3. 打开之前的网站`q.qq.com`点击`开发-开发设置`并复制`QQ号 ID 令牌 秘钥`填写到`config.yml配置文件`的7~9行
 
-![Alt](img/配置Gensokyo2.png)
+![Alt](../img/配置Gensokyo2.png)
 
-![Alt](img/配置Gensokyo.png)
+![Alt](../img/配置Gensokyo.png)
 
 4. 将自己服务器的公网ip填入`server_dir`
 
-![Alt](img/配置Gensokyo3.png)
+![Alt](../img/配置Gensokyo3.png)
 
 5. 并开放端口号`15630`（不配置将无法发送图片）
 
 打开防火墙(不会可以`按住win键+R键`输入`Firewall.cpl`并点击确定)
 
-![Alt](img/防火墙.png)
+![Alt](../img/防火墙.png)
 
 打开防火墙后点击`高级设置`
 
-![Alt](img/防火墙2.png)
+![Alt](../img/防火墙2.png)
 
 然后点击`入站规则`并`新建规则`
 
-![Alt](img/防火墙3.png)
+![Alt](../img/防火墙3.png)
 
 选择端口后下一页
 
-![Alt](img/防火墙4.png)
+![Alt](../img/防火墙4.png)
 
 然后填写端口`15630`并下一页
 
-![Alt](img/防火墙5.png)
+![Alt](../img/防火墙5.png)
 
 然后一直下一页即可，名字随便起
 
@@ -412,7 +412,7 @@ port: "443"
 ``` 
 然后将`lotus`的`false`设置为`true`后保存即可使用
 
-![Alt](img/gsk图床.png)
+![Alt](../img/gsk图床.png)
 
 7. 以上完成后双击运行`gensokyo.bat`不出意外就可以运行了
 
@@ -424,7 +424,7 @@ port: "443"
 
 3. 点击`开发-沙箱配置`后找到`在QQ群配置`将聊群修改为刚刚创建的聊群（如果失败就几秒后再试试）
 
-![Alt](img/机器人沙箱.png)
+![Alt](../img/机器人沙箱.png)
 
 4. 接下来回到QQ打开刚刚创建的聊群，点击右上角的`三个横杠`，点击`管理群-群机器人`，找到你的机器人点击添加
 
