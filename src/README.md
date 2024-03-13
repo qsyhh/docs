@@ -3,7 +3,7 @@ home: true
 icon: home
 title: zhenxun_bot安装教程
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-bgImage: https://gitee.com/SHIKEAIXY/zhenxun-wallpaper-picture/raw/Episode/%E7%95%AA%E5%89%A7%E6%88%AA%E5%9B%BE%EF%BC%88%E5%88%86%EF%BC%89/%E7%BB%AA%E5%B1%B1%E7%9C%9F%E5%AF%BBJPG/%E7%BB%AA%E5%B1%B1%E7%9C%9F%E5%AF%BB011.jpg
+bgImage: /真寻.png
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 # bgImageStyle:
 #   background-attachment: fixed
