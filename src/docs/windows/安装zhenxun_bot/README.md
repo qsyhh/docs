@@ -20,7 +20,7 @@ tag:
 git clone --depth 1 https://github.com/HibiKier/zhenxun_bot
 ```
 
-2.依次执行下面内容安装依赖（无法进入虚拟可尝试管理员权限打开输入）
+2.在zhenxun_bot文件夹内依次执行下面内容安装依赖（无法进入虚拟可尝试管理员权限打开输入）
 
 ```
 poetry shell
