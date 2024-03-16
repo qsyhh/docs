@@ -20,7 +20,7 @@ tag:
 git clone --depth 1 https://github.com/HibiKier/zhenxun_bot
 ```
 
-2.执行下面内容安装依赖
+2.依次执行下面内容安装依赖（无法进入虚拟可尝试管理员权限打开输入）
 
 ```
 poetry shell
@@ -74,9 +74,10 @@ database: str = ""   #数据库名称
 
 ```
 
-5.启动真寻，会在 configs 和 data/configs 目录下生成各种配置文件
+5.依次输入下方命令启动真寻，会在 configs 和 data/configs 目录下生成各种配置文件（无法进入虚拟可尝试管理员权限打开）
 
 ```
+poetry shell
 python bot.py
 ```
 
@@ -85,5 +86,6 @@ python bot.py
 6.打开 configs/config.yaml，里面包含的是各种插件的配置项，填写完毕后重启真寻Bot
 
 ```
+poetry shell
 python bot.py
 ```
