@@ -40,7 +40,7 @@ git clone --depth 1 https://gitee.com/SHIKEAIXYY/1.1.9unidbg_and_gocq.git
 
 ### ①下载java 
 
-1.[点击此处下载jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/windows/OpenJDK17U-jdk_x64_windows_hotspot_17.0.9_9.msi)
+1.[点击此处下载jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/windows/OpenJDK17U-jdk_x64_windows_hotspot_17.0.10_7.msi)
 
 2.安装完成后打开cmd运行`java`查看是否有输出
 
@@ -177,7 +177,7 @@ git clone --depth 1 https://gitee.com/touchscale/Qsign.git ./Qsign
 
 4. 下载jdk
 
-[点击此处下载jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/windows/OpenJDK17U-jdk_x64_windows_hotspot_17.0.9_9.msi)
+[点击此处下载jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/windows/OpenJDK17U-jdk_x64_windows_hotspot_17.0.10_7.msi)
 
 #### ②说明
 
@@ -323,14 +323,14 @@ ws://127.0.0.1:8080/onebot/v11/ws/
 
 ### ①说明：
 
-1. 新框架`Gensokyo` 视频：https://www.bilibili.com/video/BV1Aw411K7Z5
+1. 新框架`Gensokyo` 视频：[点击此处跳转](https://www.bilibili.com/video/BV1Aw411K7Z5)
 
-2. `Gensokyo`仓库：https://github.com/Hoshinonyaruko/Gensokyo
-
-3. `Gensokyo`gitee镜像：https://gitee.com/sanaefox/Gensokyo
-
-4. `Gensokyo`教程 https://www.bilibili.com/read/cv27523883
-
+2. `Gensokyo`仓库：[点击此处跳转](https://github.com/Hoshinonyaruko/Gensokyo
+)
+3. `Gensokyo`gitee镜像：[点击此处跳转](https://gitee.com/sanaefox/Gensokyo
+)
+4. `Gensokyo`教程: [点击此处跳转](https://www.bilibili.com/read/cv27523883
+)
 5. `Gensokyo`的`web端`用户名和密码已全部修改为`zhenxun`
 
 6. `Gensokyo` QQ群：196173384
