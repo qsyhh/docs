@@ -11,20 +11,16 @@ tag:
 没必要评价第三方好还是官方好，各有各的好处和弊端，能接受就用，接受不了就别用，别一天天的骂来骂去，~~你就算骂也别骂到人家开发者上去，咱能不能有点良心？~~
 :::
 
-::: danger
-别拿着建议的理由去骂开发者，人家更不更新跟你什么关系，没强迫你更新吧？你要是认为Gensokyo更新太快就别用，把开发者气跑了你就开心高兴了？
-:::
-
 ## 一 说明：
 
-1. 新框架`Gensokyo` 视频：[https://www.bilibili.com/video/BV1Aw411K7Z5](https://www.bilibili.com/video/BV1Aw411K7Z5)
+1. 新框架`Gensokyo` 视频：[点击此处跳转](https://www.bilibili.com/video/BV1Aw411K7Z5)
 
-2. `Gensokyo`仓库：[https://github.com/Hoshinonyaruko/Gensokyo](https://github.com/Hoshinonyaruko/Gensokyo)
-
-3. `Gensokyo`gitee镜像：[https://gitee.com/sanaefox/Gensokyo](https://gitee.com/sanaefox/Gensokyo)
-
-4. `Gensokyo`教程 [https://www.bilibili.com/read/cv27523883](https://www.bilibili.com/read/cv27523883)
-
+2. `Gensokyo`仓库：[点击此处跳转](https://github.com/Hoshinonyaruko/Gensokyo
+)
+3. `Gensokyo`gitee镜像：[点击此处跳转](https://gitee.com/sanaefox/Gensokyo
+)
+4. `Gensokyo`教程: [点击此处跳转](https://www.bilibili.com/read/cv27523883
+)
 5. `Gensokyo`的`web端`用户名和密码已全部修改为`zhenxun`
 
 6. `Gensokyo` QQ群：196173384
