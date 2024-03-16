@@ -8,6 +8,8 @@ tag:
   - Markdown
 ---
 
+# 首先你应该准备一个2核4G并且是win10或以上的服务器
+
 # 一 安装python与poetry
 
 ## ①安装python
