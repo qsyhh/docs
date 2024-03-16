@@ -20,15 +20,13 @@ tag:
 git clone --depth 1 https://github.com/HibiKier/zhenxun_bot
 ```
 
-2.执行下面内容
+2.执行下面内容安装依赖
 
 ```
-poetry install
-```
-```
 poetry shell
-```
-```
+poetry add pyyaml@latest
+poetry lock --no-update
+poetry install
 playwright install chromium
 ```
 
