@@ -28,13 +28,13 @@ tag:
 
 不会打开？不要慌 点击此处 [如何在Windows 10/11中打开PowerShell](https://www.51cto.com/article/696873.html)
 
-打开后输入下面内容并回车（安装时间较长）
+打开后输入下面内容并回车（安装时间较长，安装失败可用下方pip安装）
 
 ```
 (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
 ```
 
-1.1 使用pip安装（此步骤无需进行2的变量环节）
+1.1 或者使用pip安装（此步骤无需进行2的变量环节）
 ```
 python -m pip install -U pip
 ```
@@ -63,6 +63,8 @@ pip install poetry
 
 1.双击安装程序，点击Next（打不开报错？系统用户名不能是中文，计算机名也不能是中文，其他问题。。。不要找我 我也不会）
 
+[关于修改用户名点击此处查看教程](https://www.cnblogs.com/ggc-gyx/p/17278182.html)
+
 ![Alt](../img/安装数据库.png)
 
 2.选择安装路径（对路径没有要求不用改 默认c盘），继续Next
@@ -73,7 +75,7 @@ pip install poetry
 
 3.去掉即可，不影响使用，Stack BuilderNext
 
-![Alt](../img/取消Stack Builder安装.png)
+![Alt](../img/取消StackBuilder安装.png)
 
 4.数据存储路径（对路径没有要求不用改 默认c盘），Next
 
@@ -99,7 +101,7 @@ pip install poetry
 
 1.找到安装的pgAdmin启动数据库 并启动
 
-打开方法一： 在应用中搜索 pgAdmin 点击展开 找到下面img显示的打开即可
+打开方法： 在应用中搜索 pgAdmin 点击展开 找到下面img显示的打开即可
 
 ![Alt](../img/启动数据库.png)
 
