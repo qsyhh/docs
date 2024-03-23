@@ -361,7 +361,7 @@ ws://127.0.0.1:8080/onebot/v11/ws/
 
 ### ④下载配置Gensokyo
 
-1.下载gensokyo-windows-amd64（取用v336，更新时间2024.2.24）若发现教程的Gensokyo版本更新，可以选择无视更新
+1.下载gensokyo-windows-amd64（取用v355，更新时间2024.3.23）若发现教程的Gensokyo版本更新，可以选择无视更新
 ```
 git clone --depth 1 -b gensokyo-windows-amd64 https://gitee.com/SHIKEAIXY/zhenxun.git ./Gensokyo
 ```
