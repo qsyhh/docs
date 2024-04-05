@@ -22,7 +22,7 @@ tag:
   - https://llonebot.github.io/zh-CN
  
  - [使用Lagrange.OneBot连接真寻bot](Lagrange.OneBot.md)
-  - https://lagrangedev.github.io/Lagrange.Doc
+   - https://lagrangedev.github.io/Lagrange.Doc
  
 - [使用Shamrock连接真寻bot](Shamrock.md)
   - https://whitechi73.github.io/OpenShamrock
