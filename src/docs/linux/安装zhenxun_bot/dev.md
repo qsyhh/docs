@@ -14,7 +14,7 @@ tag:
 sudo apt install git
 ```
 
-![dev真寻](../图片/dev真寻.png)
+![dev真寻](../img/dev真寻.png)
     
 1.github下载真寻本体
 
