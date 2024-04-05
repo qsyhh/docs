@@ -8,11 +8,11 @@ tag:
   - Markdown
 ---
 
-- [使用Go-cqhttp连接真寻bot(不建议](Go-cqhttp)
+- [使用Go-cqhttp连接真寻bot(不建议](Go-cqhttp.md)
   - Go-cqhttp即第三方QQ机器人框架，基于onebot协议
   - 由于tx对第三方的打压，作者已放弃对Go-cqhttp维护
   
-- [使用[云崽]的[ws插件]跳过gocq使用icqq连接真寻bot()(Yunzai.md)
+- [使用[云崽]的[ws插件]跳过gocq使用icqq连接真寻bot()](Yunzai.md)
   - ICQQ即第三方QQ机器人框架，基于QQ安卓协议的Node.Js
 
 - [使用Gensokyo(QQBot)连接真寻bot](Gensokyo.md)
