@@ -19,10 +19,10 @@ tag:
   - Gensokyo即官方QQ机器人框架，基于QQ官方API开发的符合onebot标准的golang实现
   
 - [使用LLOneBot连接真寻bot](LLOneBot/)
-  - https://llonebot.github.io/zh-CN
+  - [LLOneBot文档](https://llonebot.github.io/zh-CN)
  
  - [使用Lagrange.OneBot连接真寻bot](Lagrange.OneBot/)
-   - https://lagrangedev.github.io/Lagrange.Doc
+   - [Lagrange.OneBot文档](https://lagrangedev.github.io/Lagrange.Doc)
  
 - [使用Shamrock连接真寻bot](Shamrock/)
-  - https://whitechi73.github.io/OpenShamrock
+  - [Shamrock文档](https://whitechi73.github.io/OpenShamrock)

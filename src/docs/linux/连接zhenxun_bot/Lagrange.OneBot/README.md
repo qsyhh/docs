@@ -10,7 +10,7 @@ tag:
 
 ## 由于项目特殊性暂不提供具体教程请前往官方文档自行查看安装教程
 
-https://lagrangedev.github.io/Lagrange.Doc/Lagrange.OneBot/Config
+[Lagrange.OneBot安装教程](https://lagrangedev.github.io/Lagrange.Doc/Lagrange.OneBot/Config)
 
 ## 连接真寻
 
