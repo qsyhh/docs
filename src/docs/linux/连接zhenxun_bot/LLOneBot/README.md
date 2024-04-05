@@ -10,7 +10,7 @@ tag:
 
 ## 由于项目特殊性暂不提供具体教程请前往官方文档自行查看安装教程
 
-[LLOneBot安装教程](https://llonebot.github.io/zh-CN/guide/getting-started)
+[LLOneBot官方教程](https://llonebot.github.io/zh-CN/guide/getting-started)
 
 ## 连接真寻
 

@@ -10,7 +10,7 @@ tag:
 
 ## 由于项目特殊性暂不提供具体教程请前往官方文档自行查看安装教程
 
-[Shamrock安装教程](https://whitechi73.github.io/OpenShamrock/guide/getting-started.html)
+[Shamrock官方教程](https://whitechi73.github.io/OpenShamrock/guide/getting-started.html)
 
 ## 连接真寻
 
