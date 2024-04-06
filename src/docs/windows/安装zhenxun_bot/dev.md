@@ -8,8 +8,6 @@ tag:
   - Markdown
 ---
 
-![dev真寻](../img/dev真寻.png)
-    
 1.github下载真寻本体
 
 ```
