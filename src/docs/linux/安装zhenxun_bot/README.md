@@ -13,4 +13,4 @@ icon: lightbulb
 - [安装dev真寻教程](dev.md)
   - dev分支称为测试分支
   - dev版本真寻以最新nb2Bot进行重构...但是还没有写完
-  - 此版本真寻支持了kook，dodo等协议端，部署QQ机器人请不要安装
+  - 此版本真寻支持了kook，dodo等协议端，仅部署QQ机器人请安装main主分支
