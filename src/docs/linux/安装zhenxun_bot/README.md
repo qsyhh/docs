@@ -3,7 +3,7 @@ title: 指南
 icon: lightbulb
 ---
 
-## 系统
+## 选择合适的真寻分支
 
 - [安装main真寻教程](main.md)
   - main分支称为主分支
