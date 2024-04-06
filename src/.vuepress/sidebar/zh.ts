@@ -68,6 +68,7 @@ export const zhSidebar = sidebar({
               {
                 text: "安装zhenxun_bot",
                 icon: "fab fa-markdown",
+                prefix: "安装zhenxun_bot/",
                 link: "安装zhenxun_bot/",
                 children: [
                   {
