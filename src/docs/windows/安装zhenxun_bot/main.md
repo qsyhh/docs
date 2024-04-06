@@ -81,8 +81,6 @@ python bot.py
 
 6.打开 configs/config.yaml，里面包含的是各种插件的配置项，填写完毕后重启真寻Bot
 
-</details>
-
 主分支相对稳定，部署QQ机器人，强烈推荐使用！
 
 ---
