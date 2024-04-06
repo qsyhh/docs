@@ -70,6 +70,7 @@ export const zhSidebar = sidebar({
                 icon: "fab fa-markdown",
                 prefix: "安装zhenxun_bot/",
                 link: "安装zhenxun_bot/",
+                collapsible: true,
                 children: [
                   {
                     text: "安装main真寻",
