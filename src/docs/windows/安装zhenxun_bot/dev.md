@@ -91,8 +91,6 @@ python bot.py
 
 8.打开 zhenxun/configs/config.yaml，里面包含的是各种插件的配置项，填写完毕后重启真寻Bot
 
-</details>
-
 dev分支支持更多协议端，如DODO,Kook等，但还在完善，仅部署QQ真寻暂不建议使用
 
 ---
