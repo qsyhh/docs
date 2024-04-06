@@ -8,7 +8,7 @@ tag:
   - Markdown
 ---
 
-# 首先你应该准备一个2核4G并且是win10或以上的服务器
+# 首先你应该准备一个2核4G+并且是win10+(2016+推荐最新)的服务器
 
 # 一 安装python与poetry
 
@@ -26,17 +26,7 @@ tag:
 
 ## ②安装poetry
 
-1. 打开Powershell（需要管理员权限）运行
-
-不会打开？不要慌 点击此处 [如何在Windows 10/11中打开PowerShell](https://www.51cto.com/article/696873.html)
-
-打开后输入下面内容并回车（安装时间较长，安装失败可用下方pip安装）
-
-```
-(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
-```
-
-1.1 或者使用pip安装（此步骤无需进行2的变量环节）
+1. 或者使用pip安装
 ```
 python -m pip install -U pip
 ```
@@ -44,11 +34,7 @@ python -m pip install -U pip
 pip install poetry
 ```
 
-2. 然后将`%APPDATA%\Python\Scripts`添加到PATH环境变量(位置在右键此电脑→属性→高级系统设置→环境变量)
-
-![Alt](../img/变量.png)
-
-3. 打开cmd发送poetry查看是否有版本输出
+2. 打开cmd发送poetry查看是否有版本输出
 
 如果没有请重启电脑 重新打开cmd输入 poetry
 
