@@ -51,7 +51,7 @@ export const zhSidebar = sidebar({
                   }
                 ]
               }
-            ],
+            ]
           },
           {
             text: "Linux",
@@ -118,7 +118,7 @@ export const zhSidebar = sidebar({
                     text: "使用Shamrock连接真寻bot",
                     icon: "book",
                     link: "Shamrock/"
-                  },
+                  }
                 ]
               },
               {
@@ -150,5 +150,5 @@ export const zhSidebar = sidebar({
       prefix: "issues/",
       children: "structure",
     }
-  ],
+  ]
 });
