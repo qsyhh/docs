@@ -97,9 +97,9 @@ sudo systemctl enable redis-server
 
 ④ 安装unidbg-fetch-qsign（此时应该在root/Bot目录）
 
-先安装一下jdk
+先安装一下jdk17
 ```
-sudo apt update&&sudo apt install openjdk-8-jdk
+sudo apt install openjdk-17-jdk
 ```
 
 然后下载unidbg-fetch-qsign
