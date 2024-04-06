@@ -24,9 +24,9 @@ git clone --depth 1 -b go-cqhttp_1.2.0_linux_arm64.deb https://gitee.com/SHIKEAI
 
 3. 安装unidbg-fetch-qsign（返回root/Bot目录终端输入）
 
-先安装一下jdk
+先安装一下jdk17
 ```
-sudo apt update&&sudo apt install openjdk-8-jdk
+sudo apt install openjdk-17-jdk
 ```
 
 然后下载unidbg-fetch-qsign
@@ -47,6 +47,7 @@ cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.78
 ```
 screen -S gocq
 go-cqhttp
+
 ```
 
 5. 我说过gocq寄了，无法登录就更换签名版本（唯一的办法，不一定能行）
