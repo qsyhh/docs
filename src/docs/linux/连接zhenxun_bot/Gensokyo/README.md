@@ -15,12 +15,12 @@ tag:
 
 1. 新框架`Gensokyo` 视频：[点击此处跳转](https://www.bilibili.com/video/BV1Aw411K7Z5)
 
-2. `Gensokyo`仓库：[点击此处跳转](https://github.com/Hoshinonyaruko/Gensokyo
-)
-3. `Gensokyo`gitee镜像：[点击此处跳转](https://gitee.com/sanaefox/Gensokyo
-)
-4. `Gensokyo`教程: [点击此处跳转](https://www.bilibili.com/read/cv27523883
-)
+2. `Gensokyo`仓库：[点击此处跳转](https://github.com/Hoshinonyaruko/Gensokyo)
+
+3. `Gensokyo`gitee镜像：[点击此处跳转](https://gitee.com/sanaefox/Gensokyo)
+
+4. `Gensokyo`教程: [点击此处跳转](https://www.bilibili.com/read/cv27523883)
+
 5. `Gensokyo`的`web端`用户名和密码已全部修改为`zhenxun`
 
 6. `Gensokyo` QQ群：196173384

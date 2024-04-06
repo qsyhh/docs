@@ -6,34 +6,28 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "小雨",
+    url: "https://docs.qsyhh.icu",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "qsyhh/docs",
 
   docsDir: "src",
 
   locales: {
-    /**
-     * Chinese locale config
-     */
     "/": {
-      // navbar
       navbar: zhNavbar,
 
-      // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "小雨 & 其实雨很好",
 
       displayFooter: true,
 
-      // page meta
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
       },
@@ -47,7 +41,6 @@ export default hopeTheme({
   },
 
   plugins: {
-    // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
       repo: "vuepress-theme-hope/giscus-discussions",
@@ -55,12 +48,9 @@ export default hopeTheme({
       category: "Announcements",
       categoryId: "DIC_kwDOG_Pt2M4COD69",
     },
-
     components: {
       components: ["Badge", "VPCard"],
     },
-
-    // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,

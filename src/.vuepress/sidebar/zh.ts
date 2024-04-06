@@ -68,7 +68,19 @@ export const zhSidebar = sidebar({
               {
                 text: "安装zhenxun_bot",
                 icon: "fab fa-markdown",
-                link: "安装zhenxun_bot/"
+                link: "安装zhenxun_bot/",
+                children: [
+                  {
+                    text: "安装main真寻",
+                    icon: "book",
+                    link: "main/"
+                  },
+                  {
+                    text: "安装dev真寻",
+                    icon: "book",
+                    link: "dev/"
+                  }
+                ]
               },
               {
                 text: "连接zhenxun_bot",
@@ -78,19 +90,34 @@ export const zhSidebar = sidebar({
                 collapsible: true,
                 children: [
                   {
-                    text: "使用go-cqhttp连接真寻bot(不建议",
+                    text: "使用Go-cqhttp连接真寻bot(不建议",
                     icon: "book",
-                    link: "go-cqhttp/"
+                    link: "Go-cqhttp/"
                   },
                   {
-                    text: "使用[云崽]的[ws插件]跳过gocq使用icqq连接真寻bot（在2024年2月5号的晚上7点ICQQ删库...建议各位早日使用Gensokyo）",
+                    text: "使用[云崽]的[ws插件]跳过gocq使用icqq连接真寻bot",
                     icon: "book",
-                    link: "yunzai/"
+                    link: "Yunzai/"
                   },
                   {
                     text: "使用Gensokyo(QQBot)连接真寻bot",
                     icon: "book",
-                    link: "gensokyo/"
+                    link: "Gensokyo/"
+                  },
+                  {
+                    text: "使用LLOneBot连接真寻bot",
+                    icon: "book",
+                    link: "LLOneBot/"
+                  },
+                  {
+                    text: "使用Lagrange.OneBot连接真寻bot",
+                    icon: "book",
+                    link: "Lagrange.OneBot/"
+                  },
+                  {
+                    text: "使用Shamrock连接真寻bot",
+                    icon: "book",
+                    link: "Shamrock/"
                   },
                 ]
               },
