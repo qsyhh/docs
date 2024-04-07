@@ -28,7 +28,7 @@ highlights:
       - title: 没错真寻也有很多
       - title: 但是不建议使用脚本，很容易出问题，出问题后如果你不知道原因不好解决
       - title: 所以还是建议手动安装
-      - title: 你要是非用脚本也拦不住你对吧，这里放两个好用的 <a href="https://github.com/zhenxun-org/zhenxun_bot-deploy">1.官方传送门</a> <a href="https://trss.me/Install/Windows.html">2.TRSS脚本传送门</a>
+      - title: 你要是非用脚本也拦不住你对吧，这里放个好用的 <a href="https://github.com/zhenxun-org/zhenxun_bot-deploy">官方传送门</a>
 
   # - header: 前言
   #   description: 大家都知道一键脚本这个东西吧。
@@ -45,9 +45,9 @@ highlights:
   #     - title: 所以还是建议手动安装
   #       icon: palette
 
-  #     - title: 你要是非用脚本也拦不住你对吧，这里放两个好用的
+  #     - title: 你要是非用脚本也拦不住你对吧，这里放个好用的
   #       icon: person-chalkboard
-  #       details:  <a href="https://github.com/zhenxun-org/zhenxun_bot-deploy">1.官方传送门</a> <a href="https://trss.me/Install/Windows.html">2.TRSS脚本传送门</a>
+  #       details:  <a href="https://github.com/zhenxun-org/zhenxun_bot-deploy">官方传送门</a>
 
   - header: zhenxun_bot官方相关
     # description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
