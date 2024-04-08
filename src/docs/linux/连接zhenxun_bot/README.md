@@ -1,5 +1,5 @@
 ---
-title: 使用
+title: 选择连接的协议端
 icon: fab fa-markdown
 order: 2
 category:
@@ -17,8 +17,8 @@ tag:
 - [使用Gensokyo(QQBot)连接真寻bot](Gensokyo/)
   - Gensokyo即官方QQ机器人框架，基于QQ官方API开发的符合onebot标准的golang实现
   
-- [使用LLOneBot连接真寻bot](LLOneBot/)
+- [使用LLOneBot](LLOneBot/)
  
-- [使用Lagrange.OneBot连接真寻bot](Lagrange.OneBot/)
+- [使用Lagrange.OneBot](Lagrange.OneBot/)
  
-- [使用Shamrock连接真寻bot](Shamrock/)
+- [使用Shamrock](Shamrock/)
