@@ -1,5 +1,5 @@
 ---
-title: 使用
+title: 选择连接的协议端
 icon: fab fa-markdown
 order: 2
 category:
