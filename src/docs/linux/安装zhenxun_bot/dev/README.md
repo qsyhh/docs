@@ -63,7 +63,7 @@ python3 bot.py
 7.打开 zhenxun/configs/config.yaml，里面包含的是各种插件的配置项，填写完毕后重启真寻Bot
 
 ```
-screen -r zhenxundev
+screen -r -d zhenxundev
 poetry shell
 python3 bot.py
 ```
