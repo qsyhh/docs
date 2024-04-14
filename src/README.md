@@ -63,7 +63,7 @@ highlights:
         details: 真寻bot是一个基于 <a hred="https://github.com/nonebot/nonebot2">Nonebot2</a> 和 <del><a href="https://github.com/Mrs4s/go-cqhttp">go-cqhttp</a></del> 的开发，以 <a hred="https://www.postgresql.org/">postgresql</a> 作为数据库，非常可爱的绪山真寻bot
         link: https://github.com/HibiKier/zhenxun_bot/blob/main/README.md
 
-      - title: zhenxun_bot主分支更新内容
+      - title: zhenxun_bot主分支版本号
         icon: table-columns
         link: https://github.com/HibiKier/zhenxun_bot/releases
 
