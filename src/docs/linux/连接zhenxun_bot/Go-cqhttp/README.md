@@ -47,7 +47,6 @@ cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.78
 ```
 screen -S gocq
 go-cqhttp
-
 ```
 
 5. 我说过gocq寄了，无法登录就更换签名版本（唯一的办法，不一定能行）
