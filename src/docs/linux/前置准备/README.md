@@ -8,7 +8,7 @@ tag:
   - Markdown
 ---
 
-## 一 首先你应该准备一个Ubuntu20+并且是2H2G+的服务器
+## 一 首先你应该准备一个Ubuntu22并且是2H2G+的服务器
 
 ## 二 安装宝塔面板或者XTerminal(软件)
 
@@ -103,35 +103,10 @@ sudo apt install -y postgresql postgresql-contrib
 ```
 sudo su - postgres
 psql
-CREATE USER zhenxun WITH PASSWORD 'zhenxun';
-CREATE DATABASE zhenxun OWNER zhenxun;
-exit
-exit
+CREATE USER zhenxun WITH PASSWORD 'zhenxun'
+CREATE DATABASE zhenxun OWNER zhenxun
 ```
 
 :::
 
 ok火速下一步
-
-# 五 安装python3.10
-
-这里可以选择不安装（Ubuntu 20+系统自带python3.8，但是为了减少后续问题建议安装）
-
-::: details 使用XTerminal或者宝塔面板安装python（终端安装）
-
-打开终端依次输入下方内容
-
-```
-sudo apt update
-sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
-wget https://www.python.org/ftp/python/3.10.0/Python-3.10.0.tgz
-tar -xf Python-3.10.0.tgz
-cd Python-3.10.0
-./configure --enable-optimizations
-make -j $(nproc)
-sudo make altinstall
-```
-
-:::
-
-ok 飞速下一步
