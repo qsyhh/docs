@@ -117,70 +117,91 @@ git clone --depth 1 https://gitee.com/touchscale/Qsign.git ./Qsign
 http://127.0.0.1:801/sign?key=114514
 ```
 
-<details>
-  <summary>使用他人提供的签名API</summary>
+使用他人提供的签名API
 
+::: tip
 1. 签名API推荐使用78或85.
 2. 由于签名API来自他人部署可能不稳定谨慎使用
 3. API收集来自煌,聊群：695596638
+:::
 
-<details>
-  <summary>煌提供的签名API</summary>
+::: details 煌提供的签名API
 
-1. 煌群：695596638
+- 煌群：695596638
 
-```
 ======「8.9.78」======
+``` link
 https://huai-huai-8-9-78.hf.space/sign?key=ngm
 ```
-</details>
-
-<details>
-  <summary>叽叽叽提供的签名API</summary>
-
-1. 叽叽叽群：未知
-
+``` link
+https://yue-yue-moon.hf.space/sign?key=ngm
 ```
-======「8.9.78/83/90/93」======
-http://114.132.243.116:10078/sign?key=114514
-======「在config/bot.yaml里添加：（XXX为版本如ver: 83）」======
-======「ver: XXX」======
+``` link
+http://124.70.223.35:4414/sign?key=ngm
 ```
-</details>
-
-<details>
-  <summary>小运提供的签名API</summary>
-
-1. 小运群：未知
-
+``` link
+http://h.winterqkl.cn:4414/sign?key=ngm
 ```
+:::
+
+::: details 叽叽叽提供的签名API
+
+- 叽叽叽群：未知
+
 ======「8.9.78」======
-ttp://salipet.com:1535/sign?key=2394
+``` link
+http://47.108.180.154:9001/sign?key=baicai
+```
+======「8.9.93」======
+``` link
+http://47.108.180.154:9002/sign?key=baicai
+```
+======「9.0.17」======
+``` link
+http://47.108.180.154:9003/sign?key=baicai
+```
+:::
+
+::: details 小运提供的签名API
+
+- 小运群：未知
+
+======「8.9.78」======
+``` link
+http://salipet.com:1535/sign?key=2394
+```
 ======「8.9.83」======
+``` link
 http://salipet.com:1692/sign?key=2394
 ```
-</details>
+:::
 
-<details>
-  <summary>咕咕咕提供的签名API</summary>
+::: details 咕咕咕提供的签名API
 
-1. 咕咕咕群：235589956或339695166
-2. 签名状态：http://47.108.180.154:3001/status/qsign
-```
+- 咕咕咕群：235589956或339695166
+- 签名状态：http://47.108.180.154:3001/status/qsign
+
 ======「8.9.78」======
+``` link
 http://47.108.180.154:8978/sign?key=114514  
+```
 ======「8.9.85」======
+``` link
 http://47.108.180.154:8985/sign?key=114514
+```
 ======「8.9.88」======
+``` link
 http://47.108.180.154:8988/sign?key=114514
+```
 ======「8.9.90」======
+``` link
 http://47.108.180.154:8990/sign?key=114514
+```
 ======「8.9.93」======
+``` link
 http://47.108.180.154:8993/sign?key=114514
 ```
-</details>
-
-</details>
+:::
 
 ![Alt](../img/机器人配置.png)
 
