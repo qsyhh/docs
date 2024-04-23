@@ -152,19 +152,33 @@ http://http://127.0.0.1:801/sign?key=114514
 ``` link
 https://huai-huai-8-9-78.hf.space/sign?key=ngm
 ```
+``` link
+https://yue-yue-moon.hf.space/sign?key=ngm
+```
+``` link
+http://124.70.223.35:4414/sign?key=ngm
+```
+``` link
+http://h.winterqkl.cn:4414/sign?key=ngm
+```
 :::
 
 ::: details 叽叽叽提供的签名API
 
 - 叽叽叽群：未知
 
-======「8.9.78/83/90/93」======
+======「8.9.78」======
 ``` link
-http://114.132.243.116:10078/sign?key=114514
+http://47.108.180.154:9001/sign?key=baicai
 ```
-======「在config/bot.yaml里添加：（XXX为版本如ver: 83）」======
-======「ver: XXX」======
-
+======「8.9.93」======
+``` link
+http://47.108.180.154:9002/sign?key=baicai
+```
+======「9.0.17」======
+``` link
+http://47.108.180.154:9003/sign?key=baicai
+```
 :::
 
 ::: details 小运提供的签名API
@@ -206,7 +220,6 @@ http://47.108.180.154:8990/sign?key=114514
 ``` link
 http://47.108.180.154:8993/sign?key=114514
 ```
-
 :::
 
 ![机器人配置](../../img/机器人配置.png)
