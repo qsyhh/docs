@@ -18,7 +18,7 @@ tag:
 
 2. 下载node.js
 
-[点击此处下载node.js](https://npmmirror.com/mirrors/node/v18.18.0/node-v18.18.0-x64.msi)
+[点击此处下载node.js](https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/v20.9.0/node-v20.9.0-x86.msi)
 
 3. 右键鼠标打开`Open Git Bash here`
 
