@@ -77,7 +77,7 @@ git clone --depth 1 https://gitee.com/touchscale/Qsign.git ./Qsign
 
 4. 下载jdk
 
-[点击此处下载jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/windows/OpenJDK17U-jdk_x64_windows_hotspot_17.0.10_7.msi)
+[点击此处下载jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/windows/OpenJDK17U-jdk_x64_windows_hotspot_17.0.11_9.msi)
 
 #### ②说明
 
