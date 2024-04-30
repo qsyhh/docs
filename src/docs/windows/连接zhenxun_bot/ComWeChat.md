@@ -57,17 +57,21 @@ git clone --depth 1 -b ComChat https://gitee.com/SHIKEAIXY/zhenxun.git ./ComWeCh
 [点我下载Cheat Engine](https://www.cheatengine.org/downloads.php)
 
 1. 下载完成后`点击`
+
 ![Alt](../img/Cheat1.png)
 
 2. 打开`微信`（待扫码状态）
 
 3. 选择`Processes`
+
 ![Alt](../img/Cheat2.png)
 
 4. 找到`数字/字母-Wechat.exe`后点击
+
 ![Alt](../img/Cheat3.png)
 
 5. 再点击`Open`
+
 ![Alt](../img/Cheat4.png)
 
 6. `勾选Hex`后`替换000000`为`下方内容`即可
@@ -75,15 +79,18 @@ git clone --depth 1 -b ComChat https://gitee.com/SHIKEAIXY/zhenxun.git ./ComWeCh
 ```
 6307001E
 ```
+
 ![Alt](../img/Cheat5.png)
 
 7. 然后点击`FIrst Scan`
 ![Alt](../img/Cheat6.png)
 
 8. 然后`ctrl+A全选`后`点击箭头`
+
 ![Alt](../img/Cheat7.png)
 
 9. 然后继续`ctrl+A全选`下面的内容
+
 ![Alt](../img/Cheat8.png)
 
 10. 然后`左键点击参数`修改为`下方内容`（使用最新3.9.10.19）
@@ -91,9 +98,11 @@ git clone --depth 1 -b ComChat https://gitee.com/SHIKEAIXY/zhenxun.git ./ComWeCh
 ```
 63090A19
 ```
+
 ![Alt](../img/Cheat9.png)
 
 11. 然后点击`OK`
 
 12. 保存修改数据（并非永久生效，重新登录需再次修改，本步骤是保存CT文件，方便下次进行修改）
+
 ![Alt](../img/Cheat10.png)
