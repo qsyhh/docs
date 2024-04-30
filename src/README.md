@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: zhenxun_bot安装教程
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: https://raw.githubusercontent.com/qsyhh/docs/9b495958dbc6e209d33661997388d865e03e1e6f/src/.vuepress/public/logo.svg
 bgImage: /真寻.png
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 # bgImageStyle:
