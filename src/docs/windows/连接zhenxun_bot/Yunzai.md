@@ -231,3 +231,12 @@ ws://127.0.0.1:8080/onebot/v11/ws/
 ### 注意不要关闭云崽和真寻本体
 
 如果连接失败大概率就是你关了真寻或者真寻启动失败了
+
+### 更新ICQQ
+
+私库ICQQ，需你的 GitHub 账号（且在库内）
+
+```
+pnpm login --scope=@icqqjs --auth-type=legacy --registry=https://npm.pkg.github.com
+pnpm add icqq@npm:@icqqjs/icqq
+```
