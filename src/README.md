@@ -57,14 +57,14 @@ highlights:
       background-repeat: repeat
       background-size: initial
     features:
-      - title: zhenxun_bot介绍
+      - title: zhenxun_bot项目地址
         icon: clipboard-check
         details: 绪山真寻Bot基于 <a hred="https://github.com/nonebot/nonebot2">Nonebot2</a> 以 <a hred="https://www.postgresql.org/">postgresql</a> 作为数据库
         link: https://github.com/HibiKier/zhenxun_bot
 
       - title: zhenxun_bot主分支版本号
         details: 好像没啥用（除了进群的问题）
-        icon: table-columns
+        icon: person-chalkboard
         link: https://github.com/HibiKier/zhenxun_bot/releases
 
       - title: zhenxun_bot使用说明
