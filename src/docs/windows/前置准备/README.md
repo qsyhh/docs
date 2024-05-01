@@ -26,7 +26,7 @@ tag:
 
 ## ②安装poetry
 
-1. 或者使用pip安装
+1. 使用pip安装
 ```
 python -m pip install -U pip
 ```
@@ -45,7 +45,7 @@ pip install poetry
 ## ①下载postgresql数据库
 [点击此处将下载Postgresql-15.1-1版本安装包](https://get.enterprisedb.com/postgresql/postgresql-15.1-1-windows-x64.exe)
 
-不想要15.1版本的可以自行下载别的版本（目前只要是9.0以上的版本都可以）
+不想要15.1版本的可以自行下载别的版本（目前只要是9.0以上的版本都可以，也可以最新）
 
 ## ②安装postgresql数据库
 
