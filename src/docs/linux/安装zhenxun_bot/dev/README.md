@@ -42,11 +42,11 @@ playwright install chromium
 sed -i 's/SUPERUSERS.*/SUPERUSERS=["123456789"]/g' .env.dev
 ```
 
-4.由于dev默认开启kaihiela(kook)，不连接将会无法启动，非使用kook连接需手动把env.dev里如图内容注释或删掉
+4.由于dev默认开启kaihiela(kook)，不连接将会无法启动，非使用kook连接需手动把env.dev里如图内容注释掉！！！
 
 ![kainhiela](../../img/kook问题.png)
 
-5.由于dev版中由于数据迁移所用，暂未考虑新建数据库没有sign_group_users所导致无法启动，应删zhenxun/builtin_plugins/_init_.py中删除如图内容
+5.由于dev版中由于数据迁移所用，暂未考虑新建数据库没有sign_group_users所导致无法启动，应注释掉zhenxun/builtin_plugins/_init_.py中如图内容
 
 ![sign_group_users](../../img/数据库表.png)
 
