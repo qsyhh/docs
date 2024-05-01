@@ -8,6 +8,8 @@ tag:
   - Markdown
 ---
 
+当前不建议安装dev，因为dev正在逐渐重构，阿咪还没写完（其实啥都没有）
+
 1.github下载真寻本体
 
 ```
@@ -88,7 +90,5 @@ python bot.py
 （如果你没有这些需求可以忽略这步，毕竟默认配置了）
 
 8.打开 zhenxun/configs/config.yaml，里面包含的是各种插件的配置项，填写完毕后重启真寻Bot
-
-dev分支支持更多协议端，如DODO,Kook等，但还在完善，仅部署QQ真寻暂不建议使用
 
 ---
