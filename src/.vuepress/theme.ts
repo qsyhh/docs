@@ -36,7 +36,8 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/docs/SHIKEAIXY/": ["520", "fafa"],
+      "/SHIKEAIXY": ["520", "fafa"],
+      "/SHIKEAIXY/1.html": ["1314"],
     },
   },
 
