@@ -58,7 +58,6 @@ highlights:
       background-size: initial
     features:
       - title: zhenxun_bot项目地址
-        icon: clipboard-check
         details: 绪山真寻Bot基于 <a hred="https://github.com/nonebot/nonebot2">Nonebot2</a> 以 <a hred="https://www.postgresql.org/">postgresql</a> 作为数据库
         icon: person-chalkboard
         link: https://github.com/HibiKier/zhenxun_bot
@@ -97,4 +96,3 @@ highlights:
         icon: person-chalkboard
         details: 符合真寻标准的插件仓库（看样子跑光了呢）
         link: https://github.com/zhenxun-org/nonebot_plugins_zhenxun_bot
-
