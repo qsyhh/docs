@@ -67,8 +67,8 @@ highlights:
         icon: person-chalkboard
         link: https://github.com/HibiKier/zhenxun_bot/releases
 
-      - title: zhenxun_bot使用说明
-        details: 绪山真寻Bot官方文档
+      - title: zhenxun_bot官方文档
+        details: 丰富且具体的说明
         icon: person-chalkboard
         link: https://hibikier.github.io/zhenxun_bot/
 
