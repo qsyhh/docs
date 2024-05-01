@@ -60,6 +60,7 @@ highlights:
       - title: zhenxun_bot项目地址
         icon: clipboard-check
         details: 绪山真寻Bot基于 <a hred="https://github.com/nonebot/nonebot2">Nonebot2</a> 以 <a hred="https://www.postgresql.org/">postgresql</a> 作为数据库
+        icon: person-chalkboard
         link: https://github.com/HibiKier/zhenxun_bot
 
       - title: zhenxun_bot主分支版本号
@@ -70,7 +71,7 @@ highlights:
       - title: zhenxun_bot官方文档
         details: 丰富且具体的说明
         icon: person-chalkboard
-        link: https://hibikier.github.io/zhenxun_bot/
+        link: https://hibikier.github.io/zhenxun_bot
 
       - title: 向zhenxun_bot提Issues
         icon: person-chalkboard
