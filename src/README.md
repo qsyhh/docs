@@ -55,7 +55,7 @@ highlights:
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     bgImageStyle:
       background-repeat: repeat
-      background-size: initial
+      background-size: cover
     features:
       - title: zhenxun_bot项目地址
         details: 绪山真寻Bot基于 <a hred="https://github.com/nonebot/nonebot2">Nonebot2</a> 以 <a hred="https://www.postgresql.org/">postgresql</a> 作为数据库
