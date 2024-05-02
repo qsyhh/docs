@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: zhenxun_bot安装教程
-heroImage: https://github.com/qsyhh/docs/blob/main/src/.vuepress/public/logo.png?raw=true
+heroImage: /logo.png
 bgImage: /猫羽雫-亮.png
 bgImageDark: /猫羽雫-暗.png
 # bgImageStyle:
