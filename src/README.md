@@ -15,7 +15,7 @@ actions:
     link: ./docs/
     type: primary
 
-  - text: 问题合集，
+  - text: 问题合集
     link: ./issues/
 
   - text: 支持我们
