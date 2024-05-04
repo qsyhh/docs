@@ -5,7 +5,7 @@ order: 2
 category:
   - 使用指南
 tag:
-  - Markdown
+  - tutorial
 ---
 
 ## ①下载WeChat微信

@@ -5,7 +5,7 @@ order: 2
 category:
   - 使用指南
 tag:
-  - Markdown
+  - tutorial
 ---
 
 ## 一 首先你应该准备一个Ubuntu22并且是2H2G+的服务器

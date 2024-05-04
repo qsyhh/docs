@@ -5,7 +5,7 @@ order: 2
 category:
   - 使用指南
 tag:
-  - Markdown
+  - tutorial
 ---
 
 https://llonebot.github.io/zh-CN/guide/getting-started

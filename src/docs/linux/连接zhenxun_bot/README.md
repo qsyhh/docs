@@ -5,7 +5,7 @@ order: 2
 category:
   - 使用指南
 tag:
-  - Markdown
+  - tutorial
 ---
 
 - [使用Go-cqhttp连接真寻bot(不建议)](Go-cqhttp/)

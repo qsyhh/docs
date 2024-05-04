@@ -5,7 +5,7 @@ order: 2
 category:
   - 使用指南
 tag:
-  - Markdown
+  - tutorial
 ---
 
 ### 一 安装云崽

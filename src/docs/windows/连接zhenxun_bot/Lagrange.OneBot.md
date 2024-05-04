@@ -5,7 +5,7 @@ order: 2
 category:
   - 使用指南
 tag:
-  - Markdown
+  - tutorial
 ---
 
 https://lagrangedev.github.io/Lagrange.Doc/Lagrange.OneBot/Config

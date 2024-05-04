@@ -5,7 +5,7 @@ order: 2
 category:
   - 使用指南
 tag:
-  - Markdown
+  - tutorial
 ---
 
 当前不建议安装dev，因为dev正在逐渐重构，阿咪还没写完（其实啥都没有）

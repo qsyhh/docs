@@ -5,7 +5,7 @@ order: 2
 category:
   - 使用指南
 tag:
-  - Markdown
+  - tutorial
 ---
 
 # 首先你应该准备一个2核4G+并且是win10+(2016+推荐最新)的服务器

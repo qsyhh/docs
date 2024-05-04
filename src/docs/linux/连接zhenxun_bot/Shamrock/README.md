@@ -5,7 +5,7 @@ order: 2
 category:
   - 使用指南
 tag:
-  - Markdown
+  - tutorial
 ---
 
 [Shamrock文档](https://whitechi73.github.io/OpenShamrock/guide/getting-started.html)
