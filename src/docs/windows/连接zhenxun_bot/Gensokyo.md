@@ -5,7 +5,8 @@ order: 2
 category:
   - 使用指南
 tag:
-  - Markdown
+  - tutorial
+pageview: true
 ---
 ::: danger
 没必要评价第三方好还是官方好，各有各的好处和弊端，能接受就用，接受不了就别用，别一天天的骂来骂去，~~你就算骂也别骂到人家开发者上去，咱能不能有点良心？~~
@@ -13,7 +14,8 @@ tag:
 
 ### ①说明：
 
-1. 新框架`Gensokyo` 视频：[点击此处跳转](https://www.bilibili.com/video/BV1Aw411K7Z5)
+1. 新框架`Gensokyo` 视频：
+<BiliBili bvid="BV1Aw411K7Z5" />
 
 2. `Gensokyo`仓库：[点击此处跳转](https://github.com/Hoshinonyaruko/Gensokyo
 )
