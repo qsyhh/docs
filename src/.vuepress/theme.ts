@@ -3,11 +3,12 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
+
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
     name: "小雨",
-    url: "https://docs.qsyhh.icu",
+    url: "https://gitee.com/SHIKEAIXY",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -17,6 +18,10 @@ export default hopeTheme({
   repo: "qsyhh/docs",
 
   docsDir: "src",
+
+  darkmode: "toggle", // https://theme-hope.vuejs.press/zh/guide/interface/darkmode.html#选项
+
+  fullscreen: true,
 
   locales: {
     "/": {
@@ -49,8 +54,8 @@ export default hopeTheme({
       category: "Announcements",
       categoryId: "DIC_kwDOG_Pt2M4COD69",
     },
-    components: {
-      components: ["Badge", "VPCard"],
+    components: { //https://theme-hope.vuejs.press/zh/guide/component/built-in.html#fonticon
+      components: ["BiliBili","Badge", "VPCard"],
     },
     mdEnhance: {
       align: true,
