@@ -31,7 +31,7 @@ highlights:
       - title: 没错真寻也有很多
       - title: 但是不建议使用脚本，很容易出问题，出问题后如果你不知道原因不好解决
       - title: 所以还是建议手动安装
-      - title: 你要是非用脚本也拦不住你对吧，这里放个好用的 <a href="https://github.com/zhenxun-org/zhenxun_bot-deploy">⭢传送门⭠</a>
+      - title: 你要是非用脚本也拦不住你对吧，这里放个好用的 <a href="https://github.com/zhenxun-org/zhenxun_bot-deploy">⭢传送门⭠</a> 仅限Linux
 
   # - header: 前言
   #   description: 大家都知道一键脚本这个东西吧。
