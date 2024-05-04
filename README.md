@@ -1,3 +1,3 @@
-# 该Docs由搭建
+# 该Docs由VuePress搭建
 
 [VuePress文档](https://theme-hope.vuejs.press/zh)
