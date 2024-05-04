@@ -51,6 +51,7 @@ git clone --depth 1 -b ComChat https://gitee.com/SHIKEAIXY/zhenxun.git ./ComWeCh
 ## 解决办法
 
 # [点击查看视频教程](https://www.bilibili.com/video/)
+<BiliBili bvid="BV1nt421A7y5" />
 
 由上文可知原理，所以我们可以用`Cheat Engine`去进行修改
 
