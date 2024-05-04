@@ -36,8 +36,8 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/SHIKEAIXY/": ["520", "fafa"],
-      "/SHIKEAIXY/1.html": ["1314"],
+      "/SHIKEAIXY/": ["520", "520"],
+      "/SHIKEAIXY/1.html": ["1314", "1314"],
     },
   },
 
@@ -122,7 +122,7 @@ export default hopeTheme({
 
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {
-    //   favicon: "/favicon.ico",
+    //   favicon: "/logo.png",
     //   cacheHTML: true,
     //   cachePic: true,
     //   appendBase: true,
