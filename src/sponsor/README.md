@@ -3,7 +3,7 @@ title: 赞助
 icon: lightbulb
 ---
 
-## 我的爱发电
+## 我的QQ Wechat 爱发电...
 
 感谢您的支持呀 mua~~~ 嘿嘿！
 
