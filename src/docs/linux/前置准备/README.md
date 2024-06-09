@@ -105,6 +105,8 @@ sudo su - postgres
 psql
 CREATE USER zhenxun WITH PASSWORD 'zhenxun'
 CREATE DATABASE zhenxun OWNER zhenxun
+exit
+exit
 ```
 
 :::

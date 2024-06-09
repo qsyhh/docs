@@ -14,7 +14,7 @@ tag:
 
 :::
   
-## ①下载go-cqhttp 
+## ①下载Go-cqhttp 
 
 ### gitee下载
 
@@ -27,21 +27,27 @@ git clone --depth 1 https://gitee.com/SHIKEAIXYY/1.1.9unidbg_and_gocq.git
 ```
 ### zip下载 (不建议!)
 
-[点击此处下载签名和go-cqhttp](https://gitee.com/SHIKEAIXYY/1.1.9unidbg_and_gocq/repository/archive/master.zip)
+[点击此处下载签名和Go-cqhttp](https://gitee.com/SHIKEAIXYY/1.1.9unidbg_and_gocq/repository/archive/master.zip)
 
-下载后请配置`windows_amd64`而`unidbg-fetch-qsign-1.1.9`一会要用
+下载后请配置`go-cqhttp_windows_amd64`而`unidbg-fetch-qsign-1.1.9`一会要用
 
-## ②配置go-cqhttp
+## ②配置Go-cqhttp
 
 1.打开config.yml文件，修改`QQ账号和密码`保存即可（先不要重新启动！！！）
 
- ![Alt](../img/账号.png)
+![Alt](../img/账号.png)
 
-# 部署签名api
+2.如果你打算使用他人签名请修改`go-cqhttp_windows_amd64/config.yml`中`35-36行内容`（注意缩进）后保存修改即可
+```
+url: 'https://huai-huai-8-9-78.hf.space'
+key: 'ngm'
+```
+
+# 部署签名api（可选后面使用他人签名）
 
 ### ①下载java 
 
-1.[点击此处下载jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/windows/OpenJDK17U-jdk_x64_windows_hotspot_17.0.11_9.msi)
+1.[点击此处下载Jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/18/jdk/x64/windows/OpenJDK18U-jdk_x64_windows_hotspot_18.0.2.1_1.msi)
 
 2.安装完成后打开cmd运行`java`查看是否有输出
 
@@ -68,10 +74,9 @@ git clone --depth 1 https://gitee.com/SHIKEAIXYY/1.1.9unidbg_and_gocq.git
 3.如需修改可打开`unidbg-fetch-qsign-1.1.9\txlib`找到你要修改的版本打开这个文件如修改`8.9.71`则打开`8.9.71\config.json`进行修改并修改gocq的配置文件
 
 ![Alt](../img/签名配置端口key.png)
+### ④启动 Go-cqhttp
 
-### ④启动 go-cqhttp
-
-1.返回上一目录打开`windows_amd64`文件
+1.返回上一目录打开`go-cqhttp_windows_amd64`文件
 
 2.双击 `go-cqhttp.bat` 进行验证即可
 
@@ -94,97 +99,11 @@ go-cqhttp
 - 如果没反应请使用`2. 手动抓取提交`
 - [使用安卓手机点击此处下载](https://maupdate.rainchan.win/txcaptcha.apk)
 
+
 ### ⑤关于其他签名协议登录
 
-1.现在个个版本都不稳定，看你63版本到最新版本哪个能登了
+1.现在个个版本都不稳定，看你73版本到最新版本哪个能登了
 
 2.换登录版本教程在`go-cqhttp_windows_amd64\data\versions\修改版本.md`中
 
 ### 如果你使用了gocq还登录上就别~~作~~让他好好run
-
-
-使用他人提供的签名API
-
-::: tip
-1. 签名API推荐使用78或85.
-2. 由于签名API来自他人部署可能不稳定谨慎使用
-3. API收集来自煌,聊群：695596638
-:::
-
-::: details 煌提供的签名API
-
-- 煌群：695596638
-
-======「8.9.78」======
-``` link
-https://huai-huai-8-9-78.hf.space/sign?key=ngm
-```
-``` link
-https://yue-yue-moon.hf.space/sign?key=ngm
-```
-``` link
-http://124.70.223.35:4414/sign?key=ngm
-```
-``` link
-http://h.winterqkl.cn:4414/sign?key=ngm
-```
-:::
-
-::: details 叽叽叽提供的签名API
-
-- 叽叽叽群：未知
-
-======「8.9.78」======
-``` link
-http://47.108.180.154:9001/sign?key=baicai
-```
-======「8.9.93」======
-``` link
-http://47.108.180.154:9002/sign?key=baicai
-```
-======「9.0.17」======
-``` link
-http://47.108.180.154:9003/sign?key=baicai
-```
-:::
-
-::: details 小运提供的签名API
-
-- 小运群：未知
-
-======「8.9.78」======
-``` link
-http://salipet.com:1535/sign?key=2394
-```
-======「8.9.83」======
-``` link
-http://salipet.com:1692/sign?key=2394
-```
-:::
-
-::: details 咕咕咕提供的签名API
-
-- 咕咕咕群：235589956或339695166
-- 签名状态：http://47.108.180.154:3001/status/qsign
-
-======「8.9.78」======
-``` link
-http://47.108.180.154:8978/sign?key=114514  
-```
-======「8.9.85」======
-``` link
-http://47.108.180.154:8985/sign?key=114514
-```
-======「8.9.88」======
-``` link
-http://47.108.180.154:8988/sign?key=114514
-```
-======「8.9.90」======
-``` link
-http://47.108.180.154:8990/sign?key=114514
-```
-======「8.9.93」======
-``` link
-http://47.108.180.154:8993/sign?key=114514
-```
-:::

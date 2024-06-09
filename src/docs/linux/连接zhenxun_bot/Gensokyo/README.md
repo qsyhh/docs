@@ -53,8 +53,9 @@ pageview: true
 
 ## 三 下载配置Gensokyo
 
-1. 下载gensokyo-linux-amd64（取用v408，更新时间2024.5.19，且此时应该在root/Bot目录）若发现教程的Gensokyo版本更新，可以选择无视更新
+1. 下载gensokyo-linux-amd64（取用v423，更新时间2024.6.9）若发现教程的Gensokyo版本更新，可以选择无视更新
 ```
+cd /root/Bot/
 git clone --depth 1 -b gensokyo-linux-amd64 https://gitee.com/SHIKEAIXY/zhenxun.git ./Gensokyo
 ```
 
@@ -84,14 +85,11 @@ port: "443"
 
 ![Gensokyo图床](../../img/Gensokyo图床.png)
 
-7. 以上完成后，输入下方内容命令（此时应该在root/Bot/Gensokyo路径中）
+7. 以上完成后，输入下方内容命令
 
 ```
 screen -S gsk
-./gensokyo-linux-amd64
-```
-如果执行上方命令后出现出现`-bash: ./gensokyo-linux-amd64: Permission denied`可使用下方命令赋予权限并使用sudo执行
-```
+cd root/Bot/Gensokyo/
 chmod +x gensokyo-linux-amd64
 sudo ./gensokyo-linux-amd64
 ```

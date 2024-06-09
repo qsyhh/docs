@@ -21,6 +21,7 @@ sudo apt install git
 1.github下载真寻本体
 
 ```
+cd /root/
 git clone --depth 1 -b dev https://github.com/HibiKier/zhenxun_bot ./Bot/zhenxun_bot
 ```
 
@@ -36,6 +37,7 @@ poetry lock --no-update
 poetry install
 sudo pip install playwright
 playwright install chromium
+exit
 ```
 
 3.设置超级用户，复制命令后将123456789修改完自己大号的QQ号
@@ -57,7 +59,7 @@ sed -i 's/SUPERUSERS.*/SUPERUSERS=["123456789"]/g' .env.dev
 ```
 screen -S zhenxundev
 poetry shell
-python3 bot.py
+python bot.py
 ```
 
 （如果你没有这些需求可以忽略这步，毕竟默认配置了）
@@ -67,5 +69,5 @@ python3 bot.py
 ```
 screen -r -d zhenxundev
 poetry shell
-python3 bot.py
+python bot.py
 ```

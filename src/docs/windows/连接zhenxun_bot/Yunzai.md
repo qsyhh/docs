@@ -22,7 +22,7 @@ tag:
 
 3. 右键鼠标打开`Open Git Bash here`
 
-win11需先点击显示更多选项后才显示`Open Git Bash here`
+Win11需先点击显示更多选项后才显示`Open Git Bash here`
 
 ![Alt](../img/win11打开git.png)
 
@@ -39,13 +39,10 @@ bash <(curl -L https://gitee.com/SHIKEAIXY/zhenxun/raw/master/Yunzai.sh)
 &nbsp;2.1. 在cmd依次输入以下内容并回车 
 
 ```
-git clone --depth=1 https://gitee.com/yoimiya-kokomi/Miao-Yunzai.git ./Yunzai/Miao-Yunzai/
+git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai ./Yunzai/TRSS-Yunzai
 ```
 ```
-cd Yunzai/Miao-Yunzai
-```
-```
-git clone --depth=1 https://gitee.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/
+cd Yunzai/TRSS-Yunzai
 ```
 ```
 npm --registry=https://registry.npmmirror.com install pnpm -g
@@ -55,13 +52,10 @@ npm --registry=https://registry.npmmirror.com install pnpm -g
 pnpm config set registry https://registry.npmmirror.com
 ```
 ```
-pnpm install -P
-```
-```
 git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
 ```
 ```
-pnpm install --filter=ws-plugin
+pnpm i
 ```
 ```
 cd ..
@@ -69,15 +63,8 @@ cd ..
 ```
 git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.git ./redis
 ```
-```
-git clone --depth 1 https://gitee.com/touchscale/Qsign.git ./Qsign
-```
 </details>
 &nbsp;
-
-4. 下载jdk
-
-[点击此处下载jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/17/jdk/x64/windows/OpenJDK17U-jdk_x64_windows_hotspot_17.0.11_9.msi)
 
 #### ②说明
 
@@ -85,9 +72,8 @@ git clone --depth 1 https://gitee.com/touchscale/Qsign.git ./Qsign
 
 2. `redis`为数据库
 
-3. `Miao-Yunzai`为机器人本体
+3. `Trss-Yunzai`为机器人本体
 
-4. `Qsign`为签名api
 
 ### ③启动云崽
 
@@ -95,121 +81,63 @@ git clone --depth 1 https://gitee.com/touchscale/Qsign.git ./Qsign
 
 2. 运行`redis`数据库（运行`redis/双击我启动redis.bat`即可）
 
-3. 运行`Qsign`（运行`Qsign/一键startAPI.bat`即可）默认是80的签名，端口为801，秘钥为114514
+3. 启动机器人并配置
+ - 在`TRSS-Yunzai`目录下cmd输入`node app`即可
+```
+node app
+```
 
-4. 启动机器人并配置
+# 手动部署签名api（如果打算使用他人的api可跳过）
 
-在`Miao-Yunzai`目录下cmd输入`node app`即可
+### ①下载java 
+
+1.[点击此处下载Jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/18/jdk/x64/windows/OpenJDK18U-jdk_x64_windows_hotspot_18.0.2.1_1.msi)
+
+2.安装完成后打开cmd运行`java`查看是否有输出
+
+[如果没有输出点击此处查看如何配置变量，如果你看不懂那就没办法了](https://blog.csdn.net/qq_41436122/article/details/82620080)
+
+配置完成后重新启动服务器后再打开cmd运行`java`查看是否有输出
+
+### ②使用
+
+1.下载Qsign(请在Yunzai目录克隆)
+
+```
+git clone --depth 1 https://gitee.com/SHIKEAIXYY/Qsign
+```
+
+2.运行`一键startAPI.bat`启动签名，自行根据提示配置TRSS路径
+
+没有闪退即可使用（默认使用8.9.78版本）
+
+3.切记api不要关闭！！！
 
 #### ④机器人配置
 
-1. 请输入机器人QQ号(建议用小号)：`这里输入机器人的QQ号即可`
+1. 等待Bot的启动完成
 
-2. 请输入登录密码(为空则扫码登录)：`这里输入机器人的QQ密码即可`
-
-3. 请选择登录端口：`这里请通过方向键选择aPad！！！`（下面的图片选错了别跟着图片走！！！）
-
-4. 请输入主人QQ号：`这里输入用来管理机器人的QQ号即可`
-
-5. 请输入签名API地址（可留空）：`这里输入下方内容即可`
-
+2. 对`该窗口(运行Yunzai的Cmd)`输入`以下内容并回车`
+ - 上方自建签名
 ```
-http://127.0.0.1:801/sign?key=114514
+#QQ签名http://127.0.0.1:801/sign?key=114514
+```
+ - 使用他人签名
+```
+#QQ签名https://huai-huai-8-9-78.hf.space/sign?key=ngm
 ```
 
-使用他人提供的签名API
-
-::: tip
-1. 签名API推荐使用78或85.
-2. 由于签名API来自他人部署可能不稳定谨慎使用
-3. API收集来自煌,聊群：695596638
-:::
-
-::: details 煌提供的签名API
-
-- 煌群：695596638
-
-======「8.9.78」======
-``` link
-https://huai-huai-8-9-78.hf.space/sign?key=ngm
+3. 对`该窗口(运行Yunzai的Cmd)`输入`以下内容并回车`
+ - 密码登录：QQ号 114514 密码 1919810 登录设备 安卓手机(1)/平板(2)
 ```
-``` link
-https://yue-yue-moon.hf.space/sign?key=ngm
+#QQ设置114514:1919810:2
 ```
-``` link
-http://124.70.223.35:4414/sign?key=ngm
-```
-``` link
-http://h.winterqkl.cn:4414/sign?key=ngm
-```
-:::
 
-::: details 叽叽叽提供的签名API
-
-- 叽叽叽群：未知
-
-======「8.9.78」======
-``` link
-http://47.108.180.154:9001/sign?key=baicai
-```
-======「8.9.93」======
-``` link
-http://47.108.180.154:9002/sign?key=baicai
-```
-======「9.0.17」======
-``` link
-http://47.108.180.154:9003/sign?key=baicai
-```
-:::
-
-::: details 小运提供的签名API
-
-- 小运群：未知
-
-======「8.9.78」======
-``` link
-http://salipet.com:1535/sign?key=2394
-```
-======「8.9.83」======
-``` link
-http://salipet.com:1692/sign?key=2394
-```
-:::
-
-::: details 咕咕咕提供的签名API
-
-- 咕咕咕群：235589956或339695166
-- 签名状态：http://47.108.180.154:3001/status/qsign
-
-======「8.9.78」======
-``` link
-http://47.108.180.154:8978/sign?key=114514  
-```
-======「8.9.85」======
-``` link
-http://47.108.180.154:8985/sign?key=114514
-```
-======「8.9.88」======
-``` link
-http://47.108.180.154:8988/sign?key=114514
-```
-======「8.9.90」======
-``` link
-http://47.108.180.154:8990/sign?key=114514
-```
-======「8.9.93」======
-``` link
-http://47.108.180.154:8993/sign?key=114514
-```
-:::
-
-![Alt](../img/机器人配置.png)
+4. 设置主人：发送 `#设置主人`，`日志获取验证码`并发送（QQ设置主人）
 
 5. 触发滑动验证，需要获取ticket通过验证，请选择获取方式:`这里选择 0.自动获取ticket 进行扫码即可`
 
-6. 查看云崽bot是否正常运行，如运行成功请关掉云崽重新输入`node app`并回车启动机器人
-
-7. 连接本地bot(给云崽机器人QQ发送)
+6. 连接本地bot(给云崽机器人QQ发送)
 
 ```
 #ws添加连接
@@ -220,7 +148,7 @@ zhenxun_bot,1
 ```
 ws://127.0.0.1:8080/onebot/v11/ws/
 ``` 
-8. 发送`#ws查看连接`来查看是否连接成功
+7. 发送`#ws查看连接`来查看是否连接成功
 
 出现带以下内容的图片，则代表连接成功
 ```

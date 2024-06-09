@@ -14,131 +14,86 @@ tag:
 
 :::
   
-1. 下载go-cqhttp（此时我们的目录在root/Bot）
+## ①安装go-cqhttp
+
+1. 下载go-cqhttp
+
+### gitee下载
 
 ```
-git clone --depth 1 -b go-cqhttp_1.2.0_linux_arm64.deb https://gitee.com/SHIKEAIXY/zhenxun.git ./go-cqhttp
+cd /root/Bot
+git clone --depth 1 https://gitee.com/SHIKEAIXYY/Qsign.git ./Gocq&Qsugn/unidbg-fetch-qsign-1.1.9
+git clone -b go-cqhttp_1.2.0_linux_arm64.deb --depth 1 https://gitee.com/SHIKEAIXY/zhenxun.git ./Gocq&Qsugn/go-cqhttp_linux_amd64
 ```
 
-2. 打开root/Bot/go-cqhttp/config.yml，修改qq账号和密码，后保存
+下载后请配置`linux_amd64`而`unidbg-fetch-qsign-1.1.9`一会要用
 
-3. 安装unidbg-fetch-qsign（返回root/Bot目录终端输入）
+## ②配置Go-cqhttp
 
-先安装一下jdk17
-```
-sudo apt install openjdk-17-jdk
-```
+1.打开config.yml文件，修改`QQ账号和密码`保存即可（先不要重新启动！！！）
 
-然后下载unidbg-fetch-qsign
+2.如果你打算使用他人签名请修改`go-cqhttp_linux_amd64/config.yml`中`35-36行内容`（注意缩进）后保存修改即可
 ```
-git clone --depth 1 https://gitee.com/touchscale/Qsign
+url: 'https://huai-huai-8-9-78.hf.space'
+key: 'ngm'
 ```
 
-然后启动unidbg-fetch-qsign（此处的8.9.78可修改）
+# 部署签名api（可选后面使用他人签名）
+
+### ①下载java 
+
+1.下载Jdk
 ```
-cd Qsign
+sudo apt install openjdk-18-jdk
+```
+
+### ②使用
+
+1.输入
+```
 screen -S api
-cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.78
+cd /root/Gocq&Qsugn/unidbg-fetch-qsign-1.1.9/unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.78
 ```
 
-4. 启动go-cqhttp（此时应该在root/Bot/go-cqhttp目录终端输入）
+没有闪退即可使用（默认使用8.9.78版本）
+
+2.切记api不要关闭！！！
+
+### ③配置
+
+1.端口默认是`801`
+
+2.key默认为`114514`
+
+3.如需修改可打开`unidbg-fetch-qsign-1.1.9\txlib`找到你要修改的版本打开这个文件如修改`8.9.71`则打开`8.9.71\config.json`进行修改并修改gocq的配置文件
+
+### ④启动 Go-cqhttp
+
+1. 启动go-cqhttp
 
 输入以下内容回车即可
 ```
 screen -S gocq
+cd /root/Bot/Gocq&Qsugn/go-cqhttp_linux_amd64
 go-cqhttp
 ```
 
-5. 我说过gocq寄了，无法登录就更换签名版本（唯一的办法，不一定能行）
+2. 我说过Gocq寄了，无法登录就更换签名版本（唯一的办法，不一定能行）
 
+3. 如果出现以下内容则不用管它，不影响登录和使用
 
-使用他人提供的签名API
-
-::: tip
-1. 签名API推荐使用78或85.
-2. 由于签名API来自他人部署可能不稳定谨慎使用
-3. API收集来自煌,聊群：695596638
-:::
-
-::: details 煌提供的签名API
-
-- 煌群：695596638
-
-======「8.9.78」======
-``` link
-https://huai-huai-8-9-78.hf.space/sign?key=ngm
 ```
-``` link
-https://yue-yue-moon.hf.space/sign?key=ngm
+[WARNING]: Callback error: Packet timed out, Or response data is empty
+[ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005
 ```
-``` link
-http://124.70.223.35:4414/sign?key=ngm
-```
-``` link
-http://h.winterqkl.cn:4414/sign?key=ngm
-```
-:::
 
-::: details 叽叽叽提供的签名API
+4. 自动提交滑块ticket无反应
+- 这个不知道有没有解决办法
+- 如果没反应请使用`2. 手动抓取提交`
+- [使用安卓手机点击此处下载](https://maupdate.rainchan.win/txcaptcha.apk)
 
-- 叽叽叽群：未知
 
-======「8.9.78」======
-``` link
-http://47.108.180.154:9001/sign?key=baicai
-```
-======「8.9.93」======
-``` link
-http://47.108.180.154:9002/sign?key=baicai
-```
-======「9.0.17」======
-``` link
-http://47.108.180.154:9003/sign?key=baicai
-```
-:::
-
-::: details 小运提供的签名API
-
-- 小运群：未知
-
-======「8.9.78」======
-``` link
-http://salipet.com:1535/sign?key=2394
-```
-======「8.9.83」======
-``` link
-http://salipet.com:1692/sign?key=2394
-```
-:::
-
-::: details 咕咕咕提供的签名API
-
-- 咕咕咕群：235589956或339695166
-- 签名状态：http://47.108.180.154:3001/status/qsign
-
-======「8.9.78」======
-``` link
-http://47.108.180.154:8978/sign?key=114514  
-```
-======「8.9.85」======
-``` link
-http://47.108.180.154:8985/sign?key=114514
-```
-======「8.9.88」======
-``` link
-http://47.108.180.154:8988/sign?key=114514
-```
-======「8.9.90」======
-``` link
-http://47.108.180.154:8990/sign?key=114514
-```
-======「8.9.93」======
-``` link
-http://47.108.180.154:8993/sign?key=114514
-```
-:::
-
-6. 关于screen命令说明：
+5. 关于screen命令说明：
 
 * screen命令一般用于Linux的持久化运行
 * 其中下方命令当中的name为创建screen窗口的名称
@@ -148,3 +103,9 @@ screen -r -d name //强制打开这个screen窗口
 screen -ls     //查看全部screen窗口
 screen -S name -X quit  //删除这个screen窗口
 ```
+
+### ⑤关于其他签名协议登录
+
+1.现在个个版本都不稳定，看你73版本到最新版本哪个能登了
+
+2.换登录版本教程在`go-cqhttp_linux_amd64\data\versions\修改版本.md`中

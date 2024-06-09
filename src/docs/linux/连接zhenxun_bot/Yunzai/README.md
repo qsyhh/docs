@@ -16,7 +16,7 @@ tag:
 
 ::: details 使用宝塔面板安装node.js（非终端）
 
-打开宝塔的软件商店搜索`Node.js版本管理器`并下载20.9.0的版本（也可以下载16/18的版本）
+打开宝塔的软件商店搜索`Node.js版本管理器`并下载20.9.0的版本（请勿下载18以下的版本！！！）
 
 ![下载node管理器](../../img/下载node管理器.png)
 
@@ -33,7 +33,7 @@ sudo apt-get install -y nodejs
 ```
 :::
 
-② 安装云崽机器人（此时应该在root/Bot目录）
+② 安装云崽机器人
 
 ```
 bash <(curl -L https://gitee.com/SHIKEAIXY/zhenxun/raw/linux/Yunzai.sh)
@@ -44,19 +44,23 @@ bash <(curl -L https://gitee.com/SHIKEAIXY/zhenxun/raw/linux/Yunzai.sh)
 &nbsp;2.1. 在终端root/Bot目录依次输入以下内容并回车 
 
 ```
-git clone --depth=1 https://gitee.com/yoimiya-kokomi/Miao-Yunzai.git ./Miao-Yunzai/
+cd /root/Bot/
 ```
 ```
-cd Miao-Yunzai
+git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai ./Yunzai/TRSS-Yunzai
 ```
 ```
-git clone --depth=1 https://gitee.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/
-```
-```
-git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
+cd Yunzai/TRSS-Yunzai
 ```
 ```
 npm --registry=https://registry.npmmirror.com install pnpm -g
+```
+```
+//可选
+pnpm config set registry https://registry.npmmirror.com
+```
+```
+git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
 ```
 ```
 pnpm i
@@ -95,142 +99,56 @@ sudo systemctl enable redis-server
 
 :::
 
-④ 安装unidbg-fetch-qsign（此时应该在root/Bot目录）
+4. 自建签名（如使用他人api可跳过）
 
-先安装一下jdk17
+先安装一下Jdk
 ```
-sudo apt install openjdk-17-jdk
+sudo apt install openjdk-18-jdk
 ```
 
 然后下载unidbg-fetch-qsign
 ```
+cd /root/Bot/
 git clone --depth 1 https://gitee.com/touchscale/Qsign
 ```
 
 然后启动unidbg-fetch-qsign（此处的8.9.78可修改）
 ```
-cd Qsign
 screen -S api
-cd unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.78
+cd Qsign/unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.78
 ```
 
-#### 2 机器人/配置（此时应该在root/Bot目录执行）
+#### ④机器人/配置（此时应该在root/Bot目录执行）
 
 ```
-cd Miao-Yunzai
-screen -r -d yunzai
+cd TRSS-Yunzai
+screen -r yunzai
 node app
 ```
 
-1. 请输入机器人QQ号(建议用小号)：`这里输入机器人的QQ号即可`
+1. 等待Bot的启动完成
 
-2. 请输入登录密码(为空则扫码登录)：`这里输入机器人的QQ密码即可`
-
-3. 请选择登录端口：`这里请通过方向键选择aPad！！！`（图片选错了，别跟着图片走！！！）
-
-4. 请输入主人QQ号：`这里输入用来管理机器人的QQ号即可`
-
-5. 请输入签名API地址（可留空）：`这里输入下方内容即可`
-
+2. 对`该窗口(运行Yunzai的Cmd)`输入`以下内容并回车`
+ - 上方自建签名
 ```
-http://http://127.0.0.1:801/sign?key=114514
+#QQ签名http://127.0.0.1:801/sign?key=114514
+```
+ - 使用他人签名
+```
+#QQ签名https://huai-huai-8-9-78.hf.space/sign?key=ngm
 ```
 
-使用他人提供的签名API
-
-::: tip
-1. 签名API推荐使用78或85.
-2. 由于签名API来自他人部署可能不稳定谨慎使用
-3. API收集来自煌,聊群：695596638
-:::
-
-::: details 煌提供的签名API
-
-- 煌群：695596638
-
-======「8.9.78」======
-``` link
-https://huai-huai-8-9-78.hf.space/sign?key=ngm
+3. 对`该窗口(运行Yunzai的Cmd)`输入`以下内容并回车`
+ - 密码登录：QQ号 114514 密码 1919810 登录设备 安卓手机(1)/平板(2)
 ```
-``` link
-https://yue-yue-moon.hf.space/sign?key=ngm
+#QQ设置114514:1919810:2
 ```
-``` link
-http://124.70.223.35:4414/sign?key=ngm
-```
-``` link
-http://h.winterqkl.cn:4414/sign?key=ngm
-```
-:::
 
-::: details 叽叽叽提供的签名API
-
-- 叽叽叽群：未知
-
-======「8.9.78」======
-``` link
-http://47.108.180.154:9001/sign?key=baicai
-```
-======「8.9.93」======
-``` link
-http://47.108.180.154:9002/sign?key=baicai
-```
-======「9.0.17」======
-``` link
-http://47.108.180.154:9003/sign?key=baicai
-```
-:::
-
-::: details 小运提供的签名API
-
-- 小运群：未知
-
-======「8.9.78」======
-``` link
-http://salipet.com:1535/sign?key=2394
-```
-======「8.9.83」======
-``` link
-http://salipet.com:1692/sign?key=2394
-```
-:::
-
-::: details 咕咕咕提供的签名API
-
-- 咕咕咕群：235589956或339695166
-- 签名状态：http://47.108.180.154:3001/status/qsign
-
-======「8.9.78」======
-``` link
-http://47.108.180.154:8978/sign?key=114514  
-```
-======「8.9.85」======
-``` link
-http://47.108.180.154:8985/sign?key=114514
-```
-======「8.9.88」======
-``` link
-http://47.108.180.154:8988/sign?key=114514
-```
-======「8.9.90」======
-``` link
-http://47.108.180.154:8990/sign?key=114514
-```
-======「8.9.93」======
-``` link
-http://47.108.180.154:8993/sign?key=114514
-```
-:::
-
-![机器人配置](../../img/机器人配置.png)
+4. 设置主人：发送 `#设置主人`，`日志获取验证码`并发送（QQ设置主人）
 
 5. 触发滑动验证，需要获取ticket通过验证，请选择获取方式:`这里选择 0.自动获取ticket 进行扫码即可`
 
-6. 查看云崽bot是否正常运行，如运行成功请关掉云崽重新输入`node app`并回车启动机器人
-
-### 二 连接本地bot
-
-依次给云崽机器人QQ发送
+6. 连接本地bot(给云崽机器人QQ发送)
 
 ```
 #ws添加连接
@@ -241,13 +159,30 @@ zhenxun_bot,1
 ```
 ws://127.0.0.1:8080/onebot/v11/ws/
 ``` 
-发送`#ws查看连接`来查看是否连接成功
+7. 发送`#ws查看连接`来查看是否连接成功
 
 出现带以下内容的图片，则代表连接成功
 ```
 连接名字: zhenxun_bot
 连接类型: 1
 当前状态: 已连接
+```
+
+8. 关于screen命令说明：
+
+* screen命令一般用于Linux的持久化运行
+* 其中下方命令当中的name为创建screen窗口的名称
+```
+screen -S name //创建一个screen窗口
+screen -r -d name //强制打开这个screen窗口
+screen -ls     //查看全部screen窗口
+screen -S name -X quit  //删除这个screen窗口
+```
+
+## 后续启动云崽
+```
+screen -r -d yunzai
+node app
 ```
 
 ::: warning
