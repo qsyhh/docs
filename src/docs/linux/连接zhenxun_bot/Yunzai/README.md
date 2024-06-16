@@ -35,6 +35,8 @@ sudo apt-get install -y nodejs
 
 ② 安装云崽机器人
 
+因为TRSS Yunzai不依赖与Miao-Plugin与Genshin(俩大型原神插件)，所以本教程使用TRSS崽
+
 ```
 bash <(curl -L https://gitee.com/SHIKEAIXY/zhenxun/raw/linux/Yunzai.sh)
 ```
@@ -126,6 +128,8 @@ screen -r yunzai
 node app
 ```
 
+当你启动报错237频繁登录/非常用设备登录时，因尝试与载挂Bot的设备同一网络登录/在本地设备（可登录Bot的设备）进行登录后复制Yunzai/data/icqq/QQ号整个文件夹到服务器的Yunzai/data/路径中后重试
+
 1. 等待Bot的启动完成
 
 2. 对`该窗口(运行Yunzai的Cmd)`输入`以下内容并回车`
@@ -183,6 +187,17 @@ screen -S name -X quit  //删除这个screen窗口
 ```
 screen -r -d yunzai
 node app
+```
+
+### 更新ICQQ
+
+私库ICQQ，需你的 GitHub 账号（且在库内）
+
+```
+cd plugins/ICQQ-Plugin
+pnpm login --scope=@icqqjs --auth-type=legacy --registry=https://npm.pkg.github.com
+// 执行完成后需输入账号+密码/密钥
+pnpm add icqq@npm:@icqqjs/icqq
 ```
 
 ::: warning
