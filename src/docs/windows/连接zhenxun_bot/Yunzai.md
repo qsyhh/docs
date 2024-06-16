@@ -29,6 +29,9 @@ Win11需先点击显示更多选项后才显示`Open Git Bash here`
 ![Alt](../img/win打开git2.png)
  
 然后运行下方命令
+
+因为TRSS Yunzai不依赖与Miao-Plugin与Genshin(俩大型原神插件)，所以本教程使用TRSS崽
+
 ```
 bash <(curl -L https://gitee.com/SHIKEAIXY/zhenxun/raw/master/Yunzai.sh)
 ```
@@ -86,6 +89,8 @@ git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.
 ```
 node app
 ```
+
+当你启动报错237频繁登录/非常用设备登录时，因尝试与载挂Bot的设备同一网络登录/在本地设备（可登录Bot的设备）进行登录后复制Yunzai/data/icqq/QQ号整个文件夹到服务器的Yunzai/data/路径中后重试
 
 # 手动部署签名api（如果打算使用他人的api可跳过）
 
@@ -165,6 +170,8 @@ ws://127.0.0.1:8080/onebot/v11/ws/
 私库ICQQ，需你的 GitHub 账号（且在库内）
 
 ```
+cd plugins/ICQQ-Plugin
 pnpm login --scope=@icqqjs --auth-type=legacy --registry=https://npm.pkg.github.com
+// 执行完成后需输入账号+密码/密钥
 pnpm add icqq@npm:@icqqjs/icqq
 ```
