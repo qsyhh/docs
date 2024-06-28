@@ -99,7 +99,7 @@ pip install poetry
 
 然后再点击左上角的`Preferences`
 
-![Alt](../img/数据库中文2.png.png)
+![Alt](../img/数据库中文2.png)
 
 然后依次点击图片中数字的位置
 
