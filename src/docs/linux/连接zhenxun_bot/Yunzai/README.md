@@ -16,7 +16,7 @@ tag:
 
 ::: details 使用宝塔面板安装node.js（非终端）
 
-打开宝塔的软件商店搜索`Node.js版本管理器`并下载20.9.0的版本（请勿下载18以下的版本！！！）
+打开宝塔的软件商店搜索`Node.js版本管理器`并下载20.9.0以上的版本（请勿下载18以下的版本！！！）
 
 ![下载node管理器](../../img/下载node管理器.png)
 
@@ -55,14 +55,17 @@ git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai ./Yunzai/TRSS-Yunza
 cd Yunzai/TRSS-Yunzai
 ```
 ```
+git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-ICQQ-Plugin ./plugins/ICQQ-Plugin
+```
+```
+git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
+```
+```
 npm --registry=https://registry.npmmirror.com install pnpm -g
 ```
 ```
 //可选
 pnpm config set registry https://registry.npmmirror.com
-```
-```
-git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
 ```
 ```
 pnpm i
@@ -101,7 +104,7 @@ sudo systemctl enable redis-server
 
 :::
 
-4. 自建签名（如使用他人api可跳过）
+4. 自建签名（如使用他人api可跳过）推荐他人API
 
 先安装一下Jdk
 ```
@@ -114,10 +117,10 @@ cd /root/Bot/
 git clone --depth 1 https://gitee.com/touchscale/Qsign
 ```
 
-然后启动unidbg-fetch-qsign（此处的8.9.78可修改）
+然后启动unidbg-fetch-qsign（此处的9.0.8可修改）
 ```
 screen -S api
-cd Qsign/unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.78
+cd Qsign/unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/9.0.8
 ```
 
 #### ④机器人/配置（此时应该在root/Bot目录执行）
@@ -128,7 +131,7 @@ screen -r yunzai
 node app
 ```
 
-当你启动报错237频繁登录/非常用设备登录时，因尝试与载挂Bot的设备同一网络登录/在本地设备（可登录Bot的设备）进行登录后复制Yunzai/data/icqq/QQ号整个文件夹到服务器的Yunzai/data/路径中后重试
+当你启动报错237频繁登录/非常用设备登录时，因尝试扫码/与载挂Bot的设备同一网络登录/在本地设备（可登录Bot的设备）进行登录后复制Yunzai/data/icqq/QQ号整个文件夹到服务器的Yunzai/data/路径中后重试
 
 1. 等待Bot的启动完成
 
@@ -139,11 +142,11 @@ node app
 ```
  - 使用他人签名
 ```
-#QQ签名https://huai-huai-8-9-78.hf.space/sign?key=ngm
+#QQ签名https://hlhs-nb.cn/signed/?key=114514
 ```
 
 3. 对`该窗口(运行Yunzai的Cmd)`输入`以下内容并回车`
- - 密码登录：QQ号 114514 密码 1919810 登录设备 安卓手机(1)/平板(2)
+ - 密码登录：QQ号 114514 密码 1919810 登录设备 安卓手机(1)/平板(2)，使用扫码登录因密码留空
 ```
 #QQ设置114514:1919810:2
 ```

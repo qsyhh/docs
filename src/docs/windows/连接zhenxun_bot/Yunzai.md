@@ -48,14 +48,17 @@ git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai ./Yunzai/TRSS-Yunza
 cd Yunzai/TRSS-Yunzai
 ```
 ```
+git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-ICQQ-Plugin ./plugins/ICQQ-Plugin
+```
+```
+git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
+```
+```
 npm --registry=https://registry.npmmirror.com install pnpm -g
 ```
 ```
 //可选
 pnpm config set registry https://registry.npmmirror.com
-```
-```
-git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
 ```
 ```
 pnpm i
@@ -90,9 +93,9 @@ git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.
 node app
 ```
 
-当你启动报错237频繁登录/非常用设备登录时，因尝试与载挂Bot的设备同一网络登录/在本地设备（可登录Bot的设备）进行登录后复制Yunzai/data/icqq/QQ号整个文件夹到服务器的Yunzai/data/路径中后重试
+当你启动报错237频繁登录/非常用设备登录时，因尝试扫码/与载挂Bot的设备同一网络登录/在本地设备（可登录Bot的设备）进行登录后复制Yunzai/data/icqq/QQ号整个文件夹到服务器的Yunzai/data/路径中后重试
 
-# 手动部署签名api（如果打算使用他人的api可跳过）
+# 手动部署签名api（如果打算使用他人的api可跳过）推荐他人API
 
 ### ①下载java 
 
@@ -112,9 +115,9 @@ node app
 git clone --depth 1 https://gitee.com/SHIKEAIXYY/Qsign
 ```
 
-2.运行`一键startAPI.bat`启动签名，自行根据提示配置TRSS路径
+2.运行`一键startAPI.bat`启动签名
 
-没有闪退即可使用（默认使用8.9.78版本）
+没有闪退即可使用（默认使用9.0.8版本）
 
 3.切记api不要关闭！！！
 
@@ -129,11 +132,11 @@ git clone --depth 1 https://gitee.com/SHIKEAIXYY/Qsign
 ```
  - 使用他人签名
 ```
-#QQ签名https://huai-huai-8-9-78.hf.space/sign?key=ngm
+#QQ签名https://hlhs-nb.cn/signed/?key=114514
 ```
 
 3. 对`该窗口(运行Yunzai的Cmd)`输入`以下内容并回车`
- - 密码登录：QQ号 114514 密码 1919810 登录设备 安卓手机(1)/平板(2)
+ - 密码登录：QQ号 114514 密码 1919810 登录设备 安卓手机(1)/平板(2)，使用扫码登录因密码留空
 ```
 #QQ设置114514:1919810:2
 ```

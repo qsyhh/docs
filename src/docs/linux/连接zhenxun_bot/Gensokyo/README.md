@@ -53,7 +53,7 @@ pageview: true
 
 ## 三 下载配置Gensokyo
 
-1. 下载gensokyo-linux-amd64（取用v423，更新时间2024.6.9）若发现教程的Gensokyo版本更新，可以选择无视更新
+1. 下载gensokyo-linux-amd64（取用v443，更新时间2024.6.28）若发现教程的Gensokyo版本更新，可以选择无视更新
 ```
 cd /root/Bot/
 git clone --depth 1 -b gensokyo-linux-amd64 https://gitee.com/SHIKEAIXY/zhenxun.git ./Gensokyo

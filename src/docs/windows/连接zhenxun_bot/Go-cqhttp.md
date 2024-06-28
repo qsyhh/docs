@@ -20,7 +20,7 @@ tag:
 
 请安装Git，已有可跳过
 
-[点击我进行下载Git](https://registry.npmmirror.com/-/binary/git-for-windows/v2.43.0-rc0.windows.1/Git-2.43.0-rc0-64-bit.exe)
+[点击我进行下载Git](https://registry.npmmirror.com/-/binary/git-for-windows/v2.45.2.windows.1/Git-2.45.2-64-bit.exe)
 
 ```
 git clone --depth 1 https://gitee.com/SHIKEAIXYY/1.1.9unidbg_and_gocq.git
@@ -37,10 +37,10 @@ git clone --depth 1 https://gitee.com/SHIKEAIXYY/1.1.9unidbg_and_gocq.git
 
 ![Alt](../img/账号.png)
 
-2.如果你打算使用他人签名请修改`go-cqhttp_windows_amd64/config.yml`中`35-36行内容`（注意缩进）后保存修改即可
+2.如果你打算使用他人签名请修改`go-cqhttp_windows_amd64/config.yml`中`35-36行内容`（注意缩进）后保存修改即可（推荐他人API）
 ```
-url: 'https://huai-huai-8-9-78.hf.space'
-key: 'ngm'
+url: 'https://hlhs-nb.cn/signed'
+key: '114514'
 ```
 
 # 部署签名api（可选后面使用他人签名）
@@ -59,7 +59,7 @@ key: 'ngm'
 
 1.打开`1.1.9unidbg_and_gocq\unidbg-fetch-qsign-1.1.9`双击运行`一键启动.bat` (就[下载go-cqhttp](https://gitee.com/SHIKEAIXY/zhenxun/blob/master/README.md#%E4%B8%8B%E8%BD%BDgo-cqhttp)下载的那个文件里面)
 
-没有闪退即可使用（默认使用8.9.78版本）
+没有闪退即可使用（默认使用9.0.8版本）
 
 2.签名启动成功后再重新启动 go-cqhttp.bat 登录即可
 
@@ -71,9 +71,10 @@ key: 'ngm'
 
 2.key默认为`1314`
 
-3.如需修改可打开`unidbg-fetch-qsign-1.1.9\txlib`找到你要修改的版本打开这个文件如修改`8.9.71`则打开`8.9.71\config.json`进行修改并修改gocq的配置文件
+3.如需修改可打开`unidbg-fetch-qsign-1.1.9\txlib`找到你要修改的版本打开这个文件如修改`9.0.8`则打开`9.0.8\config.json`进行修改并修改gocq的配置文件
 
 ![Alt](../img/签名配置端口key.png)
+
 ### ④启动 Go-cqhttp
 
 1.返回上一目录打开`go-cqhttp_windows_amd64`文件
@@ -102,7 +103,7 @@ go-cqhttp
 
 ### ⑤关于其他签名协议登录
 
-1.现在个个版本都不稳定，看你73版本到最新版本哪个能登了
+1.现在个个版本都不稳定，看你9.0.0版本到最新版本哪个能登了
 
 2.换登录版本教程在`go-cqhttp_windows_amd64\data\versions\修改版本.md`中
 

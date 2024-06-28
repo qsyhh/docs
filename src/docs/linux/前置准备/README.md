@@ -8,7 +8,7 @@ tag:
   - tutorial
 ---
 
-## 一 首先你应该准备一个Ubuntu22并且是2H2G+的服务器
+## 一 首先你应该准备一个Ubuntu22+并且是2H2G+的服务器
 
 ## 二 安装宝塔面板或者XTerminal(软件)
 
@@ -24,7 +24,7 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 
 :::
 
-::: details 安装XTerminal（用于连接ssh）
+::: details 安装XTerminal（用于连接ssh，Windows端）
 
 1. [点击此处下载XTerminal](https://www.xterminal.cn)
 
@@ -74,8 +74,7 @@ sudo fc-cache -f -v
 
 ![安装PostgreSQL](../img/安装PostgreSQL.png)
 
-3. 然后点击`版本管理`，安装12.10版本（时间较长）
-
+3. 然后点击`版本管理`，建议安装15以上的版本（时间较长）
 
 ![安装PostgreSQL2](../img/安装PostgreSQL2.png)
 
@@ -103,12 +102,46 @@ sudo apt install -y postgresql postgresql-contrib
 ```
 sudo su - postgres
 psql
-CREATE USER zhenxun WITH PASSWORD 'zhenxun'
-CREATE DATABASE zhenxun OWNER zhenxun
-exit
+CREATE USER zhenxun WITH PASSWORD 'zhenxun';
+CREATE DATABASE zhenxun OWNER zhenxun;
+\q
 exit
 ```
 
 :::
+
+### 备份PostgreSQL数据库
+
+1. 打开终端，输入：（创建文件夹+赋予权限）
+
+```
+mkdir -p /tmp/Postgres-BF
+sudo chmod -R 777 /tmp/Postgres-BF
+```
+
+2. 输入：（进入postgres，备份，输入密码，退出）
+
+注意！！！需要完成`安装PostgreSQL数据库`全部步骤才能备份数据库
+```
+sudo -su postgres
+pg_dump -U postgres -W -F t -b -v -f "/tmp/Postgres-BF/zhenxun.tar" zhenxun
+zhenxun // 这里是上一条命令输入的密码！！！
+exit
+```
+
+3. 备份的数据将在`/tmp/Postgres-BF/zhenxun.tar`
+
+### 恢复备份的PostgreSQL数据库
+
+注意！！！需要完成`安装PostgreSQL数据库 + 备份PostgreSQL数据库`全部步骤才能备份数据库
+
+1. 终端输入：（赋予权限，进入postgres，恢复备份，退出），/tmp/Postgres-BF/zhenxun.tar是已有的备份压缩文件
+
+```
+sudo chmod -R 777 /tmp/Postgres-BF
+sudo -su postgres
+pg_restore -U postgres -d zhenxun -v "/tmp/Postgres-BF/zhenxun.tar"
+exit
+```
 
 ok火速下一步

@@ -14,10 +14,6 @@ tag:
 
 :::
   
-## ①安装go-cqhttp
-
-1. 下载go-cqhttp
-
 ### gitee下载
 
 ```
@@ -34,11 +30,11 @@ git clone -b go-cqhttp_1.2.0_linux_arm64.deb --depth 1 https://gitee.com/SHIKEAI
 
 2.如果你打算使用他人签名请修改`go-cqhttp_linux_amd64/config.yml`中`35-36行内容`（注意缩进）后保存修改即可
 ```
-url: 'https://huai-huai-8-9-78.hf.space'
-key: 'ngm'
+url: 'https://hlhs-nb.cn/signed'
+key: '114514'
 ```
 
-# 部署签名api（可选后面使用他人签名）
+# 部署签名api（可选后面使用他人签名）推荐他人API
 
 ### ①下载java 
 
@@ -52,10 +48,10 @@ sudo apt install openjdk-18-jdk
 1.输入
 ```
 screen -S api
-cd /root/Gocq&Qsugn/unidbg-fetch-qsign-1.1.9/unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.78
+cd /root/Gocq&Qsugn/unidbg-fetch-qsign-1.1.9/unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/9.0.8
 ```
 
-没有闪退即可使用（默认使用8.9.78版本）
+没有闪退即可使用（默认使用9.0.8版本）
 
 2.切记api不要关闭！！！
 
@@ -65,7 +61,7 @@ cd /root/Gocq&Qsugn/unidbg-fetch-qsign-1.1.9/unidbg-fetch-qsign&&bash bin/unidbg
 
 2.key默认为`114514`
 
-3.如需修改可打开`unidbg-fetch-qsign-1.1.9\txlib`找到你要修改的版本打开这个文件如修改`8.9.71`则打开`8.9.71\config.json`进行修改并修改gocq的配置文件
+3.如需修改可打开`unidbg-fetch-qsign-1.1.9\txlib`找到你要修改的版本打开这个文件如修改`9.0.8`则打开`9.0.8\config.json`进行修改并修改gocq的配置文件
 
 ### ④启动 Go-cqhttp
 

@@ -16,7 +16,7 @@ tag:
 
 这里我推荐安装python3.10
 
-[点击下载py3.10](https://yshs.lanzouy.com/iFMpG0gdwt9a)
+[点击下载py3.10](https://musetransfer.com/s/mpvqvvofz)
 
 下面两个对钩点上 然后点击Install Now等待安装完成
 
@@ -42,16 +42,14 @@ pip install poetry
 
 # 二 安装postgresql
 
-## ①下载postgresql数据库
-[点击此处将下载Postgresql-15.1-1版本安装包](https://get.enterprisedb.com/postgresql/postgresql-15.1-1-windows-x64.exe)
+## ①下载Postgresql数据库
+[点击此处将下载Postgresql-16.3-2版本安装包](https://get.enterprisedb.com/postgresql/postgresql-16.3-2-windows-x64.exe)
 
-不想要15.1版本的可以自行下载别的版本（目前只要是9.0以上的版本都可以，也可以最新）
+不想要16.3-2版本的可以自行下载别的版本（尽量使用新版）
 
 ## ②安装postgresql数据库
 
 1.双击安装程序，点击Next（打不开报错？系统用户名不能是中文，计算机名也不能是中文，其他问题。。。不要找我 我也不会）
-
-[关于修改用户名点击此处查看教程](https://www.cnblogs.com/ggc-gyx/p/17278182.html)
 
 ![Alt](../img/安装数据库.png)
 
@@ -93,9 +91,29 @@ pip install poetry
 
 ![Alt](../img/启动数据库.png)
 
-[是英文怎么办？点击此处解决](https://blog.csdn.net/weixin_46329056/article/details/125929563?ydreferer=aHR0cHM6Ly93d3cuYmFpZHUuY29tL2xpbms%2FdXJsPUwzNmhIRml6RjMwd2QzWnFEanFpY0NLYzFGbmlGUktRTXhCU21UTmFObjZNM0NxLUY5YzJzYV9IY2kzekV5bEVlTTctNzZnWjVmNC15aTI3ZjE3V3JJVDRnUzMtejdlTHp6aFJPY1Y2Tm9XJndkPSZlcWlkPTgyNjY3OTdjMDAwZTA0NGEwMDAwMDAwMjY0M2FiNDZj)
+设置中文：
+
+点击左上角的`file`
+
+![Alt](../img/数据库中文.png)
+
+然后再点击左上角的`Preferences`
+
+![Alt](../img/数据库中文2.png.png)
+
+然后依次点击图片中数字的位置
+
+![Alt](../img/数据库中文3.png)
 
 2.新建连接
+
+点击`Servers`
+
+![Alt](../img/添加数据库-1.png)
+
+然后输入密码勾选保存后确定即可（密码是zhenxun 前面设置的密码）
+
+![Alt](../img/添加数据库0.png)
 
 左侧栏右键点击后选择，在点击ServersRegister服务器
 

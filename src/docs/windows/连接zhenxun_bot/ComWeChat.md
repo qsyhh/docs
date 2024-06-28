@@ -94,10 +94,10 @@ git clone --depth 1 -b ComChat https://gitee.com/SHIKEAIXY/zhenxun.git ./ComWeCh
 
 ![Alt](../img/Cheat8.png)
 
-10. 然后`左键点击参数`修改为`下方内容`（使用最新3.9.10.19）
+10. 然后`左键点击参数`修改为`下方内容`（使用最新3.9.11.17）
 
 ```
-63090A19
+63090B11
 ```
 
 ![Alt](../img/Cheat9.png)
