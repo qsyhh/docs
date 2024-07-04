@@ -53,10 +53,10 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 ```
 sudo apt update
 sudo apt upgrade
-sudo pip install --upgrade pip
 sudo pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-sudo apt update && sudo apt install -y wget git screen ffmpeg
+sudo apt install -y wget git screen ffmpeg
 sudo apt install -y python3-pip
+sudo pip install --upgrade pip
 sudo pip install poetry
 sudo apt-get install -y ttf-wqy-zenhei ttf-wqy-microhei fonts-arphic-ukai fonts-arphic-uming
 sudo fc-cache -f -v
