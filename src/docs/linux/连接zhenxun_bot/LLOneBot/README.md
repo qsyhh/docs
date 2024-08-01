@@ -8,6 +8,11 @@ tag:
   - tutorial
 ---
 
+::: danger
+本站该教程已经过作者允许上传
+另外请勿将与本教程任何相关内容上传至流量平台如：B站
+:::
+
 [LLOneBot文档](https://llonebot.github.io/zh-CN/guide/getting-started)
 
 ## 连接真寻
