@@ -15,3 +15,5 @@ wget -O install.sh https://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 ```
 
 ### 等待安装完成后打开面板（密码请牢记，如无法打开请开放终端宝塔给出的端口号）
+
+## [➊ 返回上级](../)

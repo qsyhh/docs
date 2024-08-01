@@ -32,7 +32,7 @@ sed -i 's/SUPERUSERS.*/SUPERUSERS=["123456789"]/g' .env.dev
 screen -R zhenxun
 poetry shell
 python bot.py
-``
+```
 
 #### 如果需要退出screen则 Ctrl+a+d 退出
 
