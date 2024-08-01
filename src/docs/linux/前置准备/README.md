@@ -22,7 +22,7 @@ tag:
   - XTerminal是一个SSH开发工具并且拥有丰富的功能
   - 目前为止是我个人认为最好用的一个
 
-- [③JuiceSSH+NMM（Android安装）](JuiceSSH+NMM.md)
+- [③JuiceSSH+NMM（Android安装）](JuiceSSHNMM.md)
   - JuiceSSH是一个SSH连接工具
   - NMM是一个文件管理工具
   - JuiceSSH+NMM配合使用效果非常的奈斯
