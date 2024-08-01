@@ -8,139 +8,101 @@ tag:
   - tutorial
 ---
 
-### 一 安装云崽
+## ➊ 安装node.js
 
-#### 1 安装前置
+- [①使用宝塔面板安装node.js](node.md)
+  - 通过宝塔商店安装
+    
+- [②使用XTerminal/JuiceSSH安装node.js](node2.md)
+  - 通过终端apt安装
 
-① 下载node.js
+## ➋ 安装机器人和插件
 
-::: details 使用宝塔面板安装node.js（非终端）
-
-打开宝塔的软件商店搜索`Node.js版本管理器`并下载20.9.0以上的版本（请勿下载18以下的版本！！！）
-
-![下载node管理器](../../img/下载node管理器.png)
-
-:::
-
-::: details 使用XTerminal安装node.js（终端安装）
-
-终端依次输入下方内容
-
-```
-sudo apt install apt-transport-https curl ca-certificates software-properties-common
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt-get install -y nodejs
-```
-:::
-
-② 安装云崽机器人
+1.安装云崽机器人
 
 因为TRSS Yunzai不依赖与Miao-Plugin与Genshin(俩大型原神插件)，所以本教程使用TRSS崽
 
-```
-bash <(curl -L https://gitee.com/SHIKEAIXY/zhenxun/raw/linux/Yunzai.sh)
-```
-
-::: details 如果不想使用sh一键下载可点击此处手动下载
-
-&nbsp;2.1. 在终端root/Bot目录依次输入以下内容并回车 
+输入以下内容并回车 
 
 ```
-cd /root/Bot/
-```
-```
-git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai ./Yunzai/TRSS-Yunzai
-```
-```
-cd Yunzai/TRSS-Yunzai
-```
-```
-git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-ICQQ-Plugin ./plugins/ICQQ-Plugin
-```
-```
-git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
-```
-```
-npm --registry=https://registry.npmmirror.com install pnpm -g
-```
-```
-//可选
-pnpm config set registry https://registry.npmmirror.com
-```
-```
-pnpm i
-```
-:::
-
-③ 安装redis数据库
-
-::: details 使用宝塔面板安装redis数据库（非终端）
-
-还是打开软件商店搜索`redis`（剩下的你自己搞吧，这么简单你不会还不会吧？）
-
-:::
-
-::: details 使用XTerminal安装redis数据库（终端安装）
-
-终端输入下方内容
-
-```
-sudo apt install redis-server
+git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai /root/Bot/Yunzai/TRSS-Yunzai && git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-ICQQ-Plugin /root/Bot/Yunzai/TRSS-Yunzai/plugins/ICQQ-Plugin && git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git /root/Bot/Yunzai/TRSS-Yunzai/plugins/ws-plugin/ && npm --registry=https://registry.npmmirror.com install pnpm -g && pnpm config set registry https://registry.npmmirror.com && pnpm i
 ```
 
-安装完成后 Redis 服务会自动启动
+## ➌ 安装redis数据库
 
-可以使用以下命令来检查 Redis 服务的运行状态（如果 Redis 服务正在运行，你将看到类似于 "active (running)" 的输出）
+- [①使用宝塔面板安装redis数据库](redis.md)
+  - 通过宝塔商店安装
+    
+- [②使用XTerminal/JuiceSSH安装redis数据库](redis2.md)
+  - 通过终端apt安装
+  
+#### ➍️配置ICQQ版本信息
+
+1. 打开路径`Yunzai\TRSS-Yunzai\plugins\ICQQ-Plugin\node_modules\icqq\lib\core`
+ - `没有node_modules`这个文件夹就是你依赖没装（pnpm i）
+
+2. 找到`device.js`文件并打开
+
+3. 翻到第`261`行
+
+![](../../Img/修改ICQQ版本/修改ICQQ.png)
+
+4. 在`261`行后面换成转到`262`行
+
+![](../../Img/修改ICQQ版本/修改ICQQ2.png)
+
+5. 在`262`行顶格位置粘贴下方内容后保存即可
+
+![](../../Img/修改ICQQ版本/修改ICQQ3.png)
 
 ```
-sudo systemctl status redis-server
+    {
+        name: "A9.0.70.e4b76fcc",
+        version: "9.0.70.17645",
+        ver: "9.0.70",
+        subid: 537228487,
+        apad_subid: 537228526,
+        qua: "V1_AND_SQ_9.0.70_6698_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2561",
+        buildtime: 0x666bfec0,
+        bitmap: 0x08f7ff7c,
+        ssover: 0x15,
+    },
 ```
 
-Redis 在系统启动时自动启动可以使用下方命令
+6. 至此修改完成
 
-```
-sudo systemctl enable redis-server
-```
+### ➎ 启动️机器人
 
-:::
-
-4. 自建签名（如使用他人api可跳过）推荐他人API
-
-先安装一下Jdk
-```
-sudo apt install openjdk-18-jdk
-```
-
-然后下载unidbg-fetch-qsign
-```
-cd /root/Bot/
-git clone --depth 1 https://gitee.com/touchscale/Qsign
-```
-
-然后启动unidbg-fetch-qsign（此处的9.0.8可修改）
-```
-screen -S api
-cd Qsign/unidbg-fetch-qsign&&bash bin/unidbg-fetch-qsign --basePath=txlib/9.0.8
-```
-
-#### ④机器人/配置（此时应该在root/Bot目录执行）
+1. 执行
 
 ```
 cd TRSS-Yunzai
-screen -r yunzai
+screen -R yunzai
 node app
 ```
 
-当你启动报错237频繁登录/非常用设备登录时，因尝试扫码/与载挂Bot的设备同一网络登录/在本地设备（可登录Bot的设备）进行登录后复制Yunzai/data/icqq/QQ号整个文件夹到服务器的Yunzai/data/路径中后重试
+#### 如果需要退出screen则 Ctrl+a+d 退出
+
+2. 启动机器人
+ - 在`TRSS-Yunzai`目录下cmd输入`node app`即可
+```
+node app
+```
+
+当你启动报错237频繁登录/非常用设备登录：
+
+ - 尝试扫码登录Bot
+ - 与载挂Bot的设备同一网络登录
+ - 在本地常用设备（可登录Bot的设备）进行登录后复制Yunzai/data/icqq/QQ号整个文件夹到服务器的Yunzai/data/路径中后重试
+ 
+### ➏ ️配置机器人
 
 1. 等待Bot的启动完成
 
 2. 对`该窗口(运行Yunzai的Cmd)`输入`以下内容并回车`
- - 上方自建签名
-```
-#QQ签名http://127.0.0.1:801/sign?key=114514
-```
- - 使用他人签名
+ - 白嫖hlh佬
 ```
 #QQ签名https://hlhs-nb.cn/signed/?key=114514
 ```
@@ -175,36 +137,15 @@ ws://127.0.0.1:8080/onebot/v11/ws/
 当前状态: 已连接
 ```
 
-8. 关于screen命令说明：
-
-* screen命令一般用于Linux的持久化运行
-* 其中下方命令当中的name为创建screen窗口的名称
-```
-screen -S name //创建一个screen窗口
-screen -r -d name //强制打开这个screen窗口
-screen -ls     //查看全部screen窗口
-screen -S name -X quit  //删除这个screen窗口
-```
-
 ## 后续启动云崽
+
 ```
-screen -r -d yunzai
+screen -R yunzai
 node app
 ```
 
-### 更新ICQQ
+#### 如果需要退出screen则 Ctrl+a+d 退出
 
-私库ICQQ，需你的 GitHub 账号（且在库内）
-
-```
-cd plugins/ICQQ-Plugin
-pnpm login --scope=@icqqjs --auth-type=legacy --registry=https://npm.pkg.github.com
-// 执行完成后需输入账号+密码/密钥
-pnpm add icqq@npm:@icqqjs/icqq
-```
-
-::: warning
 ### 注意不要关闭云崽和真寻本体
 
 如果连接失败大概率就是你关了真寻或者真寻启动失败了
-:::
