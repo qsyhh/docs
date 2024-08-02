@@ -84,6 +84,7 @@ git clone --depth 1 -b ComChat https://gitee.com/SHIKEAIXY/zhenxun.git ./ComWeCh
 ![Alt](../Img/Cheat/Cheat5.png)
 
 7. 然后点击`FIrst Scan`
+
 ![Alt](../Img/Cheat/Cheat6.png)
 
 8. 然后`ctrl+A全选`后`点击箭头`

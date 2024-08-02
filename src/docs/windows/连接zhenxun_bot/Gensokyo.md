@@ -54,7 +54,6 @@ git clone --depth 1 -b gensokyo-windows-amd64 https://gitee.com/SHIKEAIXY/zhenxu
 
 4. 填写公网IP至开放平台（不填写无法上线和连接Bot）
 
-<br><img src="Img/Gensokyo/配置开放平台IP.png" width="50%">
 ![](../Img/Gensokyo/配置开放平台IP.png)
 
 5. 将自己服务器的公网ip填入`server_dir`

@@ -80,7 +80,7 @@ git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.
 
 4. 在`261`行后面换成转到`262`行
 
-![](../Img/修改ICQQ版本/修改ICQQ@2.png)
+![](../Img/修改ICQQ版本/修改ICQQ2.png)
 
 5. 在`262`行顶格位置粘贴下方内容后保存即可
 
