@@ -1,5 +1,5 @@
 ---
-title: 使用Lagtange连接真寻bot
+title: 使用LLOneBot连接真寻bot
 icon: fab fa-markdown
 order: 2
 category:
