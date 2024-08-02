@@ -27,3 +27,5 @@ icon: lightbulb
 > 如果你有兴趣为可爱真寻Bot安装文档做出贡献，请直接向 [我们的Github提交Pr](https://github.com/qsyhh/docs)。
 >
 > 再次感谢每一位对文档贡献过的你们！
+
+  ---
