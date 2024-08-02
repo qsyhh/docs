@@ -8,7 +8,7 @@ tag:
   - tutorial
 ---
 
-![sign_group_users](../img/dev真寻.png)
+![sign_group_users](../Img/安装真寻/dev真寻.png)
 
 虽然但是...阿米已经写很多了，没写的一些比如抽卡...主分支的不是也寄了嘛...
 
@@ -89,8 +89,10 @@ database: str = ""   #数据库名称
 python bot.py
 ```
 
-（如果你没有这些需求可以忽略这步，毕竟默认配置了）
+（如果你没有这些需求可以忽略这步，毕竟默认存在配置）
 
 8.打开 zhenxun/configs/config.yaml，里面包含的是各种插件的配置项，填写完毕后重启真寻Bot
 
 ---
+
+## [➊ 前往连接真寻](../连接zhenxun_bot/)

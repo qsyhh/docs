@@ -20,7 +20,8 @@ tag:
 - [使用ComWeChat(PC微信)连接真寻bot(这个是真不建议)](ComWeChat.md)
   - ComWeChat即微信机器人框架，基于COM通信的微信PC Hook应用端，支持Onebot12协议
   
-- [使用LLOneBot](LLOneBot.md)
+- [LLOneBot & NapCat](LLOneBot/)
+  - NapCat是一个基于 PC NTQQ 的 QQ Bot 协议端机器人框架
  
 - [使用Lagrange.OneBot](Lagrange.OneBot.md)
  

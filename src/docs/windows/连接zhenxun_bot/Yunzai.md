@@ -12,26 +12,21 @@ tag:
 
 ### ①安装前置
 
-1. 请安装Git，已有可跳过
+1. 下载Node.Js（20以上的Node.Js！！！）
 
-[点击我进行下载Git](https://registry.npmmirror.com/-/binary/git-for-windows/v2.43.0-rc0.windows.1/Git-2.43.0-rc0-64-bit.exe)
+[点击此处下载Node.Js](https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/v20.9.0/node-v20.9.0-x86.msi)
 
-2. 下载node.js
-
-[点击此处下载node.js](https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/v20.9.0/node-v20.9.0-x86.msi)
-
-3. 右键鼠标打开`Open Git Bash here`
+2. 右键鼠标打开`Open Git Bash here`
 
 Win11需先点击显示更多选项后才显示`Open Git Bash here`
 
-![Alt](../img/win11打开git.png)
+![](../Img/打开Git/win11打开git.png)
 
-![Alt](../img/win打开git2.png)
+![](../Img/打开Git/win11打开git.png)
  
-然后运行下方命令
-
 因为TRSS Yunzai不依赖与Miao-Plugin与Genshin(俩大型原神插件)，所以本教程使用TRSS崽
 
+然后运行下方命令
 ```
 bash <(curl -L https://gitee.com/SHIKEAIXY/zhenxun/raw/master/Yunzai.sh)
 ```
@@ -72,6 +67,43 @@ git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.
 </details>
 &nbsp;
 
+#### 配置ICQQ版本信息
+
+1. 打开路径`Yunzai\TRSS-Yunzai\plugins\ICQQ-Plugin\node_modules\icqq\lib\core`
+ - `没有node_modules`这个文件夹就是你依赖没装（pnpm i）
+
+2. 找到`device.js`文件并打开
+
+3. 翻到第`261`行
+
+![](../Img/修改ICQQ版本/修改ICQQ.png)
+
+4. 在`261`行后面换成转到`262`行
+
+![](../Img/修改ICQQ版本/修改ICQQ@2.png)
+
+5. 在`262`行顶格位置粘贴下方内容后保存即可
+
+![](../Img/修改ICQQ版本/修改ICQQ3.png)
+
+```
+    {
+        name: "A9.0.70.e4b76fcc",
+        version: "9.0.70.17645",
+        ver: "9.0.70",
+        subid: 537228487,
+        apad_subid: 537228526,
+        qua: "V1_AND_SQ_9.0.70_6698_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2561",
+        buildtime: 0x666bfec0,
+        bitmap: 0x08f7ff7c,
+        ssover: 0x15,
+    },
+```
+
+6. 至此修改完成
+
 #### ②说明
 
 1. 安装完的`云崽`和`数据库`在你bat运行的同级目录`Yunzai`的文件夹中
@@ -79,7 +111,6 @@ git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.
 2. `redis`为数据库
 
 3. `Trss-Yunzai`为机器人本体
-
 
 ### ③启动云崽
 
@@ -93,44 +124,18 @@ git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.
 node app
 ```
 
-当你启动报错237频繁登录/非常用设备登录时，因尝试扫码/与载挂Bot的设备同一网络登录/在本地设备（可登录Bot的设备）进行登录后复制Yunzai/data/icqq/QQ号整个文件夹到服务器的Yunzai/data/路径中后重试
+当你启动报错237频繁登录/非常用设备登录：
 
-# 手动部署签名api（如果打算使用他人的api可跳过）推荐他人API
-
-### ①下载java 
-
-1.[点击此处下载Jdk](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/18/jdk/x64/windows/OpenJDK18U-jdk_x64_windows_hotspot_18.0.2.1_1.msi)
-
-2.安装完成后打开cmd运行`java`查看是否有输出
-
-[如果没有输出点击此处查看如何配置变量，如果你看不懂那就没办法了](https://blog.csdn.net/qq_41436122/article/details/82620080)
-
-配置完成后重新启动服务器后再打开cmd运行`java`查看是否有输出
-
-### ②使用
-
-1.下载Qsign(请在Yunzai目录克隆)
-
-```
-git clone --depth 1 https://gitee.com/SHIKEAIXYY/Qsign
-```
-
-2.运行`一键startAPI.bat`启动签名
-
-没有闪退即可使用（默认使用9.0.8版本）
-
-3.切记api不要关闭！！！
+ - 尝试扫码登录Bot
+ - 与载挂Bot的设备同一网络登录
+ - 在本地常用设备（可登录Bot的设备）进行登录后复制Yunzai/data/icqq/QQ号整个文件夹到服务器的Yunzai/data/路径中后重试
 
 #### ④机器人配置
 
 1. 等待Bot的启动完成
 
 2. 对`该窗口(运行Yunzai的Cmd)`输入`以下内容并回车`
- - 上方自建签名
-```
-#QQ签名http://127.0.0.1:801/sign?key=114514
-```
- - 使用他人签名
+ - 白嫖hlh佬
 ```
 #QQ签名https://hlhs-nb.cn/signed/?key=114514
 ```
@@ -168,13 +173,3 @@ ws://127.0.0.1:8080/onebot/v11/ws/
 
 如果连接失败大概率就是你关了真寻或者真寻启动失败了
 
-### 更新ICQQ
-
-私库ICQQ，需你的 GitHub 账号（且在库内）
-
-```
-cd plugins/ICQQ-Plugin
-pnpm login --scope=@icqqjs --auth-type=legacy --registry=https://npm.pkg.github.com
-// 执行完成后需输入账号+密码/密钥
-pnpm add icqq@npm:@icqqjs/icqq
-```

@@ -13,7 +13,7 @@ tag:
 另外请勿将与本教程任何相关内容上传至流量平台如：B站
 :::
 
-[LLOneBot文档](https://llonebot.github.io/zh-CN/guide/getting-started)
+咕咕咕...
 
 ## 连接真寻
 
