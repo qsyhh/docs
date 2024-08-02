@@ -14,9 +14,9 @@ tag:
 - [使用Gensokyo(QQBot)连接真寻bot](Gensokyo/)
   - Gensokyo即官方QQ机器人框架，基于QQ官方API开发的符合onebot标准的golang实现
   
-- [LLOneBot & NapCat](LLOneBot/)
-  - NapCat是一个基于 PC NTQQ 的 QQ Bot 协议端机器人框架
+- [使用NapCat](NapCat/)
+  - NapCat是一个基于 PC NTQQ 的无需图形化机器人框架
  
-- [Lagrange.OneBot](Lagrange.OneBot/)
+- [使用LLOneBot](LLOneBot/)
  
 - [Shamrock](Shamrock/)
