@@ -8,21 +8,21 @@ tag:
   - tutorial
 ---
 
-- [使用Go-cqhttp连接真寻bot(不建议](Go-cqhttp.md)
+- [使用Go-cqhttp连接真寻bot(不建议](Go-cqhttp/)
   - Go-cqhttp即第三方QQ机器人框架，基于onebot协议
   
-- [使用[云崽]的[ws插件]跳过gocq使用icqq连接真寻bot](Yunzai.md)
+- [使用[云崽]的[ws插件]跳过gocq使用icqq连接真寻bot](Yunzai/)
   - ICQQ即第三方QQ机器人框架，基于QQ安卓协议的Node.Js
 
-- [使用Gensokyo(QQBot)连接真寻bot](Gensokyo.md)
+- [使用Gensokyo(QQBot)连接真寻bot](Gensokyo/)
   - Gensokyo即官方QQ机器人框架，基于QQ官方API开发的符合onebot标准的golang实现
   
-- [使用ComWeChat(PC微信)连接真寻bot(这个是真不建议)](ComWeChat.md)
+- [使用ComWeChat(PC微信)连接真寻bot(这个是真不建议)](ComWeChat/)
   - ComWeChat即微信机器人框架，基于COM通信的微信PC Hook应用端，支持Onebot12协议
   
 - [LLOneBot & NapCat](LLOneBot/)
   - NapCat是一个基于 PC NTQQ 的 QQ Bot 协议端机器人框架
  
-- [使用Lagrange.OneBot](Lagrange.OneBot.md)
+- [使用Lagrange.OneBot](Lagrange.OneBot/)
  
-- [使用Shamrock](Shamrock.md)
+- [使用Shamrock](Shamrock/)

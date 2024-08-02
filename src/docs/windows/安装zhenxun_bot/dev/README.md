@@ -77,11 +77,11 @@ database: str = ""   #数据库名称
 
 5.由于dev默认开启kaihiela(kook)，不连接将会无法启动，非使用kook连接需手动把env.dev里如图内容注释掉！！！
 
-![kaihiela](../img/kook问题.png)
+![kaihiela](../../Img/安装真寻/kook问题.png)
 
 6.由于dev版中由于数据迁移所用，暂未考虑新建数据库没有sign_group_users所导致无法启动，应注释掉zhenxun/builtin_plugins/_init_.py中如图内容
 
-![sign_group_users](../img/数据库表.png)
+![sign_group_users](../../Img/安装真寻/数据库表.png)
 
 7.启动真寻(虚拟环境内)，会在 zhenxun/configs 和 data/configs 目录下生成各种配置文件
 

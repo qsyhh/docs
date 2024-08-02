@@ -20,9 +20,9 @@ tag:
 
 Win11需先点击显示更多选项后才显示`Open Git Bash here`
 
-![](../Img/打开Git/win11打开git.png)
+![](../../Img/打开Git/win11打开git.png)
 
-![](../Img/打开Git/win11打开git.png)
+![](../../Img/打开Git/win11打开git.png)
  
 因为TRSS Yunzai不依赖与Miao-Plugin与Genshin(俩大型原神插件)，所以本教程使用TRSS崽
 
@@ -76,15 +76,15 @@ git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.
 
 3. 翻到第`261`行
 
-![](../Img/修改ICQQ版本/修改ICQQ.png)
+![](../../Img/修改ICQQ版本/修改ICQQ.png)
 
 4. 在`261`行后面换成转到`262`行
 
-![](../Img/修改ICQQ版本/修改ICQQ2.png)
+![](../../Img/修改ICQQ版本/修改ICQQ2.png)
 
 5. 在`262`行顶格位置粘贴下方内容后保存即可
 
-![](../Img/修改ICQQ版本/修改ICQQ3.png)
+![](../../Img/修改ICQQ版本/修改ICQQ3.png)
 
 ```
     {
