@@ -27,7 +27,7 @@ tag:
   - NMM是一个文件管理工具
   - JuiceSSH+NMM配合使用效果非常的奈斯
 
-- [④XTerminal（Linux用户安装）](JuiceSSHNMM2.md)
+- [④XTerminal（Linux用户安装）](XTerminal2.md)
   - JuiceSSH是一个SSH连接工具
   - XTerminal是一个SSH开发工具并且拥有丰富的功能
   - 目前为止是我个人认为最好用的一个

@@ -8,11 +8,7 @@ tag:
   - tutorial
 ---
 
-# ➊ 首先你应该准备一个2核4G+并且是Win10+(2016+推荐最新)的服务器(推荐使用Linux)
-
----
-
-# ➋安装 版本大于3.9以上Python 与 任意版本的Poetry
+# ➊安装 版本大于3.9以上Python 与 任意版本的Poetry
 
 ## ①安装python
 
@@ -44,7 +40,7 @@ pip install poetry
 
 ---
 
-# ➌ 安装postgresql
+# ➋ 安装postgresql
 
 ## ①下载Postgresql数据库
 [点击此处将下载Postgresql-16.3-2版本安装包](https://get.enterprisedb.com/postgresql/postgresql-16.3-2-windows-x64.exe)
@@ -153,6 +149,11 @@ pip install poetry
 
 ![](../Img/postgresql数据库/保存数据库.png)
 
+
+# ➌ 安装Git
+
+[点击我进行下载Git](https://registry.npmmirror.com/-/binary/git-for-windows/v2.43.0-rc0.windows.1/Git-2.43.0-rc0-64-bit.exe)
+
 ok火速下一步
 
-## [➊ 前往安装真寻本体](../安装zhenxun_bot/)
+## [➍ 前往安装真寻本体](../安装zhenxun_bot/)

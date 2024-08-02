@@ -8,10 +8,6 @@ tag:
   - tutorial
 ---
 
-请安装Git，已有可跳过
-
-[点击我进行下载Git](https://registry.npmmirror.com/-/binary/git-for-windows/v2.43.0-rc0.windows.1/Git-2.43.0-rc0-64-bit.exe)
-
 ## 选择合适的真寻分支
 
 - [安装main真寻教程](main/)
