@@ -8,7 +8,7 @@ tag:
   - tutorial
 ---
 
-![sign_group_users](../Img/安装真寻/dev真寻.png)
+![sign_group_users](../../Img/安装真寻/dev真寻.png)
 
 虽然但是...阿米已经写很多了，没写的一些比如抽卡...主分支的不是也寄了嘛...
 
