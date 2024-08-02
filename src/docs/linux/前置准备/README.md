@@ -12,24 +12,27 @@ tag:
 
 ## ➊ 首先呢我们应该有一个方便连接服务器、便于管理文件的东东
 
-### 目录
+### SSH工具安装
 
 - [①服务器安装宝塔面板（不建议）](bt.md)
   - 宝塔面板是一个便于服务器管理的web端
   - 在移动端上访问可能会让你玉玉（x
     
-- [②XTerminal（Windows安装）](XTerminal.md)
+- [②XTerminal（Windows用户安装）](XTerminal.md)
   - XTerminal是一个SSH开发工具并且拥有丰富的功能
   - 目前为止是我个人认为最好用的一个
 
-- [③JuiceSSH+NMM（Android安装）](JuiceSSHNMM.md)
+- [③JuiceSSH+NMM（Android用户安装）](JuiceSSHNMM.md)
   - JuiceSSH是一个SSH连接工具
   - NMM是一个文件管理工具
   - JuiceSSH+NMM配合使用效果非常的奈斯
-  
-Linux也可以使用XTerminal具体使用方法同Windows一样
 
-苹果用Termius，怎么用不知道（）
+- [④XTerminal（Linux用户安装）](JuiceSSHNMM2.md)
+  - JuiceSSH是一个SSH连接工具
+  - XTerminal是一个SSH开发工具并且拥有丰富的功能
+  - 目前为止是我个人认为最好用的一个
+  
+苹果用[Termius](https://termius.com/)，怎么用不知道（）
 
 ---
 
@@ -47,7 +50,7 @@ apt update && apt upgrade && apt install -y wget git screen ffmpeg python3-pip &
 
 ## ➌ 安装PostgreSQL数据库
 
-### 目录
+### 不同方法安装数据库
 
 - [①使用宝塔面板安装PostgreSQL数据库](PostgreSQL数据库.md)
   - 使用宝塔商店安装

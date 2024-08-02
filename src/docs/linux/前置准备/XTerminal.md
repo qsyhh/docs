@@ -9,6 +9,7 @@ tag:
 ---
 
 1. [点击此处下载XTerminal](https://www.xterminal.cn)
+ - 下载 Windows 桌面版 (64位)
 
 2. 下载完成后打开点击新建服务器（+号）
 
