@@ -8,9 +8,6 @@ tag:
   - tutorial
 ---
 
-- [使用Go-cqhttp连接真寻bot(不建议](Go-cqhttp/)
-  - Go-cqhttp即第三方QQ机器人框架，基于onebot协议
-  
 - [使用[云崽]的[ws插件]跳过gocq使用icqq连接真寻bot](Yunzai/)
   - ICQQ即第三方QQ机器人框架，基于QQ安卓协议的Node.Js
 

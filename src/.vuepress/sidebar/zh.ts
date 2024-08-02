@@ -49,11 +49,6 @@ export const zhSidebar = sidebar({
               collapsible: true,
               children: [
                 {
-                  text: "使用Go-cqhttp",
-                  icon: "book",
-                  link: "Go-cqhttp/"
-                },
-                {
                   text: "使用[云崽]的[ws插件]跳过gocq使用icqq",
                   icon: "book",
                   link: "Yunzai/"
