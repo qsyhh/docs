@@ -65,7 +65,7 @@ pip install poetry
 
 3.去掉即可，不影响使用，Stack BuilderNext
 
-![](../Img/postgresql数据库/取消StackBuilder安装.png)
+![](../Img/postgresql数据库/取消Stack%20Builder安装.png)
 
 4.数据存储路径（对路径没有要求不用改 默认c盘），Next
 
