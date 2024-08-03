@@ -43,7 +43,7 @@ tag:
 1. 打开终端输入下方内容进行安装
 
 ```
-apt update && apt upgrade && apt install -y wget git screen ffmpeg python3-pip && pip install --upgrade pip && pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && pip install poetry && apt install fonts-wqy-microhei && fc-cache -f -v
+apt update && apt upgrade && apt install -y wget git screen ffmpeg python3-pip && pip install --upgrade pip && pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && apt install python3-poetry && apt install fonts-wqy-microhei && fc-cache -f -v
 ```
 
 ---
