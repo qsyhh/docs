@@ -1,4 +1,4 @@
----
+  ---
 title: 安装main真寻
 icon: fab fa-markdown
 order: 2

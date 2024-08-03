@@ -64,14 +64,14 @@ export const zhSidebar = sidebar({
                   link: "ComWeChat/"
                 },
                 {
-                  text: "LLOneBot & NapCat",
+                  text: "使用NapCat",
                   icon: "book",
-                  link: "LLOneBot/"
+                  link: "NapCat/"
                 },
                 {
-                  text: "使用Lagrange.OneBot",
+                  text: "使用LLOneBot",
                   icon: "book",
-                  link: "Lagrange.OneBot/"
+                  link: "LLOneBot/"
                 },
                 {
                   text: "使用Shamrock",
@@ -155,14 +155,14 @@ export const zhSidebar = sidebar({
                   link: "Gensokyo/"
                 },
                 {
-                  text: "LLOneBot & NapCat",
+                  text: "使用NapCat",
                   icon: "book",
-                  link: "LLOneBot/"
+                  link: "NapCat/"
                 },
                 {
-                  text: "使用Lagrange.OneBot",
+                  text: "使用LLOneBot",
                   icon: "book",
-                  link: "Lagrange.OneBot/"
+                  link: "LLOneBot/"
                 },
                 {
                   text: "使用Shamrock",

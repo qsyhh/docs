@@ -95,4 +95,4 @@ python bot.py
 
 ---
 
-## [➊ 前往连接真寻](../连接zhenxun_bot/)
+## [➊ 前往连接真寻](../../连接zhenxun_bot/)
