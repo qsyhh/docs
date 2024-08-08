@@ -39,7 +39,7 @@ wget https://dldir1.qq.com/qqfile/qq/QQNT/f74d4392/linuxqq_3.2.12-26702_amd64.de
 
  - 打开 Assets 下载 NapCat.linux.x64.zip 即可
 
-![](../../Img/NapCatQQ/下载NapCatQQ.png)
+![](../../Img/NapCat/下载NapCatQQ.png)
 
 2. 解压后打开 NapCat.linux.x64/config 目录
 

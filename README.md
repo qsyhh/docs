@@ -6,6 +6,7 @@
 
 ```
 npm install pnpm -g 
+pnpm config set registry https://registry.npmmirror.com
 pnpm i
 pnpm docs:dev
 ```
