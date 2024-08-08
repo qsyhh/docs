@@ -15,8 +15,8 @@ tag:
 
 ## 目录
 
-- [脚本安装NapCatQQ](./NapCatQQ.md)
+- [脚本安装NapCatQQ](./NapCat.md)
   - 便捷快速～
     
-- [手动安装NapCatQQ](./NapCatQQ2.md)
+- [手动安装NapCatQQ](./NapCat2.md)
   - 如果你想折腾完全可以满足你
