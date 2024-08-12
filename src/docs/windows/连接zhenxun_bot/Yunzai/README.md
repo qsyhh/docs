@@ -26,46 +26,15 @@ Win11需先点击显示更多选项后才显示`Open Git Bash here`
  
 因为TRSS Yunzai不依赖与Miao-Plugin与Genshin(俩大型原神插件)，所以本教程使用TRSS崽
 
-然后运行下方命令
-```
-bash <(curl -L https://gitee.com/SHIKEAIXY/zhenxun/raw/master/Yunzai.sh)
-```
+然后依次运行下方命令
 
-<details>
-  <summary>如果不想使用sh一键下载可点击此处手动下载</summary>
-
-&nbsp;2.1. 在cmd依次输入以下内容并回车 
-
+``` 
+git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai ./Yunzai/TRSS-Yunzai && cd Yunzai/TRSS-Yunzai && git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-ICQQ-Plugin ./plugins/ICQQ-Plugin && git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/ && npm --registry=https://registry.npmmirror.com install pnpm -g 
 ```
-git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai ./Yunzai/TRSS-Yunzai
+这里需要关闭cmd后重新打开一个cmd才可以用（打开位置和刚刚一样即可）
 ```
-```
-cd Yunzai/TRSS-Yunzai
-```
-```
-git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-ICQQ-Plugin ./plugins/ICQQ-Plugin
-```
-```
-git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/
-```
-```
-npm --registry=https://registry.npmmirror.com install pnpm -g
-```
-```
-//可选
-pnpm config set registry https://registry.npmmirror.com
-```
-```
-pnpm i
-```
-```
-cd ..
-```
-```
-git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.git ./redis
-```
-</details>
-&nbsp;
+pnpm config set registry https://registry.npmmirror.com && pnpm i && git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.git ./redis
+``` 
 
 #### 配置ICQQ版本信息
 
