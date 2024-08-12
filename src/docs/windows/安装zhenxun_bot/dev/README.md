@@ -10,15 +10,15 @@ tag:
 
 ![sign_group_users](../../Img/安装真寻/dev真寻.png)
 
-虽然但是...阿米已经写很多了，没写的一些比如抽卡...主分支的不是也寄了嘛...
+虽然但是...阿米已经写很多了，并不比主分支差...
 
-1.github下载真寻本体
+1. github下载真寻本体
 
 ```
 git clone --depth 1 -b dev https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot
 ```
 
-2.在zhenxun_bot文件夹内(真寻根目录)依次执行下面内容安装依赖（无法进入虚拟可尝试管理员权限打开输入）
+2. 在zhenxun_bot文件夹内(真寻根目录)依次执行下面内容安装依赖（无法进入虚拟可尝试管理员权限打开输入）
 
 ```
 poetry shell
@@ -82,7 +82,6 @@ python bot.py
     "port": "5432",          #数据库端口（默认为5432）
     "database": ""           #数据库名称
 }
-
 ```
 
 
