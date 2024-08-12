@@ -64,10 +64,9 @@ python bot.py
 （如果你没有这些需求可以忽略这步，毕竟默认存在配置）
 
 8. 等待最后一步出现类似下面的内容就彻底启动完成了
- - 404是因为还没有去连接，下一个教程就是教你如何去连接
 
 ```
-[INFO] uvicorn | 127.0.0.1:51368 - "GET / HTTP/1.1" 404
+[INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
 ```
 
 ---
