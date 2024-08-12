@@ -24,34 +24,43 @@ git clone --depth 1 -b dev https://mirror.ghproxy.com/https://github.com/HibiKie
 poetry shell
 ```
 ```
-poetry add pyyaml@latest && poetry lock --no-update && poetry install && playwright install chromium
+pip install --index-url https://mirrors.aliyun.com/pypi/simple/
 ```
 
-3.设置超级用户，打开 .env.dev 文件（在真寻根目录），在中添加自己大号（主人）的QQ号，123456789为QQ号
+3. 启动真寻(虚拟环境内)，会在 zhenxun/configs/ 和 data/ 目录下生成各种配置文件
 
-    SUPERUSERS=["123456789"]
+ - 这里启动会报错是正常的，因为要先生成一下数据文件再进行配置，不要担心！
 
-4.打开 zhenxun/configs/config.py 填写数据库数据
+```
+python bot.py
+```
+
+4. 设置超级用户，打开 .env.dev 文件（在真寻根目录），在中2处添加自己大号（主人）的QQ号，123456789为QQ号
+
+![QQ](../../Img/安装真寻/QQ号.png)
+
+5. 打开 data/database.json 填写数据库数据
+
 
 ```
 -----------------------------------------------------------
 -----------------------------------------------------------
  如果你听我的话了 密码和名字与我填的一样 且数据库也在该服务器上 
- 可以直接复制以下配置 替换掉 configs/config.py 中的数据库数据
+ 可以直接复制以下配置 替换掉 data/database.json 中的所有内容
 -----------------------------------------------------------
 -----------------------------------------------------------
 
 ```
 ```
-
-bind: str = ""  # 数据库连接链接
-sql_name: str = "postgres"
-user: str = "postgres"
-password: str = "zhenxun"
-address: str = "127.0.0.1"
-port: str = "5432"
-database: str = "zhenxun"
-
+{
+    "bind": "",
+    "sql_name": "postgres",
+    "user": "postgres",
+    "password": "zhenxun",
+    "address": "127.0.0.1",
+    "port": "5432",
+    "database": "zhenxun"
+}
 ```
 ```
 ---------------------------------------------------------------
@@ -61,36 +70,39 @@ database: str = "zhenxun"
 ---------------------------------------------------------------
 ---------------------------------------------------------------
 
+{
 # 数据库（必要）
 # 如果填写了bind就不需要再填写后面的字段了
 # 示例："bind": "postgres://user:password@127.0.0.1:5432/database"
-bind: str = ""       #数据库连接链接
-sql_name: str = "postgres"
-user: str = ""       #数据用户名
-password: str = ""   #数据库密码
-address: str = ""    #数据库地址
-port: str = ""       #数据库端口
-database: str = ""   #数据库名称
+    "bind": "",              #数据库连接链接
+    "sql_name": "postgres",  #数据名（默认为postgres）
+    "user": "",              #数据用户名
+    "password": "",          #数据库密码
+    "address": "127.0.0.1",  #数据库地址（本地均为127.0.0.1）     
+    "port": "5432",          #数据库端口（默认为5432）
+    "database": ""           #数据库名称
+}
 
 ```
 
-5.由于dev默认开启kaihiela(kook)，不连接将会无法启动，非使用kook连接需手动把env.dev里如图内容注释掉！！！
 
-![kaihiela](../../Img/安装真寻/kook问题.png)
 
-6.由于dev版中由于数据迁移所用，暂未考虑新建数据库没有sign_group_users所导致无法启动，应注释掉zhenxun/builtin_plugins/_init_.py中如图内容
+6. 打开 zhenxun/configs/config.yaml，里面包含的是各种插件的配置项
+ - （如果你没有这些需求可以忽略这步，毕竟默认存在配置）
 
-![sign_group_users](../../Img/安装真寻/数据库表.png)
-
-7.启动真寻(虚拟环境内)，会在 zhenxun/configs 和 data/configs 目录下生成各种配置文件
+7. 重新启动真寻（下载一些资源可能需要VPN）
 
 ```
+poetry shell
 python bot.py
 ```
 
-（如果你没有这些需求可以忽略这步，毕竟默认存在配置）
+8. 等待最后一步出现类似下面的内容就彻底启动完成了
+ - 404是因为还没有去连接，下一个教程就是教你如何去连接
 
-8.打开 zhenxun/configs/config.yaml，里面包含的是各种插件的配置项，填写完毕后重启真寻Bot
+```
+[INFO] uvicorn | 127.0.0.1:51368 - "GET / HTTP/1.1" 404
+```
 
 ---
 
