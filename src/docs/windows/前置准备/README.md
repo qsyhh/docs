@@ -152,7 +152,7 @@ pip install poetry
 
 # ➌ 安装Git
 
-[点击我进行下载Git](https://registry.npmmirror.com/-/binary/git-for-windows/v2.43.0-rc0.windows.1/Git-2.43.0-rc0-64-bit.exe)
+[点击我进行下载Git](https://musetransfer.com/s/pqtu0oasp)
 
 ok火速下一步
 
