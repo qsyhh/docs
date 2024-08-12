@@ -29,11 +29,11 @@ Win11需先点击显示更多选项后才显示`Open Git Bash here`
 然后依次运行下方命令
 
 ``` 
-git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai ./Yunzai/TRSS-Yunzai && cd Yunzai/TRSS-Yunzai && git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-ICQQ-Plugin ./plugins/ICQQ-Plugin && git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/ && npm --registry=https://registry.npmmirror.com install pnpm -g 
+git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.git ./Yunzai/redis && git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai ./Yunzai/TRSS-Yunzai && cd Yunzai/TRSS-Yunzai && git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai-ICQQ-Plugin ./plugins/ICQQ-Plugin && git clone --depth=1 https://gitee.com/xiaoye12123/ws-plugin.git ./plugins/ws-plugin/ && npm --registry=https://registry.npmmirror.com install pnpm -g 
 ```
-这里需要关闭cmd后重新打开一个cmd才可以用（打开位置和刚刚一样即可）
+这里需要关闭cmd后重新打开一个cmd才可以用不然会报错没有pnpm（打开位置和刚刚一样即可）
 ```
-pnpm config set registry https://registry.npmmirror.com && pnpm i && git clone --depth 1 -b redis https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai.git ./redis
+pnpm config set registry https://registry.npmmirror.com && cd Yunzai/TRSS-Yunzai && pnpm i
 ``` 
 
 #### 配置ICQQ版本信息
