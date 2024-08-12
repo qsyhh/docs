@@ -23,6 +23,7 @@ git clone --depth 1 -b dev https://mirror.ghproxy.com/https://github.com/HibiKie
 ```
 poetry shell
 ```
+本方法使用阿里镜像源进行安装，如过失败请尝试重新下载或者开启VPN使用pip install直接进行下载
 ```
 pip install --index-url https://mirrors.aliyun.com/pypi/simple/
 ```
