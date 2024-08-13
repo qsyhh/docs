@@ -10,6 +10,7 @@ npm --registry=https://registry.npmmirror.com install pnpm -g
 pnpm config set registry https://registry.npmmirror.com
 ```
 ```
+git clone --depth 1 https://github.com/qsyhh/docs
 pnpm i
 pnpm docs:dev
 ```
