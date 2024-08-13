@@ -23,7 +23,7 @@ git clone --depth 1 -b dev https://mirror.ghproxy.com/https://github.com/HibiKie
 ```
 poetry shell
 ```
-本方法使用阿里镜像源进行安装可开启VPN直接使用pip install直接进行下载
+本方法使用阿里镜像源进行安装可开启VPN直接使用pip install直接进行下载（安装时间较长属于正常情况）
 ```
 poetry config repositories.ali https://mirrors.aliyun.com/pypi/simple/ && poetry install
 ```
@@ -97,7 +97,7 @@ poetry shell
 python bot.py
 ```
 
-8. 等待最后一步出现类似下面的内容就彻底启动完成了
+8. 等待最后一步出现类似下面的内容就彻底启动完成了（首次启动时间较长属于正常情况）
 
 ```
 [INFO] uvicorn | Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
