@@ -25,7 +25,7 @@ cd /root/Bot/zhenxun_bot && && poetry shell
 ```
 本方法使用阿里镜像源进行安装可开启VPN直接使用pip install直接进行下载
 ```
-poetry config repositories.ali https://mirrors.aliyun.com/pypi/simple/ && poetry config pypi-url https://mirrors.aliyun.com/pypi/simple/ && poetry install
+poetry config repositories.ali https://mirrors.aliyun.com/pypi/simple/ && poetry install
 ```
 
 3. 启动真寻(虚拟环境内)，会在 zhenxun/configs/ 和 data/ 目录下生成各种配置文件
