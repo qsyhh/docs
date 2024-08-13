@@ -43,7 +43,7 @@ pip install poetry
 # ➋ 安装postgresql
 
 ## ①下载Postgresql数据库
-[点击此处将下载Postgresql-16.3-2版本安装包](https://get.enterprisedb.com/postgresql/postgresql-16.3-2-windows-x64.exe)
+[点击此处将下载Postgresql-16.3-2版本安装包](https://musetransfer.com/s/pkzgtlbjo)
 
 不想要16.3-2版本的可以自行下载别的版本（尽量使用新版）
 
