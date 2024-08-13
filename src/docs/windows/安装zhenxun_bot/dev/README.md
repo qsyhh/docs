@@ -23,9 +23,9 @@ git clone --depth 1 -b dev https://mirror.ghproxy.com/https://github.com/HibiKie
 ```
 poetry shell
 ```
-本方法使用阿里镜像源进行安装，如过失败请尝试重新下载或者开启VPN使用pip install直接进行下载
+本方法使用阿里镜像源进行安装可开启VPN直接使用pip install直接进行下载
 ```
-pip install --index-url https://mirrors.aliyun.com/pypi/simple/ .
+poetry config repositories.ali https://mirrors.aliyun.com/pypi/simple/ && poetry config pypi-url https://mirrors.aliyun.com/pypi/simple/ && poetry install
 ```
 
 3. 启动真寻(虚拟环境内)，会在 zhenxun/configs/ 和 data/ 目录下生成各种配置文件
