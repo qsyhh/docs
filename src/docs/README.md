@@ -3,6 +3,8 @@ title: 指南
 icon: lightbulb
 ---
 
+本文已经最大程度减少了VPN使用方便国内下载。
+
 ## 系统
 
 - [Windows安装教程](windows/)
