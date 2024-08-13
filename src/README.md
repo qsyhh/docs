@@ -23,7 +23,6 @@ actions:
 
 highlights:
   - header: 前言
-    description: 本文已经最大程度减少了VPN使用方便国内下载。
     description: 另外大家都知道一键脚本这个东西吧。
     image: /assets/image/features.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
