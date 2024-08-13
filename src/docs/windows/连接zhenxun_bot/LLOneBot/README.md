@@ -39,6 +39,6 @@ ws://127.0.0.1:8080/onebot/v11/ws/
 
 ![](../../Img/LLOneBot/LLOneBot3.png)
 
-3. 重新启动NTQQ
+3. 点击右上角的 X 后点击弹窗确定保存后重新启动NTQQ
 
 至此你的 LLOneBot真寻已经部署完成
