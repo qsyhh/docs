@@ -25,13 +25,13 @@ poetry shell
 ```
 本方法使用阿里镜像源进行安装，如过失败请尝试重新下载或者开启VPN使用pip install直接进行下载
 ```
-pip install --index-url https://mirrors.aliyun.com/pypi/simple/
+pip install --index-url https://mirrors.aliyun.com/pypi/simple/ .
 ```
 
 3. 启动真寻(虚拟环境内)，会在 zhenxun/configs/ 和 data/ 目录下生成各种配置文件
 
  - 这里启动会报错是正常的，因为要先生成一下数据文件再进行配置，不要担心！
-
+  
 ```
 python bot.py
 ```

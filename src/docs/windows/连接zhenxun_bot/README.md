@@ -21,5 +21,6 @@ tag:
   - NapCat是一个基于 PC NTQQ 的无需图形化机器人框架
  
 - [使用LLOneBot](LLOneBot/)
+  - LLOneBot是一个基于 PC NTQQ 的机器人框架
  
 - [使用Shamrock](Shamrock/)
