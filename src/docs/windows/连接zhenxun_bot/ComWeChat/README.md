@@ -12,7 +12,7 @@ tag:
 
 版本有限制，请务必安装下方链接中的微信客户端！！！(已有微信需卸载后再安装)
 
-[点击我进行下载WeChat](https://musetransfer.com/s/edx8lnrvo)
+[点击我进行下载WeChat](https://musetransfer.com/s/vfmdywhjj)
 
 ## ②登录微信（微信账号需要实名）
 
