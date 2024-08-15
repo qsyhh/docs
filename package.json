@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-webpack": "2.0.0-rc.8",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.41",
     "sass-loader": "^14.1.0",
     "vue": "^3.4.16",
     "vuepress": "2.0.0-rc.8",
