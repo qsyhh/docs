@@ -1,25 +1,7 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/",
-  "/docs/",
-  // {
-  //   text: "指南",
-  //   icon: "lightbulb",
-  //   prefix: "/docs",
-  //   children: [
-  //     {
-  //       text: "Windows",
-  //       icon: "lightbulb",
-  //       prefix: "windows/",
-  //       children: [{ text: "前置准备", icon: "ellipsis", link: "module.html" }],
-  //     },
-  //     {
-  //       text: "Linux",
-  //       icon: "lightbulb",
-  //       prefix: "Linux/",
-  //       children: [{ text: "...", icon: "ellipsis", link: "" }],
-  //     },
-  //   ],
-  // },
+  { text: '介绍', link: '/README.md', icon: 'creative' },
+  { text: '系统目录', link: '/docs/README.md', icon: 'customize' },
+  { text: '打赏', link: '/sponsor.md', icon: 'flower' },
 ]);
