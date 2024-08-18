@@ -16,6 +16,8 @@ tag:
 
 [点击我进行下载WeChat 3.9.8.25](https://musetransfer.com/s/cpi4miwgj)
 
+如果你的网络良好可通过[Github Releases下载](https://github.com/tom-snow/wechat-windows-versions/releases/download/v3.9.8.25/WeChatSetup-3.9.8.25.exe)
+
 ## ②登录微信（微信账号需要实名）
 
 ！可选！[安装禁用更新补丁防止自动更新](https://gitee.com/SHIKEAIXYY/Trss-ComWeChat-Yunzai/releases/download/1.1/禁用pc微信自动升级补丁.exe)
