@@ -2,15 +2,27 @@
 
 [查看VuePress文档](https://theme-hope.vuejs.press/zh)
 
-# 本地运行
+# 安装
 
 最低要求 [NodeJs 16.x](https://nodejs.cn/)
 
 ```
 git clone --depth 1 https://github.com/qsyhh/docs && cd docs
 pnpm i
+```
+
+# 本地运行
+
+## 启动
+```
 pnpm docs:dev
 ```
+
+## 构建
+```
+pnpm docs:build
+```
+
 
 #  目录结构
 
