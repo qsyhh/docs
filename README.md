@@ -20,16 +20,16 @@ pnpm docs:dev
    │  ├─ linux                          （3级目录）Linux 教程相关文件
    │  │  ├─ img                            （4级目录）图片
    │  │  ├─ plugins                        （4级目录）安装插件
-   │  │  ├─ install_zhenxun_bot            （4级目录）安装机器人
-   │  │  ├─ connect_zhenxun_bot            （4级目录）不同协议端连接
-   │  │  ├─ prerequisites                  （4级目录）前置准备
+   │  │  ├─ 安装zhenxun_bot                （4级目录）安装机器人
+   │  │  ├─ 连接zhenxun_bot                （4级目录）不同协议端连接
+   │  │  ├─ 前置准备                       （4级目录）前置准备
    │  │  └─ README.md                      （4级目录）教程引导页
    │  ├─ windows                        （3级目录）Windows 教程相关文件
    │  │  ├─ img                            （4级目录）图片
    │  │  ├─ plugins                        （4级目录）安装插件
-   │  │  ├─ install_zhenxun_bot            （4级目录）安装机器人
-   │  │  ├─ connect_zhenxun_bot            （4级目录）不同协议端连接
-   │  │  ├─ prerequisites                  （4级目录）前置准备教
+   │  │  ├─ 安装zhenxun_bot                （4级目录）安装机器人
+   │  │  ├─ 连接zhenxun_bot                （4级目录）不同协议端连接
+   │  │  ├─ 前置准备                       （4级目录）前置准备教
    │  │  └─ README.md                      （4级目录）教程引导页
    │  └─ README.md                      （3级目录）Linux 和 Windows 引导页
    ├─ SHIKEAIXY                      （2级目录）加密的内容

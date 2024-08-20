@@ -16,13 +16,7 @@ tag:
 
 [点击此处下载Node.Js](https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/v20.9.0/node-v20.9.0-x86.msi)
 
-2. 右键鼠标打开`Open Git Bash here`
-
-Win11需先点击显示更多选项后才显示`Open Git Bash here`
-
-![](../../Img/打开Git/win11打开git.png)
-
-![](../../Img/打开Git/win11打开git.png)
+2. 打开Cmd运行
  
 因为TRSS Yunzai不依赖与Miao-Plugin与Genshin(俩大型原神插件)，所以本教程使用TRSS崽
 
