@@ -7,4 +7,9 @@ icon: lightbulb
 
 感谢您的支持呀 mua~~~ 嘿嘿！
 
-![sponsor](/img/QQ.png) ![sponsor](/img/微信.png) ![sponsor](/img/爱发电.png)
+<img src="./Img/sponsor/QQ.png" alt="sponsor" style="width:45%;"/>
+
+<img src="./Img/sponsor/微信.png" alt="sponsor" style="width:45%;"/>
+
+<img src="./Img/sponsor/爱发电.png" alt="sponsor" style="width:45%;"/>
+

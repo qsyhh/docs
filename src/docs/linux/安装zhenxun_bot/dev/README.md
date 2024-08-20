@@ -8,14 +8,12 @@ tag:
   - tutorial
 ---
 
-![dev真寻](../../Img/安装真寻/dev真寻.png)
-
-虽然但是...阿米已经写很多了，并不比主分支差...
+### dev分支已合并至main分支
     
 1.github下载真寻本体
 
 ```
-git clone --depth 1 -b dev https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot.git /root/Bot/zhenxun_bot
+git clone --depth 1 -b dev https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot.git /root/Bot/zhenxun_bot 
 ```
 
 2.执行下面内容安装依赖
@@ -72,4 +70,4 @@ python bot.py
 
 ---
 
-## [ 前往连接真寻](../../连接zhenxun_bot/)
+## [ 前往连接真寻](../连接zhenxun_bot/)

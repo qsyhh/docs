@@ -16,7 +16,7 @@ actions:
     type: primary
 
   - text: 问题合集
-    link: ./issues/
+    link: ./ISS.md
 
   - text: 支持我们
     link: ./sponsor/
