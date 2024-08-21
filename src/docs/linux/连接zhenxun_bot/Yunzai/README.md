@@ -8,6 +8,10 @@ tag:
   - tutorial
 ---
 
+::: danger
+请勿将与本教程任何相关内容上传至流量平台如：B站
+:::
+
 ## ➊ 安装node.js
 
 - [①使用宝塔面板安装node.js](node.md)
@@ -51,9 +55,86 @@ git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai /root/Bot/Yunzai/TR
 
 ![](../../Img/修改ICQQ版本/修改ICQQ2.png)
 
-5. 在`262`行顶格位置粘贴下方内容后保存即可
+5. 在`262`行顶格位置粘贴下方任意一个版本内容后保存即可
+ - 目前低于9.0.55已不能新增登录
 
 ![](../../Img/修改ICQQ版本/修改ICQQ3.png)
+
+使用任意一个即可，不是全部都填（反正用不到）<img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50">
+
+::: code-tabs#language
+
+@tab 9.0.55
+
+``` 
+    {
+        name: "A9.0.55.54f52314",
+        version: "9.0.55.16820",
+        ver: "9.0.55",
+        buildtime: 1713424357,
+        subid: 537220167,
+        apad_subid: 537220206,
+        bitmap: 150470524,
+        sdkver: "6.0.0.2560",
+        qua: 'V1_AND_SQ_9.0.55_6368_YYB_D',
+        ssover: 21,
+    },
+``` 
+
+@tab 9.0.56
+
+``` 
+    {
+        name: "A9.0.56.c25547f8",
+        version: "9.0.56.16830",
+        ver: "9.0.56",
+        subid: 537220323,
+        apad_subid: 537220362,
+        qua: 'V1_AND_SQ_9.0.56_6372_YYB_D',
+        sdkver: "6.0.0.2560",
+        buildtime: 0x6620c7e5,
+        bitmap: 150470524,
+        ssover: 21,
+    },
+``` 
+
+@tab 9.0.60
+
+``` 
+    {
+        name: "A9.0.60.c5f71993",
+        version: "9.0.60.17095",
+        ver: "9.0.60",
+        subid: 537222797,
+        apad_subid: 537222836,
+        qua: "V1_AND_SQ_9.0.60_6478_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2560",
+        buildtime: 0x6620c7e5,
+        bitmap: 150470524,
+        ssover: 21,
+    },
+``` 
+
+@tab 9.0.65
+
+``` 
+    {
+        name: "A9.0.65.530ce28d",
+        version: "9.0.65.17370",
+        ver: "9.0.65",
+        subid: 537225139,
+        apad_subid: 537225178,
+        qua: "V1_AND_SQ_9.0.65_6588_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2560",
+        buildtime: 0x6620c7e5,
+        bitmap: 150470524,
+        ssover: 21,
+    },
+``` 
+
+@tab:active 9.0.70
 
 ```
     {
@@ -70,6 +151,43 @@ git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai /root/Bot/Yunzai/TR
         ssover: 0x15,
     },
 ```
+
+@tab:active 9.0.71
+
+```
+    {
+        name: "A9.0.71.e2f45246",
+        version: "9.0.71.17655",
+        ver: "9.0.71",
+        subid: 537228643,
+        apad_subid: 537228682,
+        qua: "V1_AND_SQ_9.0.71_6702_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2561",
+        buildtime: 0x666bfec0,
+        bitmap: 0x08f7ff7c,
+        ssover: 0x15,
+    },
+```
+
+@tab:active 9.0.75
+
+```
+    {
+        name: "A9.0.75.c0dc0382",
+        version: "9.0.75.17920",
+        ver: "9.0.75",
+        subid: 537230737,
+        apad_subid: 537230776,
+        qua: "V1_AND_SQ_9.0.75_6808_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2561",
+        buildtime: 0x666bfec0,
+        bitmap: 0x08f7ff7c,
+        ssover: 0x15,
+    },
+```
+:::
 
 6. 至此修改完成
 
