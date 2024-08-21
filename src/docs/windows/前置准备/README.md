@@ -12,6 +12,8 @@ tag:
 
 ## ①安装python
 
+ps：从目前群友不同版本py装真寻，3.10.x以下以及3.10.x以上都无法正常使用，建议大家使用py3.10.x，防止出势
+
 这里我推荐安装Python3.10
 
 [点击下载py3.10](https://musetransfer.com/s/mpvqvvofz)
