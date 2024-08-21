@@ -2,17 +2,28 @@
 
 [查看VuePress文档](https://theme-hope.vuejs.press/zh)
 
-# 本地运行
+## 下载
 
 最低要求 [NodeJs 16.x](https://nodejs.cn/)
 
 ```
 git clone --depth 1 https://github.com/qsyhh/docs && cd docs
 pnpm i
-pnpm docs:dev
 ```
 
-#  目录结构
+## 运行
+
+```
+pnpm docs:run
+```
+
+## 构建
+
+```
+pnpm docs:build
+```
+
+##  目录结构
 
 ```
 └─ src                            （1级目录）Vue 所有相关文件
