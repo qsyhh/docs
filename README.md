@@ -28,16 +28,17 @@ pnpm docs:build
 ```
 └─ src                            （1级目录）Vue 所有相关文件
    ├─ docs                           （2级目录）教程所有相关文件
-   │  ├─ linux                          （3级目录）Linux 教程相关文件
-   │  │  ├─ img                            （4级目录）图片
-   │  │  ├─ plugins                        （4级目录）安装插件
+   │  ├─ linux                          （3级目录）Linux 服务器版教程相关文件
+   │  │  ├─ 安装zhenxun_bot                （4级目录）安装机器人
+   │  │  ├─ 连接zhenxun_bot                （4级目录）不同协议端连接
+   │  │  ├─ 前置准备                       （4级目录）前置准备
+   │  │  └─ README.md                      （4级目录）教程引导页
+   │  ├─ linux2                         （3级目录）Linux 桌面版教程相关文件
    │  │  ├─ 安装zhenxun_bot                （4级目录）安装机器人
    │  │  ├─ 连接zhenxun_bot                （4级目录）不同协议端连接
    │  │  ├─ 前置准备                       （4级目录）前置准备
    │  │  └─ README.md                      （4级目录）教程引导页
    │  ├─ windows                        （3级目录）Windows 教程相关文件
-   │  │  ├─ img                            （4级目录）图片
-   │  │  ├─ plugins                        （4级目录）安装插件
    │  │  ├─ 安装zhenxun_bot                （4级目录）安装机器人
    │  │  ├─ 连接zhenxun_bot                （4级目录）不同协议端连接
    │  │  ├─ 前置准备                       （4级目录）前置准备教
@@ -45,8 +46,9 @@ pnpm docs:build
    │  └─ README.md                      （3级目录）Linux 和 Windows 引导页
    ├─ SHIKEAIXY                      （2级目录）加密的内容
    │  └─ ...                           （3级目录）暂无打算
-   └─ sponsor                        （2级目录）赞助所有相关文件
-      ├─ img                            （3级目录）图片
+   ├─ sponsor                        （2级目录）赞助所有相关文件
+   │  └─ README.md                      （3级目录）赞助内容说明
+   └─ plugins                        （2级目录）安装插件
       └─ README.md                      （3级目录）赞助内容说明
 
 ```

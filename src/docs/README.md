@@ -23,7 +23,7 @@ icon: lightbulb
 
 - [Linux 桌面版安装教程（Desktop）](linux2/)
   - Linux(Ubuntu)发行版安装真寻Bot教程
-  - 都 Desktop 了，条件因该都满足了
+  - 都 Desktop 了，条件因该都满足了吧
   - 只要是AMD（Advanced Micro Devices）架构就可以了
 
 ## 免责声明

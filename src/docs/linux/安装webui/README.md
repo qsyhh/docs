@@ -1,5 +1,5 @@
 ---
-title: 使用[云崽]的[ws插件]跳过gocq使用icqq连接真寻bot
+title: Web
 icon: fab fa-markdown
 order: 2
 category:

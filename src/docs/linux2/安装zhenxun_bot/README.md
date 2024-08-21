@@ -1,5 +1,5 @@
 ---
-title: 安装dev真寻
+title: 安装真寻
 icon: fab fa-markdown
 order: 2
 category:
@@ -10,13 +10,15 @@ tag:
 
 ### dev分支已合并至main分支
     
-1.github下载真寻本体
+首先`进入root账户终端`在执行
+
+1. github下载真寻本体
 
 ```
 git clone --depth 1 -b dev https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot.git /root/Bot/zhenxun_bot 
 ```
 
-2.执行下面内容安装依赖
+2. 执行下面内容安装依赖
 
 ```
 cd /root/Bot/zhenxun_bot && && poetry shell
@@ -53,7 +55,7 @@ cd /root/Bot/zhenxun_bot && sed -i 's|"bind": ""|"bind": "postgres://zhenxun:zhe
 7. 启动真寻（下载一些资源可能需要VPN）
 
 ```
-screen -R zhenxundev
+screen -R zhenxun
 cd /root/Bot/zhenxun_bot && poetry shell
 python bot.py
 ```

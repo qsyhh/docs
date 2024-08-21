@@ -83,6 +83,97 @@ export const zhSidebar = sidebar({
             {
               text: "zhenxun_bot插件下载",
               icon: "fab fa-markdown",
+              prefix: "plugins",
+              link: "../../plugins/README.md",
+              collapsible: true,
+              children: [
+                {
+                  text: "插件安装问题",
+                  icon: "book",
+                  link: "https://github.com/zhenxun-org/nonebot_plugins_zhenxun_bot/issues/27"
+                },
+                {
+                  text: "真寻索引库",
+                  icon: "book",
+                  link: "https://github.com/zhenxun-org/nonebot_plugins_zhenxun_bot"
+                },
+                {
+                  text: "nb商店",
+                  icon: "book",
+                  link: "https://nonebot.dev/store/plugins"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          text: "Linux Server",
+          icon: "lightbulb",
+          prefix: "linux/",
+          // link: "linux/",
+          collapsible: true,
+          children: [
+            {
+              text: "前置准备",
+              icon: "fab fa-markdown",
+              link: "前置准备/"
+            },
+            {
+              text: "安装zhenxun_bot",
+              icon: "fab fa-markdown",
+              prefix: "安装zhenxun_bot/",
+              link: "安装zhenxun_bot/",
+              collapsible: true,
+              children: [
+                {
+                  text: "安装main真寻教程",
+                  icon: "book",
+                  link: "main/"
+                },
+                {
+                  text: "安装dev真寻教程",
+                  icon: "book",
+                  link: "dev/"
+                }
+              ]
+            },
+            {
+              text: "连接zhenxun_bot",
+              icon: "fab fa-markdown",
+              prefix: "连接zhenxun_bot/",
+              link: "连接zhenxun_bot/",
+              collapsible: true,
+              children: [
+                {
+                  text: "使用[云崽]的[ws插件]跳过gocq使用icqq",
+                  icon: "book",
+                  link: "Yunzai/"
+                },
+                {
+                  text: "使用Gensokyo(QQBot)",
+                  icon: "book",
+                  link: "Gensokyo/"
+                },
+                {
+                  text: "使用NapCat",
+                  icon: "book",
+                  link: "NapCat/"
+                },
+                {
+                  text: "使用LLOneBot",
+                  icon: "book",
+                  link: "LLOneBot/"
+                },
+                {
+                  text: "使用Shamrock",
+                  icon: "book",
+                  link: "Shamrock/"
+                }
+              ]
+            },
+            {
+              text: "zhenxun_bot插件下载",
+              icon: "fab fa-markdown",
               prefix: "plugins/",
               link: "plugins/",
               collapsible: true,
@@ -107,10 +198,10 @@ export const zhSidebar = sidebar({
           ]
         },
         {
-          text: "Linux",
+          text: "Linux Desktop",
           icon: "lightbulb",
-          prefix: "linux/",
-          // link: "linux/",
+          prefix: "linux2/",
+          // link: "linux2/",
           collapsible: true,
           children: [
             {

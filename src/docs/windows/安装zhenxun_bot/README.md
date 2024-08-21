@@ -1,5 +1,5 @@
 ---
-title: 安装dev真寻
+title: 安装真寻
 icon: fab fa-markdown
 order: 2
 category:
