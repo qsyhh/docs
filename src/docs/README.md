@@ -7,17 +7,24 @@ icon: lightbulb
 
 ## 系统
 
+本教程非系统安装教程
+
 - [Windows安装教程](windows/)
   - Windows系统安装真寻Bot教程
   - 需准备2核(CPU核心)4G(RAM内存)以上服务器
   - 版本要求win10+(2016+建议最新)
   - 请使用 AMD（Advanced Micro Devices）架构
 
-- [Linux安装教程](linux/)
-  - Linux(Ubuntu)发行版安装真寻Bot教程
+- [Linux 服务器版安装教程（Server）](linux/)
+  - Linux(Ubuntu)发行版服务器安装真寻Bot教程
   - 需准备2核(CPU核心)2G(RAM内存)以上服务器
-  - 版本要求(Ubuntu 22)
+  - 版本要求(Ubuntu 22+)
   - 请使用 AMD（Advanced Micro Devices）架构
+
+- [Linux 桌面版安装教程（Desktop）](linux2/)
+  - Linux(Ubuntu)发行版安装真寻Bot教程
+  - 都 Desktop 了，条件因该都满足了
+  - 只要是AMD（Advanced Micro Devices）架构就可以了
 
 ## 免责声明
 

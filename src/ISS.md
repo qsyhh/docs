@@ -71,3 +71,15 @@ pip install tortoise-orm
 1. AI插件导致的，要么别用这个，要么继续受（bushi
 
 [其他问题建议看看Github的issues](https://github.com/HibiKier/zhenxun_bot/issues)说不定有你想要的答案
+
+## 八：安装PostgreSQL数据库报错：数据库群集初始化失败
+
+![](./Img/ISS/prpisdata.png)
+
+#### 解决办法：
+
+1. 需要在安装数据库选择数据存储目录选择一个新目录后继续
+ - 默认数据存储目录`data`，
+ - 使用其他文件名如：`data2`
+
+![](./Img/ISS/prpisdata2.png)
