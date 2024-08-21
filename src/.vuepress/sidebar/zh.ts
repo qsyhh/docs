@@ -84,7 +84,7 @@ export const zhSidebar = sidebar({
               text: "zhenxun_bot插件下载",
               icon: "fab fa-markdown",
               prefix: "plugins",
-              link: "../../plugins/README.md",
+              link: "/plugins/README.md",
               collapsible: true,
               children: [
                 {
@@ -175,7 +175,7 @@ export const zhSidebar = sidebar({
               text: "zhenxun_bot插件下载",
               icon: "fab fa-markdown",
               prefix: "plugins/",
-              link: "plugins/",
+              link: "/plugins/README.md",
               collapsible: true,
               children: [
                 {
@@ -266,7 +266,7 @@ export const zhSidebar = sidebar({
               text: "zhenxun_bot插件下载",
               icon: "fab fa-markdown",
               prefix: "plugins/",
-              link: "plugins/",
+              link: "/plugins/README.md",
               collapsible: true,
               children: [
                 {
