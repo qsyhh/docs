@@ -15,7 +15,7 @@ tag:
 1. github下载真寻本体
 
 ```
-git clone --depth 1 -b dev https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot.git /root/Bot/zhenxun_bot 
+git clone --depth 1 https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot.git /root/Bot/zhenxun_bot 
 ```
 
 2. 执行下面内容安装依赖

@@ -13,7 +13,7 @@ tag:
 1. github下载真寻本体
 
 ```
-git clone --depth 1 -b dev https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot && cd zhenxun_bot
+git clone --depth 1 https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot && cd zhenxun_bot
 ```
 
 2. 在zhenxun_bot文件夹内(真寻根目录)依次执行下面内容安装依赖（无法进入虚拟可尝试管理员权限打开输入）
