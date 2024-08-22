@@ -14,12 +14,8 @@ tag:
 另外请勿将与本教程任何相关内容上传至流量平台如：B站
 :::
 
-咕咕咕...
+- [ 新版NapCatQQ教程 ](NapCatQQ/NapCatQQ.md)
+  - 以 NapCat V2.1.0 为例
 
-## 连接真寻
-
-#### 安装完成需开起反向连接并填入真寻ws地址
-
-```
-ws://127.0.0.1:8080/onebot/v11/ws/
-```
+- [ 旧版NapCatQQ教程 ](NapCatQQ2/NapCatQQ.md)
+  - 使用 LiteLoader 时安装（不建议，可以使用llonebot）

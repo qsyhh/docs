@@ -24,10 +24,22 @@ tag:
 
 4. [NapCat官方文档](https://napneko.github.io/zh-CN)
 
-5. 本教程以 NapCat V2.1.0 && DllHijack v1.1.0 && NTQQ v9.9.15-27254 为例
+5. 本教程以 NapCat V2.1.0 && NTQQ v9.9.15-27254 为例
 
 ## ②下载NTQQ
 
-1. [点击此处前往QQ官网下载NTQQ](https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.15_240819_x64_01.exe)（必须27187以上）
+1. 打开终端运行
 
-2. 安装NTQQ
+```
+wget https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.12_240819_amd64_01.deb && sudo apt install ./QQ_3.2.12_240819_amd64_01.deb -y 
+```
+
+## ③安装NapCatQQ
+
+1. 打开终端运行
+
+```
+curl -o napcat.sh https://nclatest.znin.net/NapNeko/NapCat-Installer/main/script/install.sh && sudo bash napcat.sh
+```
+
+咕咕咕...

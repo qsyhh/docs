@@ -8,8 +8,10 @@ tag:
   - tutorial
 ---
 
+## 以下教程除非框架新版与旧版步骤区别过大否则不会进行更新
+
 - [使用[云崽]的[ws插件]跳过gocq使用icqq连接真寻bot](Yunzai/)
-  - ICQQ即第三方QQ机器人框架，基于QQ安卓协议的Node.Js
+  - ICQQ即第三方QQ机器人框架，基于QQ安卓协议的实现
 
 - [使用Gensokyo(QQBot)连接真寻bot](Gensokyo/)
   - Gensokyo即官方QQ机器人框架，基于QQ官方API开发的符合onebot标准的golang实现
@@ -22,5 +24,3 @@ tag:
  
 - [使用LLOneBot](LLOneBot/)
   - LLOneBot是一个基于 PC NTQQ 的机器人框架
- 
-- [使用Shamrock](Shamrock/)
