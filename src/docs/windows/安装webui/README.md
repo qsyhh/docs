@@ -8,25 +8,44 @@ tag:
   - tutorial
 ---
 
-## 安装webui
+## 安装Webui
 
-1. 下载Node.Js（由于achrinza/node-ipc 9.2.2模块兼容问题所以只8~17版本的Node.Js！！！）
+1. 为了方便直接下载打包过的 Releases 
+ - 不用考虑是否是最新
 
-[点击此处下载Node.Js](https://mirrors.tuna.tsinghua.edu.cn/nodejs-release/v16.20.2/node-v16.20.2-x64.msi)
+2. [点击击此处下载](https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot_webui/archive/refs/tags/v0.2.zip)
 
-2. 打开Cmd运行
- - 拉取项目+进入目录+安装yarn+安装依赖
+3. 下载后解压并打开`zhenxun_bot_webui-0.2\zhenxun_bot_webui-0.2\dist`
 
-```
-git clone --depth 1 https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot_webui.git && cd zhenxun_bot_webui && npm config set registry https://registry.npmmirror.com && npm install
-```
+## 安装Nginx
 
-## 运行
+1. [点击击此处下载](https://nginx.org/download/nginx-1.26.2.zip)
 
-```
-npm run serve
-```
+2. 解压下载的Nginx
+ - 打开目录`nginx-1.26.2\nginx-1.26.2\html`
 
-#### 高版本NodeJs无法使用用，目前许多依赖库已不在更新，最高支持到Node 20，但考虑到谦容问题不建议使用8~17以外的版本
+3. 删除文件夹`nginx-1.26.2\nginx-1.26.2\html`中的Html文件=全部删掉
 
+4. 复制`zhenxun_bot_webui-0.2\zhenxun_bot_webui-0.2\dist`的全部文件到`nginx-1.26.2\nginx-1.26.2\html`
 
+![](../Img/安装真寻/web.png)
+
+## 运行Nginx
+
+1. 打开目录`nginx-1.26.2\nginx-1.26.2\`运行`nginx.exe`
+ - 没有窗口？正常情况
+
+![](../Img/安装真寻/web2.png)
+
+2. 在浏览器访问[http://localhost/](http://localhost/)
+
+3. 你问密码是什么？
+ - 没有欸，要自己配置一下呢
+
+4. 打开`zhenxun_bot\data\config.yaml`
+ - 没错是真寻Bot里面
+
+5. 翻到82~83行修改密码即可
+ - 不修改登录不了嗷
+
+6. 然后重启一下真寻就可以了

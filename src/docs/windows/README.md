@@ -15,7 +15,7 @@ icon: lightbulb
   - 多协议端连接真寻机器人教程
 
 - [安装webui（可选）](安装webui/)
-  - 安装真寻机器人webui
+  - 安装真寻机器人webui(没写完)
 
 - [zhenxun_bot插件下载](../../plugins/)
   - 下载真寻Bot插件教程

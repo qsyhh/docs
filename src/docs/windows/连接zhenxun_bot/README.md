@@ -20,7 +20,7 @@ tag:
   - ComWeChat即微信机器人框架，基于COM通信的微信PC Hook应用端，支持Onebot12协议
   
 - [使用NapCat](NapCat/)
-  - NapCat是一个基于 PC NTQQ 的无需图形化机器人框架
+  - NapCat是一个基于 PC NTQQ 的无需图形化机器人框架(没写完)
  
 - [使用LLOneBot](LLOneBot/)
   - LLOneBot是一个基于 PC NTQQ 的机器人框架

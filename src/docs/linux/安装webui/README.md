@@ -1,5 +1,5 @@
 ---
-title: Web
+title: 配置安装webui
 icon: fab fa-markdown
 order: 2
 category:
@@ -8,30 +8,50 @@ tag:
   - tutorial
 ---
 
-## 安装node.js
+# 刚复制过来...咕咕咕..
 
-- [①使用宝塔面板安装node.js](node.md)
-  - 通过宝塔商店安装
-    
-- [②使用XTerminal/JuiceSSH安装node.js](node2.md)
-  - 通过终端apt安装
+## 安装Webui
 
-2. 打开Cmd运行
- - 拉取项目+进入目录+安装yarn+安装依赖
+1. 为了方便直接下载打包过的 Releases 
+ - 不用考虑是否是最新
 
-## 安装webui
-
-打开终端运行
- - 拉取项目+进入目录+安装yarn+安装依赖
+2. 在终端执行
 
 ```
-git clone --depth 1 https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot_webui.git /root/Bot/ && cd /root/Bot/zhenxun_bot_webui && npm config set registry https://registry.npmmirror.com && npm install
+wget -O /root/Bot/zhenxun_bot_webui https://mirror.ghproxy.com/https://github.com/HibiKier/zhenxun_bot_webui/archive/refs/tags/v0.2.zip && unzip /root/Bot/zhenxun_bot_webui -d /root/Bot/
 ```
 
-## 运行
+3. 下载后解压并打开`zhenxun_bot_webui-0.2\zhenxun_bot_webui-0.2\dist`
 
-```
-npm run serve
-```
+## 安装Nginx
 
-#### 高版本NodeJs无法使用用，目前许多依赖库已不在更新，最高支持到Node 20，但考虑到谦容问题不建议使用8~17以外的版本
+1. [点击击此处下载](https://nginx.org/download/nginx-1.26.2.zip)
+
+2. 解压下载的Nginx
+ - 打开目录`nginx-1.26.2\nginx-1.26.2\html`
+
+3. 删除文件夹`nginx-1.26.2\nginx-1.26.2\html`中的Html文件=全部删掉
+
+4. 复制`zhenxun_bot_webui-0.2\zhenxun_bot_webui-0.2\dist`的全部文件到`nginx-1.26.2\nginx-1.26.2\html`
+
+![](../Img/安装真寻/web.png)
+
+## 运行Nginx
+
+1. 打开目录`nginx-1.26.2\nginx-1.26.2\`运行`nginx.exe`
+ - 没有窗口？正常情况
+
+![](../Img/安装真寻/web2.png)
+
+2. 在浏览器访问[http://localhost/](http://localhost/)
+
+3. 你问密码是什么？
+ - 没有欸，要自己配置一下呢
+
+4. 打开`zhenxun_bot\data\config.yaml`
+ - 没错是真寻Bot里面
+
+5. 翻到82~83行修改密码即可
+ - 不修改登录不了嗷
+
+6. 然后重启一下真寻就可以了
