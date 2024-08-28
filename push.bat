@@ -1,16 +1,20 @@
-@echo off
 git add .
 git commit -m UP
+@echo off
+REM ³¢ÊÔÖ´ĞĞ git push
 git push
-REM æ¨é€å¤±è´¥
+
+REM ¼ì²é git push µÄÍË³ö´úÂë
 if ERRORLEVEL 1 (
-echo git push å¤±è´¥ã€‚æ˜¯å¦è¦ä½¿ç”¨ git push -f å¼ºåˆ¶æ¨é€ï¼Ÿ (y/n)
-set /p response=
-if /i "%response%"=="y" (
-git push -f
-  ) else (
-echo æœªæ‰§è¡Œå¼ºåˆ¶æ¨é€ã€‚
-  )
+    echo git push Ê§°Ü¡£ÊÇ·ñÒªÊ¹ÓÃ git push -f Ç¿ÖÆÍÆËÍ£¿ (y/n)
+    
+    set /p response=
+    
+    if /i "%response%"=="y" (
+        git push -f
+    ) else (
+        echo Î´Ö´ĞĞÇ¿ÖÆÍÆËÍ¡£
+    )
 ) else (
-echo git push æˆåŠŸã€‚
+    echo git push ³É¹¦¡£
 )
