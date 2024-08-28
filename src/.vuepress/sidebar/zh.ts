@@ -30,14 +30,9 @@ export const zhSidebar = sidebar({
               collapsible: true,
               children: [
                 {
-                  text: "安装main真寻教程",
+                  text: "安装真寻教程",
                   icon: "book",
-                  link: "main/"
-                },
-                {
-                  text: "安装dev真寻教程",
-                  icon: "book",
-                  link: "dev/"
+                  link: "README.md"
                 }
               ]
             },
@@ -49,9 +44,9 @@ export const zhSidebar = sidebar({
               collapsible: true,
               children: [
                 {
-                  text: "使用[云崽]的[ws插件]跳过gocq使用icqq",
+                  text: "使用LLOneBot(推荐！！！)",
                   icon: "book",
-                  link: "Yunzai/"
+                  link: "LLOneBot/"
                 },
                 {
                   text: "使用Gensokyo(QQBot)",
@@ -59,9 +54,9 @@ export const zhSidebar = sidebar({
                   link: "Gensokyo/"
                 },
                 {
-                  text: "使用ComWeChat(PC微信)",
+                  text: "使用[云崽]的[ws插件]代替Gocq",
                   icon: "book",
-                  link: "ComWeChat/"
+                  link: "Yunzai/"
                 },
                 {
                   text: "使用NapCat",
@@ -69,15 +64,10 @@ export const zhSidebar = sidebar({
                   link: "NapCat/"
                 },
                 {
-                  text: "使用LLOneBot",
+                  text: "使用ComWeChat(PC微信)",
                   icon: "book",
-                  link: "LLOneBot/"
+                  link: "ComWeChat/"
                 },
-                {
-                  text: "使用Shamrock",
-                  icon: "book",
-                  link: "Shamrock/"
-                }
               ]
             },
             {

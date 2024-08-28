@@ -24,15 +24,17 @@ pageview: true
 
 4. `Gensokyo`教程 [cv27523883](https://www.bilibili.com/read/cv27523883)
 
-5. `Gensokyo`的`web端`用户名和密码已全部修改为`zhenxun`
+5. `Gensokyo` QQ群：196173384
 
-6. `Gensokyo` QQ群：196173384
+6. 本教程以 Gensokyo V495 && QQ开放平台个体账号 为例
+
+7. 需要`公网IP` 如果没有...不是哥们
 
 ### ②注册个体账号
 
-1. 注册一个企业qq开放平台账号：[点我前往注册](https://q.qq.com/#/register?developerType=1)
+1. 注册一个QQ开放平台账号：[点我前往注册](https://q.qq.com/#/register?developerType=1)
 
-2. 登录企业qq开放平台账号并创建机器人
+2. 登录QQ开放平台账号并创建机器人
 
 ![](../../Img/Gensokyo/创建机器人.png)
 
@@ -40,55 +42,84 @@ pageview: true
 
 ### ④下载配置Gensokyo
 
-1. 下载gensokyo-windows-amd64（取用v459，更新时间2024.7.10）若发现教程的Gensokyo版本更新，可以选择无视更新
+1. [点击此处前往Github Releases下载](https://github.com/Hoshinonyaruko/Gensokyo/releases)
+
+2. 下载最新版本`Gensokyo`中的`gensokyo-windows-amd64.exe`
+
+![](../../Img/Gensokyo/Gensokyo4.png)
+
+3. 打开下载的`gensokyo-windows-amd64.exe`后并双击运行
+ - 这里会生成多个文件，建议放进一个合适的文件夹
+
+4. 出现弹窗，一直点确定即可
+
+5. 双击运行`gensokyo.bat`
+
+6. 打开`config.yml`配置文件
+
+7. 修改`第5行`中""内的部分为：
 
 ```
-git clone --depth 1 -b gensokyo-windows-amd64 https://gitee.com/SHIKEAIXY/zhenxun.git ./Gensokyo
+ws://127.0.0.1:8080/onebot/v11/ws/
 ```
 
-2. 打开下载的`Gensokyo`后并双击打开`config.yml`
+![](../../Img/Gensokyo/Gensokyo5.png)
 
-3. 打开之前的网站`q.qq.com`点击`开发-开发设置`并复制`QQ号 ID 令牌 秘钥`填写到`config.yml配置文件`的7~9行
+8. 打开之前的网站`q.qq.com`点击`开发-开发设置`并复制`QQ号 ID 令牌 秘钥`填写到`config.yml配置文件`的12~16行
 
 ![](../../Img/Gensokyo/配置Gensokyo2.png)
 
 ![](../../Img/Gensokyo/配置Gensokyo.png)
 
-4. 填写公网IP至开放平台（不填写无法上线和连接Bot）
+9. 注释`事件订阅`中群里以外的全部内容：
+
+ - 注释在前面仍个`#`就可以了
+ - 取消注释删掉`#`就可以了
+ - 要注意不注释的内容把`-`和上面的`#`对齐嗷
+
+![](../../Img/Gensokyo/Gensokyo6.png)
+
+10. 填写公网IP至开放平台（不填写无法上线和连接Bot！！！）
 
 ![](../../Img/Gensokyo/配置开放平台IP.png)
 
-5. 将自己服务器的公网ip填入`server_dir`
+11. 将自己服务器的公网ip填入`server_dir`
+ - 是挂载`Gensokyo`的服务器的嗷，因为tx要用这个IP从你服务器上访问图片
 
 ![](../../Img/Gensokyo/配置Gensokyo3.png)
 
-6. 并开放端口号`15630`（不配置将无法发送图片）
+12. 打开94~96行
+ - 这里是Web端的密码（看看就好辣）
+
+![](../../Img/Gensokyo/Gensokyo7.png)
+
+13. 再往下看看也就是99~102行，修改配置
+ - remove_prefix和add_at_group全部改为true
+
+![](../../Img/Gensokyo/Gensokyo8.png)
+
+14. 其他配置其实也可以自己看看，注释给的挺清楚的（就算不在改也可以）千万要记得保存修改！！！
+
+15. 开放端口号`15630`（不配置将无法发送图片）
 
 打开防火墙(不会可以`按住win键+R键`输入`Firewall.cpl`并点击确定)
 
 ![](../../Img/Gensokyo/防火墙.png)
 
-打开防火墙后点击`高级设置`
-
-![](../../Img/Gensokyo/防火墙2.png)
-
-然后点击`入站规则`并`新建规则`
+16. 打开防火墙后点击左侧的`启用或关闭 Windows Defender 防火墙`
+ - 全部关闭嗷！
 
 ![](../../Img/Gensokyo/防火墙3.png)
 
-选择端口后下一页
+17. 打开你服务器的控制台（哪家买的搜这家通常有教程）
 
-![](../../Img/Gensokyo/防火墙4.png)
+18. 打开控制台的`防火墙/安全组`
+ - 新建安全组
+ - 开放端口`15630`
+ - IP：0.0.0.0/0
+ - 其他默认即可
 
-然后填写端口`15630`并下一页
-
-![](../../Img/Gensokyo/防火墙5.png)
-
-然后一直下一页即可，名字随便起
-
-记得服务器控制台那边也要开放端口`15630`！！！
-
-7. 以上完成后双击运行`gensokyo.bat`不出意外就可以运行了
+19. 以上完成后双击运行`gensokyo.bat`不出意外就可以运行了
 
 ### ⑤配置沙箱使用机器人
 

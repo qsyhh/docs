@@ -10,6 +10,8 @@ tag:
 
 # Vanilla-Client仍在开发阶段...
 
+## 最新版真寻Bot支持Onebot12协议
+
 ## ①下载WeChat微信
 
 版本有限制，请务必安装下方链接中的微信客户端！！！(已有微信需卸载后再安装)
@@ -31,33 +33,25 @@ git clone --depth 1 https://github.com/barryblueice/Vanilla-Client && cd Vanilla
 ## ④安装依赖
 
 ```
-pip install art && pip install loguru && pip install ujson && pip install python-dotenv
+poetry install
 ```
 
 ## ④运行 Vanilla-Client 
 
 1. 打开 Vanilla-Client/dll 文件夹双击运行 dll-inject.bat 注入（记得要运行微信）
  - 注入完成将会提示 dll inject successdll path : C dll path : 23128  注入结果：1
- - 完成后重启微信
 
 2. 输入下方内容启动 Vanilla-Client
  - 这里会生成文件并退出是正常的
 
 ```
-python main.py
+poetry run python main.py
 ```
 
-3. 配置文件 .env
+3. 重新启动Vanilla-Client
 
 ```
-connect_url = "127.0.0.1"
-onebot_port = "8080"
-```
-
-4. 重新启动Vanilla-Client
-
-```
-python main.py
+poetry run python main.py
 ```
 
 # 请保持真寻Bot，ComWeChat，微信的运行，不要关闭
