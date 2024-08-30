@@ -16,47 +16,28 @@ export const zhSidebar = sidebar({
           prefix: "windows/",
           // link: "windows/",
           collapsible: true,
-          children: [
+          children: [ 
             {
               text: "前置准备",
-              icon: "fab fa-markdown",
+              icon: "fa-solid fa-download",
               link: "前置准备/"
             },
             {
-              text: "安装zhenxun_bot",
-              icon: "fab fa-markdown",
-              prefix: "安装zhenxun_bot/",
-              link: "安装zhenxun_bot/",
-              collapsible: true,
-              children: [
-                {
-                  text: "安装真寻教程",
-                  icon: "book",
-                  link: "README.md"
-                }
-              ]
+              text: "安装真寻本体",
+              icon: "fa-solid fa-file-arrow-down",
+              link: "安装zhenxun_bot/"
             },
             {
               text: "连接zhenxun_bot",
-              icon: "fab fa-markdown",
+              icon: "fa-solid fa-satellite-dish",
               prefix: "连接zhenxun_bot/",
               link: "连接zhenxun_bot/",
               collapsible: true,
               children: [
                 {
-                  text: "使用LLOneBot(推荐！！！)",
+                  text: "使用LLOneBot(推荐!!!)",
                   icon: "book",
                   link: "LLOneBot/"
-                },
-                {
-                  text: "使用Gensokyo(QQBot)",
-                  icon: "book",
-                  link: "Gensokyo/"
-                },
-                {
-                  text: "使用[云崽]的[ws插件]代替Gocq",
-                  icon: "book",
-                  link: "Yunzai/"
                 },
                 {
                   text: "使用NapCat",
@@ -64,7 +45,17 @@ export const zhSidebar = sidebar({
                   link: "NapCat/"
                 },
                 {
-                  text: "使用ComWeChat(PC微信)",
+                  text: "使用Gensokyo[QQBot]",
+                  icon: "book",
+                  link: "Gensokyo/"
+                },
+                {
+                  text: "使用云崽的[ICQQ]",
+                  icon: "book",
+                  link: "Yunzai/"
+                },
+                {
+                  text: "使用ComWeChat[微信]",
                   icon: "book",
                   link: "ComWeChat/"
                 },
@@ -72,7 +63,7 @@ export const zhSidebar = sidebar({
             },
             {
               text: "zhenxun_bot插件下载",
-              icon: "fab fa-markdown",
+              icon: "fa-solid fa-cloud-arrow-down",
               prefix: "plugins",
               link: "/plugins/README.md",
               collapsible: true,

@@ -24,36 +24,36 @@ tag:
 
 4. [NapCat官方文档](https://napneko.github.io/zh-CN)
 
-5. 本教程以 NapCat V2.1.0 && NTQQ v9.9.15-27254 为例
+5. 本教程以 NapCat V2.2.27 && NTQQ v9.9.15-27254 为例
 
 ## ②下载NTQQ
 
-1. [点击此处前往QQ官网下载NTQQ](https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.15_240819_x64_01.exe)（必须27187以上）
+1. [点击此处前往查看支持的NTQQ](https://github.com/NapNeko/NapCatQQ/releases)
+ - 也就是`releases`中给出的版本，下载`WinX64 EXE ***`即可
+
+![](../../Img/NapCat/v1.png)
 
 2. 安装NTQQ
 
 ## ③安装NapCatQQ
 
-1. 打开一个你想安装NapCat的目录
+1. [还是点击此处前往releases](https://github.com/NapNeko/NapCatQQ/releases)
+ - 下载`releases`中最新版本的`NapCat.Shell.zip`即可
 
-2. 在空白处右键，点击在终端打开。若无此选项卡，可以在地址栏中输入 wt 并回车。
+![](../../Img/NapCat/v2.png)
 
-![](../../Img/NapCat/NapCatQQ.png)
+2. 解压并打开下载的NapCat.Shell.zip
 
-3. 在终端中右键（不要用 Ctrl+V - 这样有可能造成不可预料的后果！），将刚刚的复制的代码粘贴进终端。如果终端有警告，点击仍然粘贴
+首先双击运行`KillQQ.bat`后再运行`BootWay05_init.bat`
+ - 运行后闪一下窗口时正常情况
 
-![](../../Img/NapCat/NapCatQQ2.png)
+![](../../Img/NapCat/v4.png)
 
-4. 如果代码没动就回车一下，等到提示框弹出。
+3. 复制一下`dbghelp.dll`
 
-5. 首先找到你下载的 NC 目录内的文件 dbghelp.dll并复制它
- - 完成后不要关闭文件管理窗口，否则会影响剪贴板。
+![](../../Img/NapCat/v3.png)
 
-![](../../Img/NapCat/NapCatQQ3.png)
-
-6. 打开安装的QQNT目录
-
-找到你桌面的QQ
+4. 找到你桌面的QQ
 
 ![](../../Img/LLOneBot/QQ.png)
 
@@ -61,29 +61,31 @@ tag:
 
 ![](../../Img/LLOneBot/QQ2.png)
 
-7. 点击粘贴，覆盖原有的 dbghelp.dll。（与QQ.exe同级目录）
+5. 点击粘贴，覆盖原有的 dbghelp.dll。（与QQ.exe同级目录）
 
 ![](../../Img/NapCat/NapCatQQ4.png)
 
-8. 打开下载NapCat的目录，终端输入
- - 输入后回车
+6. 最后双击运行`BootWay05_run.utf8.bat`
 
-```
-powershell -ExecutionPolicy ByPass -File ./BootWay05.ps1
-```
+![](../../Img/NapCat/v5.png)
 
-9. 打开`NapCatQQ\config\onebot11.json`
- - 修改
+7. 进行扫码登录（同一网络）
+
+8. 关闭这个窗口
+
+9. 打开`NapCatQQ\config\onebot11_你的QQ号.json`
+ - 修改ws配置（在11-19行）
 
 ```
     "ws": {
-        "enable": false,
+        "enable": true,
         "host": "127.0.0.1",
         "port": 8080
     },
+    "reverseWs": {
+        "enable": true,
+        "urls": ["ws://127.0.0.1:8080/onebot/v11/ws/"]
+    },
 ```
 
-10. 再次启动
- - 再次运行只需要手动启动 PowerShell 脚本即可
-
- ![](../../Img/NapCat/NapCatQQ5.png)
+10. 重新运行`BootWay05_run.utf8.bat`
