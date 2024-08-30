@@ -170,6 +170,42 @@ git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai /root/Bot/Yunzai/TR
     },
 ```
 
+@tab:active 9.0.70
+
+```
+    {
+        name: "A9.0.70.e4b76fcc",
+        version: "9.0.70.17645",
+        ver: "9.0.70",
+        subid: 537228487,
+        apad_subid: 537228526,
+        qua: "V1_AND_SQ_9.0.70_6698_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2561",
+        buildtime: 0x666bfec0,
+        bitmap: 0x08f7ff7c,
+        ssover: 0x15,
+    },
+```
+
+@tab:active 9.0.71
+
+```
+    {
+        name: "A9.0.71.e2f45246",
+        version: "9.0.71.17655",
+        ver: "9.0.71",
+        subid: 537228643,
+        apad_subid: 537228682,
+        qua: "V1_AND_SQ_9.0.71_6702_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2561",
+        buildtime: 0x666bfec0,
+        bitmap: 0x08f7ff7c,
+        ssover: 0x15,
+    },
+```
+
 @tab:active 9.0.75
 
 ```
@@ -180,6 +216,78 @@ git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai /root/Bot/Yunzai/TR
         subid: 537230737,
         apad_subid: 537230776,
         qua: "V1_AND_SQ_9.0.75_6808_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2561",
+        buildtime: 0x666bfec0,
+        bitmap: 0x08f7ff7c,
+        ssover: 0x15,
+    },
+```
+
+@tab:active 9.0.80
+
+```
+    {
+        name: "A9.0.80.0d6f99ed",
+        version: "9.0.80.18195",
+        ver: "9.0.80",
+        subid: 537233371,
+        apad_subid: 537233410,
+        qua: "V1_AND_SQ_9.0.80_6918_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2561",
+        buildtime: 0x666bfec0,
+        bitmap: 0x08f7ff7c,
+        ssover: 0x15,
+    },
+```
+
+@tab:active 9.0.81
+
+```
+    {
+        name: "A9.0.81.3daf0e38",
+        version: "9.0.81.18205",
+        ver: "9.0.81",
+        subid: 537233527,
+        apad_subid: 537233566,
+        qua: "V1_AND_SQ_9.0.81_6922_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2561",
+        buildtime: 0x666bfec0,
+        bitmap: 0x08f7ff7c,
+        ssover: 0x15,
+    },
+```
+
+@tab:active 9.0.85
+
+```
+    {
+        name: "A9.0.85.491c232e",
+        version: "9.0.85.18570",
+        ver: "9.0.85",
+        subid: 537236316,
+        apad_subid: 537236355,
+        qua: "V1_AND_SQ_9.0.85_7068_YYB_D",
+        channel: "GuanWang",
+        sdkver: "6.0.0.2561",
+        buildtime: 0x666bfec0,
+        bitmap: 0x08f7ff7c,
+        ssover: 0x15,
+    },
+```
+
+@tab:active 9.0.90
+
+```
+    {
+        name: "A9.0.90.38ae7504",
+        version: "9.0.90.18945",
+        ver: "9.0.90",
+        subid: 537239255,
+        apad_subid: 537239294,
+        qua: "V1_AND_SQ_9.0.90_7218_YYB_D",
         channel: "GuanWang",
         sdkver: "6.0.0.2561",
         buildtime: 0x666bfec0,
